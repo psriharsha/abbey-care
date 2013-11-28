@@ -12,5 +12,8 @@
     <string name="prof">Profile Picture</string>
     <string name="strtService">Start Service</string>
     <string name="stpService">Stop Service</string>
+    <string name="username">Email Id</string>
+    <string name="password">Password</string>
+    <string name="submit">Submit</string>
 
 </resources>

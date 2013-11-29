@@ -32,6 +32,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".auth.LoginActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.abbey.zephyr.auth.LoginActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
 
         <service android:name=".vitals.GetVitals" >
             <intent-filter>
@@ -39,6 +48,20 @@
                 </action>
             </intent-filter>
         </service>
+        <service android:name=".auth.AbbeyAccountAuthenticatorService" >
+            <intent-filter>
+                <action android:name="android.accounts.AccountAuthenticator" >
+                </action>
+            </intent-filter>
+
+            <meta-data
+                android:name="android.accounts.AccountAuthenticator"
+                android:resource="@xml/authenticator" >
+            </meta-data>
+        </service>
+        <provider android:name=".provider.VitalsProvider" 
+           android:authorities="com.abbey.zephyr.provider">
+        </provider>
     </application>
 
 </manifest>

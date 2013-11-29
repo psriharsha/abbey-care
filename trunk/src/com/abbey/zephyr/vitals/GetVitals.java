@@ -197,12 +197,13 @@ public class GetVitals extends Service {
 				col = VitalsProvider.PA;
 				break;
 			}
-			ContentValues values = new ContentValues();
+			/*ContentValues values = new ContentValues();
 
-			values.put(col, data);
+			values.put(col, data);*/
+			Toast.makeText(getBaseContext(), col+"//"+data, Toast.LENGTH_SHORT).show();
 
-			Uri uri = getContentResolver().insert(VitalsProvider.CONTENT_URI,
-					values);
+			/*Uri uri = getContentResolver().insert(VitalsProvider.CONTENT_URI,
+					values);*/
 		}
 	};
 }

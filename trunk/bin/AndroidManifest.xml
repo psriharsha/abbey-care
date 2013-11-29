@@ -27,18 +27,16 @@
             android:name="com.abbey.zephyr.VitalActivity"
             android:label="@string/app_name" >
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
+                <action android:name="android.intent.action.MAIN" />               
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity
-            android:name=".auth.LoginActivity"
+            android:name="com.abbey.zephyr.auth.LoginActivity"
             android:label="@string/app_name" >
             <intent-filter>
-                <action android:name="com.abbey.zephyr.auth.LoginActivity" />
-
-                <category android:name="android.intent.category.DEFAULT" />
+                <action android:name="com.abbey.zephyr.auth.LoginActivity" /> 
+				<category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
 
@@ -58,6 +56,17 @@
                 android:name="android.accounts.AccountAuthenticator"
                 android:resource="@xml/authenticator" >
             </meta-data>
+        </service>
+        <service
+            android:name="com.abbey.zephyr.sync.VitalSyncService"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.content.SyncAdapter" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.content.SyncAdapter"
+                android:resource="@xml/sync_adapter" />
         </service>
         <provider android:name=".provider.VitalsProvider" 
            android:authorities="com.abbey.zephyr.provider">

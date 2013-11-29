@@ -34,7 +34,7 @@ public final class R {
         public static final int rr=0x7f09000e;
         public static final int stpService=0x7f090002;
         public static final int strtService=0x7f090001;
-        public static final int submit=0x7f090008;
+        public static final int submitLogin=0x7f090008;
         public static final int temp=0x7f09000c;
         public static final int textView1=0x7f090004;
         public static final int textView2=0x7f090003;

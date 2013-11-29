@@ -30,17 +30,18 @@ public class LoginActivity extends AccountAuthenticatorActivity implements OnCli
 	protected void onCreate(Bundle icicle) {
 		// TODO Auto-generated method stub
 		super.onCreate(icicle);
+		setContentView(R.layout.login);
 		username = (EditText) findViewById(R.id.username);
 		password = (EditText) findViewById(R.id.password);
-		submit = (Button) findViewById(R.id.submit);
-		submit.setOnClickListener(this);
+		submit = (Button) findViewById(R.id.submitLogin);
+		//submit.setOnClickListener(this);
 		aaa = new AbbeyAccountAuthenticator(getApplicationContext());
 	}
 
 	@Override
 	public void onClick(View view) {
 		// TODO Auto-generated method stub
-		if(view.getId() == R.id.submit){
+		if(view.getId() == R.id.submitLogin){
 			Bundle resp = new Bundle();
 			String user, pass;
 			user = username.getText().toString();
@@ -59,6 +60,9 @@ public class LoginActivity extends AccountAuthenticatorActivity implements OnCli
 					this.setAccountAuthenticatorResult(intent.getExtras());
 					this.setResult(RESULT_OK, intent);
 					this.finish();
+				}
+				else {
+					username.setText("Incorrect Credentials");
 				}
 			} catch (NetworkErrorException e) {
 				// TODO Auto-generated catch block

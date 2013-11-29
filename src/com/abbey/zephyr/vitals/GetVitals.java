@@ -147,6 +147,7 @@ public class GetVitals extends Service {
 		// BhMacID = btDevice.getAddress();
 		BluetoothDevice Device = adapter.getRemoteDevice(BhMacID);
 		String DeviceName = Device.getName();
+		Toast.makeText(getBaseContext(), DeviceName, Toast.LENGTH_SHORT).show();
 		_bt = new BTClient(adapter, BhMacID);
 		_NConnListener = new ConnectedListener(btHandler, btHandler);
 		_bt.addConnectedEventListener(_NConnListener);
@@ -168,8 +169,12 @@ public class GetVitals extends Service {
 
 	final Handler btHandler = new Handler() {
 		public void handleMessage(Message msg) {
+			int count = 0;
 			String col = null;
 			String data = null;
+			ContentValues values = new ContentValues();
+			do{
+				count++;
 			switch (msg.what) {
 			case HEART_RATE:
 				data = msg.getData().getString("HeartRate");
@@ -197,13 +202,11 @@ public class GetVitals extends Service {
 				col = VitalsProvider.PA;
 				break;
 			}
-			/*ContentValues values = new ContentValues();
+			values.put(col, data);
+			}while(count<5);
 
-			values.put(col, data);*/
-			Toast.makeText(getBaseContext(), col+"//"+data, Toast.LENGTH_SHORT).show();
-
-			/*Uri uri = getContentResolver().insert(VitalsProvider.CONTENT_URI,
-					values);*/
+			Uri uri = getContentResolver().insert(VitalsProvider.CONTENT_URI,
+					values);
 		}
 	};
 }

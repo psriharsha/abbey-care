@@ -11,6 +11,7 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
 import com.abbey.zephyr.R;
 
@@ -34,7 +35,7 @@ public class LoginActivity extends AccountAuthenticatorActivity implements OnCli
 		username = (EditText) findViewById(R.id.username);
 		password = (EditText) findViewById(R.id.password);
 		submit = (Button) findViewById(R.id.submitLogin);
-		//submit.setOnClickListener(this);
+		submit.setOnClickListener(this);
 		aaa = new AbbeyAccountAuthenticator(getApplicationContext());
 	}
 

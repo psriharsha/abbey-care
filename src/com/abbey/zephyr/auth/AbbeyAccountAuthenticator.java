@@ -14,6 +14,7 @@ import android.os.Bundle;
 import android.os.Parcelable;
 import android.os.StrictMode;
 import android.provider.SyncStateContract.Constants;
+import android.widget.Toast;
 
 import com.abbey.zephyr.RestClient;
 import com.abbey.zephyr.RestClient.RequestMethod;
@@ -84,6 +85,7 @@ public class AbbeyAccountAuthenticator extends AbstractAccountAuthenticator{
 		}
 
 		String resp = client.getResponse();
+		Toast.makeText(mContext.getApplicationContext(), resp, Toast.LENGTH_SHORT).show();
 		if(resp.equals("Success"))
 		{
 			error = "validated";

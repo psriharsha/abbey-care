@@ -44,7 +44,7 @@ public class VitalsProvider extends ContentProvider {
 	   private SQLiteDatabase db;
 	   static final String DATABASE_NAME = "zephyr";
 	   static final String VITALS_TABLE_NAME = "vitals";
-	   static final int DATABASE_VERSION = 3;
+	   static final int DATABASE_VERSION = 4;
 	   static final String CREATE_DB_TABLE = 
 	      " CREATE TABLE " + VITALS_TABLE_NAME +
 	      " (_id INTEGER PRIMARY KEY AUTOINCREMENT, " + 
@@ -52,7 +52,7 @@ public class VitalsProvider extends ContentProvider {
 	      " respRate TEXT, " +
 	      " skinTemp TEXT, " +
 	      " posture TEXT, " +
-	      " posture TEXT, " +
+	      " peakAcce TEXT, " +
 	      " timeStamp TEXT);";
 	   
 	   private static class DatabaseHelper extends SQLiteOpenHelper {

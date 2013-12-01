@@ -11,9 +11,9 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.Toast;
 
 import com.abbey.zephyr.R;
+import com.abbey.zephyr.VitalActivity;
 
 public class LoginActivity extends AccountAuthenticatorActivity implements OnClickListener{
 
@@ -60,6 +60,8 @@ public class LoginActivity extends AccountAuthenticatorActivity implements OnCli
 					intent.putExtra(AccountManager.KEY_ACCOUNT_TYPE, ACCOUNT_TYPE);
 					this.setAccountAuthenticatorResult(intent.getExtras());
 					this.setResult(RESULT_OK, intent);
+					Intent openVitals = new Intent(this,VitalActivity.class);
+					startActivity(openVitals);
 					this.finish();
 				}
 				else {

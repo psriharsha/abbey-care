@@ -2,6 +2,8 @@ package com.abbey.zephyr.vitals;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
+import java.sql.Timestamp;
+import java.util.Date;
 import java.util.Set;
 
 import zephyr.android.BioHarnessBT.BTClient;
@@ -100,7 +102,6 @@ public class GetVitals extends Service {
 		@Override
 		public void run() {
 			// TODO Auto-generated method stub
-			Toast.makeText(getBaseContext(), "Hi", Toast.LENGTH_SHORT).show();
 			handler.postDelayed(collectVitals, 3000);
 		}
 	};
@@ -147,7 +148,6 @@ public class GetVitals extends Service {
 		// BhMacID = btDevice.getAddress();
 		BluetoothDevice Device = adapter.getRemoteDevice(BhMacID);
 		String DeviceName = Device.getName();
-		Toast.makeText(getBaseContext(), DeviceName, Toast.LENGTH_SHORT).show();
 		_bt = new BTClient(adapter, BhMacID);
 		_NConnListener = new ConnectedListener(btHandler, btHandler);
 		_bt.addConnectedEventListener(_NConnListener);
@@ -203,10 +203,11 @@ public class GetVitals extends Service {
 				break;
 			}
 			values.put(col, data);
-			}while(count<5);
-
-			Uri uri = getContentResolver().insert(VitalsProvider.CONTENT_URI,
-					values);
+			}while(count<20);
+			Date date = new Date();
+			String time = (new Timestamp(date.getTime())).toString();
+			values.put(VitalsProvider.TS, time);
+			Uri uri = getContentResolver().insert(VitalsProvider.CONTENT_URI,values);
 		}
 	};
 }

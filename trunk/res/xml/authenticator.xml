@@ -1,5 +1,5 @@
 <account-authenticator
-android:accountType="com.ismart.zephyr"
+android:accountType="com.abbey.zephyr"
 android:icon="@drawable/ic_launcher"
 android:label="@string/app_name"
 android:smallIcon="@drawable/ic_launcher"

@@ -7,6 +7,7 @@ import android.accounts.AccountManager;
 import android.app.Activity;
 import android.content.ContentResolver;
 import android.content.Intent;
+import android.content.SyncAdapterType;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.View;
@@ -20,8 +21,8 @@ public class VitalActivity extends Activity implements OnClickListener {
 	Button strtService, stpService;
 	static final String PROVIDER_NAME = "com.abbey.zephyr.provider";
 	static final String URL = "content://" + PROVIDER_NAME + "/vitals";
-	static final String AUTHORITY = "com.abbey.zephyr";
-	ContentResolver mResolver;
+	static final String AUTHORITY = PROVIDER_NAME;
+	static final String ACCOUNT_TYPE = "com.abbey.zephyr";
 	Account account;
 	AccountManager accMgr;
 
@@ -34,6 +35,7 @@ public class VitalActivity extends Activity implements OnClickListener {
 		{
 			Intent openLogin = new Intent(this, LoginActivity.class);
 			startActivity(openLogin);
+			finish();
 		}
 		setContentView(R.layout.control);
 		strtService = (Button) findViewById(R.id.strtService);
@@ -69,9 +71,14 @@ public class VitalActivity extends Activity implements OnClickListener {
 		switch (view.getId()) {
 		case R.id.strtService: {
 			startService(service);
-			mResolver = getContentResolver();
-			account = new Account("harsha@abbeytotalcare.co.uk", PROVIDER_NAME);
-			mResolver.setSyncAutomatically(account, AUTHORITY, true);
+			account = new Account("harsha@abbeytotalcare.co.uk", ACCOUNT_TYPE);
+			Bundle extras = new Bundle();
+			extras.putBoolean(ContentResolver.SYNC_EXTRAS_INITIALIZE, true);
+			extras.putBoolean(ContentResolver.SYNC_EXTRAS_MANUAL, true);
+			ContentResolver.setIsSyncable(account, AUTHORITY, 1);
+			ContentResolver.setMasterSyncAutomatically(true);
+			ContentResolver.requestSync(account, AUTHORITY, extras);
+			ContentResolver.setSyncAutomatically(account, AUTHORITY, true);
 			break;
 		}
 		case R.id.stpService: {

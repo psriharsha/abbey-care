@@ -25,10 +25,11 @@ public final class R {
     }
     public static final class id {
         public static final int acc=0x7f090009;
-        public static final int action_settings=0x7f09000f;
+        public static final int action_settings=0x7f090010;
         public static final int button4=0x7f09000a;
         public static final int hr=0x7f09000d;
         public static final int imageView1=0x7f090000;
+        public static final int myView=0x7f09000f;
         public static final int password=0x7f090006;
         public static final int post=0x7f09000b;
         public static final int rr=0x7f09000e;
@@ -45,6 +46,7 @@ public final class R {
         public static final int control=0x7f030000;
         public static final int login=0x7f030001;
         public static final int vitals=0x7f030002;
+        public static final int webview=0x7f030003;
     }
     public static final class menu {
         public static final int vital=0x7f080000;

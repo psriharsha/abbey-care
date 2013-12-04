@@ -22,20 +22,30 @@
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
-        android:theme="@style/AppTheme" >
+        android:theme="@style/AppTheme"
+        android:hardwareAccelerated="true" >
         <activity
-            android:name="com.abbey.zephyr.VitalActivity"
+            android:name=".VitalActivity"
             android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.abbey.zephyr.VitalActivity" />              
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.abbey.zephyr.HomeActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />               
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity
-            android:name="com.abbey.zephyr.auth.LoginActivity"
+            android:name=".auth.LogActivity"
             android:label="@string/app_name" >
             <intent-filter>
-                <action android:name="com.abbey.zephyr.auth.LoginActivity" /> 
+                <action android:name="com.abbey.zephyr.auth.LogActivity" /> 
 				<category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>

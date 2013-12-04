@@ -1,13 +1,12 @@
 package com.abbey.zephyr;
 
-
+//can be deleted
 
 import android.accounts.Account;
 import android.accounts.AccountManager;
 import android.app.Activity;
 import android.content.ContentResolver;
 import android.content.Intent;
-import android.content.SyncAdapterType;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.View;

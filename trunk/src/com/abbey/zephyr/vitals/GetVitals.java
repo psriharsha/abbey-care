@@ -130,6 +130,8 @@ public class GetVitals extends Service {
 		String BhMacID = "00:07:80:9D:8A:E8";
 		// String BhMacID = "00:07:80:88:F6:BF";
 		adapter = BluetoothAdapter.getDefaultAdapter();
+		if(adapter == null)
+			adapter = (BluetoothAdapter) getSystemService(BLUETOOTH_SERVICE);
 
 		Set<BluetoothDevice> pairedDevices = adapter.getBondedDevices();
 

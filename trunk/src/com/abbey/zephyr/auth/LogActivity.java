@@ -11,6 +11,7 @@ import android.os.Bundle;
 import android.webkit.JavascriptInterface;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
+import android.widget.Toast;
 
 import com.abbey.zephyr.HomeActivity;
 import com.abbey.zephyr.R;
@@ -44,6 +45,7 @@ public class LogActivity extends AccountAuthenticatorActivity{
 	
 	@JavascriptInterface
 	public String onSubmit(String username, String password){
+		Toast.makeText(getApplicationContext(), "In Submit", Toast.LENGTH_SHORT).show();
 		Bundle resp = new Bundle();
 		String user, pass, result = "";
 		user = username;

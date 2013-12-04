@@ -1,10 +1,10 @@
 package com.abbey.zephyr.auth;
 
-
-import com.abbey.zephyr.R;
-
+//Can be deleted
 import android.app.Activity;
 import android.os.Bundle;
+
+import com.abbey.zephyr.R;
 
 public class TestActivity extends Activity{
 

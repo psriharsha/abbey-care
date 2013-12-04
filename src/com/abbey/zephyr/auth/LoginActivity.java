@@ -1,5 +1,5 @@
 package com.abbey.zephyr.auth;
-
+//Can be deleted
 import android.accounts.Account;
 import android.accounts.AccountAuthenticatorActivity;
 import android.accounts.AccountAuthenticatorResponse;

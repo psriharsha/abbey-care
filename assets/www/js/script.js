@@ -12,4 +12,7 @@ $( document ).ready(function() {
  $('#profile').click(function(){
 	 Android.changeActivity("com.abbey.zephyr.ProfileActivity");
  });
+ $('#accountSubmit').click(function(){
+ 	Android.onSubmit();
+ });
 });

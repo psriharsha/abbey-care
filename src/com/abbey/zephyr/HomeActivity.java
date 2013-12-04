@@ -44,7 +44,7 @@ public class HomeActivity extends Activity {
 		//End of Account Checks
 		startWebView();
 		if(!isMyServiceRunning())
-			startService();
+			startVitalService();
 	}
 	
 	private boolean isMyServiceRunning() {
@@ -58,7 +58,7 @@ public class HomeActivity extends Activity {
 		return false;
 	}
 
-	private void startService() {
+	private void startVitalService() {
 		// TODO Auto-generated method stub
 		startService(service);
 		account = new Account("harsha@abbeytotalcare.co.uk", ACCOUNT_TYPE);

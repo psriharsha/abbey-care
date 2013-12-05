@@ -45,7 +45,6 @@ public class LogActivity extends AccountAuthenticatorActivity{
 	
 	@JavascriptInterface
 	public String onSubmit(String username, String password){
-		Toast.makeText(getApplicationContext(), "In Submit", Toast.LENGTH_SHORT).show();
 		Bundle resp = new Bundle();
 		String user, pass, result = "";
 		user = username;
@@ -68,7 +67,7 @@ public class LogActivity extends AccountAuthenticatorActivity{
 				this.finish();
 			}
 			else {
-				result = "Invalid Credentials";
+				result = resp.getString("response");
 			}
 		} catch (NetworkErrorException e) {
 			// TODO Auto-generated catch block

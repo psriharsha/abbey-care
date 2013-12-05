@@ -23,6 +23,7 @@ import android.os.Handler;
 import android.os.IBinder;
 import android.os.Message;
 import android.util.Log;
+import android.widget.Toast;
 
 import com.abbey.zephyr.provider.VitalsProvider;
 
@@ -110,7 +111,6 @@ public class GetVitals extends Service {
 
 		// TODO Auto-generated method stub
 		init();
-
 		return START_STICKY;
 	}
 
@@ -125,16 +125,14 @@ public class GetVitals extends Service {
 				"android.bluetooth.device.action.BOND_STATE_CHANGED");
 		this.getApplicationContext().registerReceiver(new BTBondReceiver(),
 				filter2);
+		Toast.makeText(getBaseContext(), "In Vital Service", Toast.LENGTH_SHORT).show();
 		// End of initialization
 		// Connecting to the device
 		String BhMacID = "00:07:80:9D:8A:E8";
 		// String BhMacID = "00:07:80:88:F6:BF";
 		adapter = BluetoothAdapter.getDefaultAdapter();
-		if(adapter == null)
-			adapter = (BluetoothAdapter) getSystemService(BLUETOOTH_SERVICE);
 
-		Set<BluetoothDevice> pairedDevices = adapter.getBondedDevices();
-
+		Set<BluetoothDevice> pairedDevices = adapter.getBondedDevices();		
 		if (pairedDevices.size() > 0) {
 			for (BluetoothDevice device : pairedDevices) {
 				if (device.getName().startsWith("BH")) {
@@ -145,7 +143,6 @@ public class GetVitals extends Service {
 				}
 			}
 		}
-
 		// BhMacID = btDevice.getAddress();
 		BluetoothDevice Device = adapter.getRemoteDevice(BhMacID);
 		String DeviceName = Device.getName();
@@ -155,7 +152,7 @@ public class GetVitals extends Service {
 		if (_bt.IsConnected()) {
 			_bt.start();
 		} else {
-			init();
+			//init();
 		}
 		// End of the connection
 	}
@@ -208,6 +205,7 @@ public class GetVitals extends Service {
 			Date date = new Date();
 			String time = (new Timestamp(date.getTime())).toString();
 			values.put(VitalsProvider.TS, time);
+			values.put(VitalsProvider.SY,"notSync");
 			Uri uri = getContentResolver().insert(VitalsProvider.CONTENT_URI,values);
 		}
 	};

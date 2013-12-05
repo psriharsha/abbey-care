@@ -43,7 +43,7 @@
                 <action android:name="android.intent.action.MAIN" />               
                 <category android:name="android.intent.category.LAUNCHER" />
                <!--  <action android:name="com.abbey.zephyr.HomeActivity" />              
-                <category android:name="android.intent.category.DEFAULT" />     -->           
+                <category android:name="android.intent.category.DEFAULT" /> -->           
             </intent-filter>
         </activity>
         <activity
@@ -61,6 +61,15 @@
             android:theme="@android:style/Theme.Translucent.NoTitleBar" >
             <intent-filter>
                 <action android:name="com.abbey.zephyr.auth.LoginActivity" /> 
+				<category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ProfileActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+            <intent-filter>
+                <action android:name="com.abbey.zephyr.ProfileActivity" /> 
 				<category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>

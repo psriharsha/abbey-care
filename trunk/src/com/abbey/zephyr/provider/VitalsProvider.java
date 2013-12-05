@@ -28,6 +28,7 @@ public class VitalsProvider extends ContentProvider {
 	public static final String PO = "posture";
 	public static final String PA = "peakAcce";
 	public static final String TS = "timeStamp";
+	public static final String SY = "notSync";
 
 	private static HashMap<String, String> VITALS_PROJECTION_MAP;
 
@@ -44,7 +45,7 @@ public class VitalsProvider extends ContentProvider {
 	   private SQLiteDatabase db;
 	   static final String DATABASE_NAME = "zephyr";
 	   static final String VITALS_TABLE_NAME = "vitals";
-	   static final int DATABASE_VERSION = 4;
+	   static final int DATABASE_VERSION = 5;
 	   static final String CREATE_DB_TABLE = 
 	      " CREATE TABLE " + VITALS_TABLE_NAME +
 	      " (_id INTEGER PRIMARY KEY AUTOINCREMENT, " + 
@@ -53,7 +54,8 @@ public class VitalsProvider extends ContentProvider {
 	      " skinTemp TEXT, " +
 	      " posture TEXT, " +
 	      " peakAcce TEXT, " +
-	      " timeStamp TEXT);";
+	      " timeStamp TEXT, " +
+	      " notSync TEXT);";
 	   
 	   private static class DatabaseHelper extends SQLiteOpenHelper {
 	       DatabaseHelper(Context context){

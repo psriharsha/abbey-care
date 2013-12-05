@@ -4,6 +4,7 @@ import android.accounts.Account;
 import android.annotation.SuppressLint;
 import android.content.AbstractThreadedSyncAdapter;
 import android.content.ContentProviderClient;
+import android.content.ContentValues;
 import android.content.Context;
 import android.content.SyncResult;
 import android.database.Cursor;
@@ -34,10 +35,11 @@ public class VitalSyncAdapter extends AbstractThreadedSyncAdapter{
 			ContentProviderClient provider, SyncResult syncResult) {
 		// TODO Auto-generated method stub
 		Uri vitals = Uri.parse(URL);
-	      String[] projection = {"_id","heartRate","respRate","skinTemp","posture","peakAcce","timeStamp"};
+	      String[] projection = {"_id","heartRate","respRate","skinTemp","posture","peakAcce","timeStamp","notSync"};
 	      Cursor c = mContext.getContentResolver().query(vitals, projection, null, null, null);
-	      c.moveToFirst();
-	      do{
+	      if(c.getCount()>0 && c.moveToFirst()){
+	      
+	      do{if(c.getString(7).equals("notSync")){
 		try{
 			RestClient client = new RestClient("http://"+Singleton.ip+"/zephyr/index.php/service/user/insertVitals");
 			client.AddParam("hr", c.getString(c.getColumnIndex(VitalsProvider.HR)));
@@ -54,14 +56,18 @@ public class VitalSyncAdapter extends AbstractThreadedSyncAdapter{
     		    e.printStackTrace();
     		}
     		String[] selectionArgs = {c.getString(c.getColumnIndex(VitalsProvider._ID))};
-    		int result = mContext.getContentResolver().delete(vitals, VitalsProvider._ID + "=?", selectionArgs);
-    		String response = client.getResponse();
+    		String where = VitalsProvider._ID;
+    		ContentValues values = new ContentValues();
+    		values.put("notSync", "synced");
+    		//int result = mContext.getContentResolver().delete(vitals, VitalsProvider._ID + "=?", selectionArgs);
+    		mContext.getContentResolver().update(vitals, values, where, selectionArgs);
+    		//String response = client.getResponse();
 			
 		}
 		catch(Exception e){
 			e.printStackTrace();
-		}
-	      }while(c.moveToNext());
+		}}
+	      }while(c.moveToNext());}
 	}
 
 }

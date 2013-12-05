@@ -1,0 +1,42 @@
+$( document ).ready(function() {
+ $('#settingsSection').hide();
+ $('#invisible').hide();
+ $('#invisible').click(function(){
+	 removeMenu();
+ });
+ $('#headSetting').click(function(){
+	 $('#settingsSection').fadeToggle();
+	 $('#invisible').fadeToggle();
+ });
+ $('#profile').click(function(){
+	 Android.changeActivity("com.abbey.zephyr.ProfileActivity");
+ });
+ $('#accountSubmit').click(function(){
+	 var username = $('#user').val();
+	 var password = $('#pass').val();
+ 	Android.onSubmit(username,password);
+ });
+ 
+ function alertMessage(){
+	 alert("Hi Alert!!");
+ }
+ function setVitals(){
+	 var vitals = new Array();
+	 vitals = Android.getVitals();
+ }
+ function removeMenu(){
+	 $('#settingsSection').fadeOut();
+	 $('#invisible').fadeOut();
+ }
+ //window.setInterval(setVitals(),1000);
+ $('#menuProf').click(function(){
+	 Android.myProfile();
+ });
+ $('#menuStopSync').click(function(){
+	 $(this).text = "Sync Now";
+	 Android.stopSync();
+ });
+ $('#menuLogout').click(function(){
+	 Android.logout();
+ });
+});

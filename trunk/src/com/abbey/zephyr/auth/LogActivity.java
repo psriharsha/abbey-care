@@ -7,14 +7,16 @@ import android.accounts.AccountManager;
 import android.accounts.NetworkErrorException;
 import android.annotation.SuppressLint;
 import android.content.Intent;
+import android.content.SharedPreferences;
+import android.content.SharedPreferences.Editor;
 import android.os.Bundle;
 import android.webkit.JavascriptInterface;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
-import android.widget.Toast;
 
-import com.abbey.zephyr.HomeActivity;
+import com.abbey.zephyr.ProfileActivity;
 import com.abbey.zephyr.R;
+import com.abbey.zephyr.Singleton;
 
 public class LogActivity extends AccountAuthenticatorActivity{
 
@@ -23,6 +25,8 @@ public class LogActivity extends AccountAuthenticatorActivity{
 	Bundle options;
 	AccountAuthenticatorResponse response;
 	public static final String ACCOUNT_TYPE = "com.abbey.zephyr";
+	SharedPreferences sharedPreference;
+	Editor editor;
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -30,6 +34,8 @@ public class LogActivity extends AccountAuthenticatorActivity{
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.webview);
 		startWebView();
+		sharedPreference = getSharedPreferences(Singleton.sharedPrefName,0);
+		editor = sharedPreference.edit();
 		aaa = new AbbeyAccountAuthenticator(getApplicationContext());
 	}
 
@@ -55,19 +61,23 @@ public class LogActivity extends AccountAuthenticatorActivity{
 		account = new Account(user,ACCOUNT_TYPE);
 		try {
 			resp = aaa.confirmCredentials(response, account, options);
-			if(resp.getString("response").equals("Success")){
+			if(resp.getInt("response")>0){
 				aaa.addAccount(response, ACCOUNT_TYPE, ACCOUNT_TYPE, null, options);
+				editor.putString("username", user);
+				editor.putString("password", pass);
+				editor.putInt("uId", resp.getInt("response"));
+				editor.commit();
 				final Intent intent = new Intent();
 				intent.putExtra(AccountManager.KEY_ACCOUNT_NAME, user);
 				intent.putExtra(AccountManager.KEY_ACCOUNT_TYPE, ACCOUNT_TYPE);
 				this.setAccountAuthenticatorResult(intent.getExtras());
 				this.setResult(RESULT_OK, intent);
-				Intent openVitals = new Intent(this,HomeActivity.class);
+				Intent openVitals = new Intent(this,ProfileActivity.class);
 				startActivity(openVitals);
 				this.finish();
 			}
 			else {
-				result = resp.getString("response");
+				result = "Invalid Credentials";
 			}
 		} catch (NetworkErrorException e) {
 			// TODO Auto-generated catch block

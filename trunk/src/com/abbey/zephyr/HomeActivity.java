@@ -10,6 +10,8 @@ import android.app.ActivityManager.RunningServiceInfo;
 import android.content.ContentResolver;
 import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
+import android.content.SharedPreferences.Editor;
 import android.os.Bundle;
 import android.webkit.JavascriptInterface;
 import android.webkit.WebSettings;
@@ -32,6 +34,8 @@ public class HomeActivity extends Activity {
 	Account account;
 	AccountManager accMgr;
 	Intent service = new Intent("com.abbey.zephyr.vitals.GetVitals");
+	SharedPreferences sharedPreference;
+	Editor editor;
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -41,17 +45,30 @@ public class HomeActivity extends Activity {
 		// Check if an Account Exist and bring in Login if it doesn't
 		accMgr = AccountManager.get(this);
 		String[] accs = getAccounts();
-		if(accs == null)
+		if(accs == null || accs.length == 0)
 		{
 			Intent openLogin = new Intent(this, LogActivity.class);
 			startActivity(openLogin);
 			finish();
 		}
 		//End of Account Checks
+		else {
 		startWebView();
+		sharedPreference = getSharedPreferences(Singleton.sharedPrefName,0);
+		if(sharedPreference.contains("bio")){
+		Toast.makeText(getApplicationContext(),"Yes", Toast.LENGTH_SHORT).show();
 		if(!isMyServiceRunning())
 			startVitalService();
+		}
+		else
+		{
+			Intent openLogin = new Intent(this, ProfileActivity.class);
+			startActivity(openLogin);
+			finish();
+		}
+		
 		aaa = new AbbeyAccountAuthenticator(getApplicationContext());
+		}
 	}
 	
 	private boolean isMyServiceRunning() {
@@ -126,19 +143,25 @@ public class HomeActivity extends Activity {
 	@JavascriptInterface
     public void myProfile(){
 		Intent change = new Intent("com.abbey.zephyr.ProfileActivity");
-		startActivityForResult(change,0);
+		startActivity(change);
     }
 	
 	@JavascriptInterface
-	public void stopSync(){
-		account = new Account("harsha@abbeytotalcare.co.uk", ACCOUNT_TYPE);
+	public void stopSync() {
+		String username = sharedPreference.getString("username", null);
+		account = new Account(username, ACCOUNT_TYPE);
 		Bundle extras = new Bundle();
-		if(ContentResolver.isSyncActive(account, AUTHORITY)){
-		extras.putBoolean(ContentResolver.SYNC_EXTRAS_INITIALIZE, true);
-		extras.putBoolean(ContentResolver.SYNC_EXTRAS_MANUAL, true);
-		ContentResolver.removePeriodicSync(account, AUTHORITY, extras);
-		}
-		else {
+		if (ContentResolver.getSyncAutomatically(account, AUTHORITY)) {
+			stopService();
+			Toast.makeText(getApplicationContext(), "Sync is Active", Toast.LENGTH_SHORT).show();
+			extras.putBoolean(ContentResolver.SYNC_EXTRAS_INITIALIZE, true);
+			extras.putBoolean(ContentResolver.SYNC_EXTRAS_MANUAL, true);
+			ContentResolver.setIsSyncable(account, AUTHORITY, 0);
+			ContentResolver.setMasterSyncAutomatically(true);
+			ContentResolver.removePeriodicSync(account, AUTHORITY, extras);
+		} else if(sharedPreference.contains("bio")){
+			startService();
+			Toast.makeText(getApplicationContext(), "Sync is inactive", Toast.LENGTH_SHORT).show();
 			extras.putBoolean(ContentResolver.SYNC_EXTRAS_INITIALIZE, true);
 			extras.putBoolean(ContentResolver.SYNC_EXTRAS_MANUAL, true);
 			ContentResolver.setIsSyncable(account, AUTHORITY, 1);
@@ -148,22 +171,42 @@ public class HomeActivity extends Activity {
 		}
 	}
 	
+	private void startService() {
+		// TODO Auto-generated method stub
+		Intent getVitalsService = new Intent("com.abbey.zephyr.vitals.GetVitals");
+		stopService(getVitalsService);
+	}
+	
+	private void stopService() {
+		// TODO Auto-generated method stub
+		Intent loggingOut = new Intent("com.abbey.zephyr.vitals.GetVitals");
+		stopService(loggingOut);
+		Toast.makeText(getApplicationContext(), "Stop Service", Toast.LENGTH_SHORT).show();
+	}
+	
 	@SuppressLint("InlinedApi")
 	@JavascriptInterface
-	public void logout(){
-		Intent change = new Intent(this,LogActivity.class);
-		change.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_SINGLE_TOP);
-    	startActivity(change);
-    	finish();
-    	account = new Account("harsha@abbeytotalcare.co.uk", ACCOUNT_TYPE);
-		aaa.removeAccount(aar, account);
+	public void logout() {
+		Boolean res;
+		Bundle removeAcc;
+		stopSync();
+		String username = sharedPreference.getString("username", null);
+		account = new Account(username, ACCOUNT_TYPE);
+		removeAcc = aaa.removeAccount(aar, account);
+		res = removeAcc.getBoolean(AccountManager.LOGIN_ACCOUNTS_CHANGED_ACTION);
+		Intent change = new Intent(this, LogActivity.class);
+		change.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
+		startActivity(change);
+		finish();
 	}
 	
 	@JavascriptInterface
-	public boolean isSyncActive(){
-		boolean syncState = false;
-		if(ContentResolver.isSyncActive(account, AUTHORITY))
-			syncState = true;
+	public String isSyncActive(){
+		String syncState = "false";
+		String username = sharedPreference.getString("username", null);
+		account = new Account(username, ACCOUNT_TYPE);
+		if(ContentResolver.getSyncAutomatically(account, AUTHORITY))
+			syncState = "true";		
 		return syncState;
 	}
 	

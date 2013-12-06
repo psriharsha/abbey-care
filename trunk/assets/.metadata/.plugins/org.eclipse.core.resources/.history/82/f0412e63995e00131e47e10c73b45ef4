@@ -50,7 +50,7 @@
 					Select your Bio-Sensor module to be monitored</td>
 		</tr>
 		<tr>
-				<td id="bioDecide">
+				<td class="bioDecide">
 					BH BHT500239
 				</td>
 		</tr>

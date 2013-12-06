@@ -14,6 +14,7 @@ import android.os.Bundle;
 import android.os.Parcelable;
 import android.os.StrictMode;
 import android.provider.SyncStateContract.Constants;
+import android.widget.Toast;
 
 import com.abbey.zephyr.RestClient;
 import com.abbey.zephyr.RestClient.RequestMethod;
@@ -61,7 +62,7 @@ public class AbbeyAccountAuthenticator extends AbstractAccountAuthenticator{
 		AccountManagerCallback<Boolean> acc = null;
 		AccountManagerFuture<Boolean> bool = null;
 		bool = accMgr.removeAccount(account, acc, null);
-		resp.putParcelable(AccountManager.LOGIN_ACCOUNTS_CHANGED_ACTION, (Parcelable) bool);
+		resp.putBoolean(AccountManager.LOGIN_ACCOUNTS_CHANGED_ACTION, bool.isDone());
 		return resp;
 	}
 
@@ -84,8 +85,8 @@ public class AbbeyAccountAuthenticator extends AbstractAccountAuthenticator{
 		    e.printStackTrace();
 		}
 
-		String resp = client.getResponse();
-		if(resp.equals("Success"))
+		int resp = Integer.parseInt(client.getResponse());
+		if(resp > 0)
 		{
 			error = "validated";
 		}
@@ -94,7 +95,7 @@ public class AbbeyAccountAuthenticator extends AbstractAccountAuthenticator{
 		}
 		error = client.getErrorMessage();
 		Bundle result = new Bundle();
-		result.putString("response", resp);
+		result.putInt("response", resp);
 		result.putString("error", error);
 		return result;
 	}

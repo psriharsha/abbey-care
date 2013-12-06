@@ -21,7 +21,7 @@ public class VitalSyncAdapter extends AbstractThreadedSyncAdapter{
 	
 	Context mContext;
 	static final String PROVIDER_NAME = "com.abbey.zephyr.provider";
-	static final String URL = "content://" + PROVIDER_NAME + "/vitals";
+	static String URL = "content://" + PROVIDER_NAME + "/vitals";
 
 	public VitalSyncAdapter(Context context, boolean autoInitialize) {
 		super(context, autoInitialize);
@@ -39,7 +39,7 @@ public class VitalSyncAdapter extends AbstractThreadedSyncAdapter{
 	      Cursor c = mContext.getContentResolver().query(vitals, projection, null, null, null);
 	      if(c.getCount()>0 && c.moveToFirst()){
 	      
-	      do{if(c.getString(7).equals("notSync")){
+	      do{if(c.getString(c.getColumnIndex(VitalsProvider.SY)).equals("notSync")){
 		try{
 			RestClient client = new RestClient("http://"+Singleton.ip+"/zephyr/index.php/service/user/insertVitals");
 			client.AddParam("hr", c.getString(c.getColumnIndex(VitalsProvider.HR)));
@@ -55,8 +55,11 @@ public class VitalSyncAdapter extends AbstractThreadedSyncAdapter{
     		} catch (Exception e) {
     		    e.printStackTrace();
     		}
+    		URL += "/#";
+    		vitals = Uri.parse(URL);
+    		URL = "content://" + PROVIDER_NAME + "/vitals";
     		String[] selectionArgs = {c.getString(c.getColumnIndex(VitalsProvider._ID))};
-    		String where = VitalsProvider._ID;
+    		String where = VitalsProvider._ID + "=?";
     		ContentValues values = new ContentValues();
     		values.put("notSync", "synced");
     		//int result = mContext.getContentResolver().delete(vitals, VitalsProvider._ID + "=?", selectionArgs);

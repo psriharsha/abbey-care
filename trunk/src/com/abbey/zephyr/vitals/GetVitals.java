@@ -125,7 +125,6 @@ public class GetVitals extends Service {
 				"android.bluetooth.device.action.BOND_STATE_CHANGED");
 		this.getApplicationContext().registerReceiver(new BTBondReceiver(),
 				filter2);
-		Toast.makeText(getBaseContext(), "In Vital Service", Toast.LENGTH_SHORT).show();
 		// End of initialization
 		// Connecting to the device
 		String BhMacID = "00:07:80:9D:8A:E8";
@@ -152,7 +151,12 @@ public class GetVitals extends Service {
 		if (_bt.IsConnected()) {
 			_bt.start();
 		} else {
-			//init();
+			try { 
+				Thread.sleep(500); 
+				} catch(InterruptedException e) { 
+					e.printStackTrace();
+				} 
+			init();
 		}
 		// End of the connection
 	}

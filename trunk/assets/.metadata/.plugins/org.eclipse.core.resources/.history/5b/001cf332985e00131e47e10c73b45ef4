@@ -50,7 +50,7 @@
 					Select your Bio-Sensor module to be monitored</td>
 		</tr>
 		<tr>
-				<td id="bioDecide">
+				<td class="bioDecide">
 					BH BHT500239
 				</td>
 		</tr>
@@ -60,7 +60,7 @@
 		<table class="valTable">
 		<tr>
 				<td class="vitalsDesc">
-					<b>Note:</b> Switch on your Bio-Sensor and pait it to this device
+					<b>Note:</b> Please ensure that the bio-sensor that you intend to use is switched on and paired to this device
 				</td>
 		</tr>
 		</table>

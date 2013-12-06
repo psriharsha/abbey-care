@@ -5,8 +5,13 @@ import android.accounts.AccountAuthenticatorResponse;
 import android.accounts.AccountManager;
 import android.annotation.SuppressLint;
 import android.app.Activity;
+import android.app.AlertDialog;
+import android.bluetooth.BluetoothAdapter;
 import android.content.ContentResolver;
+import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.SharedPreferences;
+import android.content.SharedPreferences.Editor;
 import android.os.Bundle;
 import android.webkit.JavascriptInterface;
 import android.webkit.WebSettings;
@@ -26,6 +31,8 @@ public class ProfileActivity extends Activity {
 	AccountAuthenticatorResponse aar;
 	Account account;
 	AccountManager accMgr;
+	SharedPreferences sharedPreference;
+	Editor editor;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -33,6 +40,18 @@ public class ProfileActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.webview);
 		startWebView();
+		startBluetooth();
+		sharedPreference = getSharedPreferences(Singleton.sharedPrefName, 0);
+		aaa = new AbbeyAccountAuthenticator(getApplicationContext());
+	}
+
+	private void startBluetooth() {
+		// TODO Auto-generated method stub
+		BluetoothAdapter mBluetoothAdapter = BluetoothAdapter.getDefaultAdapter();
+		if ((mBluetoothAdapter != null) && !(mBluetoothAdapter.isEnabled())) {
+			Intent enableBtIntent = new Intent(BluetoothAdapter.ACTION_REQUEST_ENABLE);
+			startActivityForResult(enableBtIntent, 0);
+		}
 	}
 
 	@SuppressLint("SetJavaScriptEnabled")
@@ -60,13 +79,20 @@ public class ProfileActivity extends Activity {
 
 	@JavascriptInterface
 	public void stopSync() {
-		account = new Account("harsha@abbeytotalcare.co.uk", ACCOUNT_TYPE);
+		String username = sharedPreference.getString("username", null);
+		account = new Account(username, ACCOUNT_TYPE);
 		Bundle extras = new Bundle();
-		if (ContentResolver.isSyncActive(account, AUTHORITY)) {
+		if (ContentResolver.getSyncAutomatically(account, AUTHORITY)) {
+			stopService();
+			Toast.makeText(getApplicationContext(), "Sync is Active", Toast.LENGTH_SHORT).show();
 			extras.putBoolean(ContentResolver.SYNC_EXTRAS_INITIALIZE, true);
 			extras.putBoolean(ContentResolver.SYNC_EXTRAS_MANUAL, true);
+			ContentResolver.setIsSyncable(account, AUTHORITY, 0);
+			ContentResolver.setMasterSyncAutomatically(true);
 			ContentResolver.removePeriodicSync(account, AUTHORITY, extras);
-		} else {
+		} else if(sharedPreference.contains("bio")){
+			startService();
+			Toast.makeText(getApplicationContext(), "Sync is inactive", Toast.LENGTH_SHORT).show();
 			extras.putBoolean(ContentResolver.SYNC_EXTRAS_INITIALIZE, true);
 			extras.putBoolean(ContentResolver.SYNC_EXTRAS_MANUAL, true);
 			ContentResolver.setIsSyncable(account, AUTHORITY, 1);
@@ -76,17 +102,35 @@ public class ProfileActivity extends Activity {
 		}
 	}
 
+	private void startService() {
+		// TODO Auto-generated method stub
+		Intent getVitalsService = new Intent("com.abbey.zephyr.vitals.GetVitals");
+		stopService(getVitalsService);
+	}
+
 	@SuppressLint("InlinedApi")
 	@JavascriptInterface
 	public void logout() {
+		Boolean res;
+		Bundle removeAcc;
+		stopSync();
+		String username = sharedPreference.getString("username", null);
+		account = new Account(username, ACCOUNT_TYPE);
+		removeAcc = aaa.removeAccount(aar, account);
+		res = removeAcc.getBoolean(AccountManager.LOGIN_ACCOUNTS_CHANGED_ACTION);
 		Intent change = new Intent(this, LogActivity.class);
-		change.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_SINGLE_TOP);
+		change.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
 		startActivity(change);
 		finish();
-		account = new Account("harsha@abbeytotalcare.co.uk", ACCOUNT_TYPE);
-		aaa.removeAccount(aar, account);
 	}
 	
+	private void stopService() {
+		// TODO Auto-generated method stub
+		Intent loggingOut = new Intent("com.abbey.zephyr.vitals.GetVitals");
+		stopService(loggingOut);
+		Toast.makeText(getApplicationContext(), "Stop Service", Toast.LENGTH_SHORT).show();
+	}
+
 	@SuppressLint("InlinedApi")
 	@JavascriptInterface
 	public void goHome(){
@@ -99,10 +143,10 @@ public class ProfileActivity extends Activity {
 	@JavascriptInterface
 	public String isSyncActive(){
 		String syncState = "false";
-		account = new Account("harsha@abbeytotalcare.co.uk", ACCOUNT_TYPE);
-		if(ContentResolver.isSyncActive(account, AUTHORITY))
-			syncState = "true";
-		Toast.makeText(getApplicationContext(), syncState, Toast.LENGTH_SHORT).show();
+		String username = sharedPreference.getString("username", null);
+		account = new Account(username, ACCOUNT_TYPE);
+		if(ContentResolver.getSyncAutomatically(account, AUTHORITY))
+			syncState = "true";		
 		return syncState;
 	}
 	
@@ -110,4 +154,13 @@ public class ProfileActivity extends Activity {
     public void toast(String url){
     	Toast.makeText(getApplicationContext(), url, Toast.LENGTH_SHORT).show();
     }
+	
+	@JavascriptInterface
+	public String selectBio(){
+		String selected = null;
+		AlertDialog.Builder bio = new AlertDialog.Builder(getApplicationContext());
+		bio.setTitle("Pick your Bio-Sensor");
+		bio.show();
+		return selected;
+	}
 }

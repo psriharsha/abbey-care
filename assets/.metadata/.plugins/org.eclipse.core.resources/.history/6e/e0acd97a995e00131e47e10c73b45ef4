@@ -60,6 +60,6 @@ $( document ).ready(function() {
 	 Android.goHome();
  });
  $('#bioDecide').click(function(){
-	 Android.selectBio();
+	 
  });
 });

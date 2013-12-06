@@ -59,7 +59,4 @@ $( document ).ready(function() {
 	 hideMenu();
 	 Android.goHome();
  });
- $('#bioDecide').click(function(){
-	 Android.selectBio();
- });
 });

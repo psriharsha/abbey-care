@@ -30,13 +30,19 @@ $( document ).ready(function() {
 	 $('#invisible').fadeOut();
  }
  function changeSyncState(){
-	  var syncState = Android.isSyncActive();
-	 if(syncState != "false"){
+	 /* var syncState = Android.isSyncActive();
+	 if(syncState){
 		 $('#menuStopSync').html("Stop Sync");
 	 }
 	 else {
 		 $('#menuStopSync').html("Start Sync");
-	 }
+	 }*/
+	 var msg = "Expired";
+	 if(Android.isSyncActive() == true)
+		 msg = "Running";
+	 else
+		 msg = "Sleeping";
+	 Android.toast(msg);
  }
  //window.setInterval(setVitals(),1000);
  $('#menuProf').click(function(){
@@ -58,8 +64,5 @@ $( document ).ready(function() {
  $('#menuHome').click(function(){
 	 hideMenu();
 	 Android.goHome();
- });
- $('#bioDecide').click(function(){
-	 Android.selectBio();
  });
 });

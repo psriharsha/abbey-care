@@ -13,6 +13,7 @@ import android.os.Bundle;
 import android.webkit.JavascriptInterface;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
+import android.widget.Toast;
 
 import com.abbey.zephyr.ProfileActivity;
 import com.abbey.zephyr.R;

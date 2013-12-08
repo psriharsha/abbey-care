@@ -1,0 +1,77 @@
+$( document ).ready(function() {
+ $('#settingsSection').hide();
+ $('#invisible').hide();
+ $('#invisible').click(function(){
+	 hideMenu();
+ });
+ $('#headSetting').click(function(){
+	 $('#settingsSection').fadeToggle();
+	 $('#invisible').fadeToggle();
+	 changeSyncState();
+ });
+ $('#profile').click(function(){
+	 Android.changeActivity("com.abbey.zephyr.ProfileActivity");
+ });
+ $('#accountSubmit').click(function(){
+	 var username = $('#user').val();
+	 var password = $('#pass').val();
+ 	var result = Android.onSubmit(username,password);
+ 	$('#errorMsg').html(result);
+ });
+ 
+ function alertMessage(){
+	 alert("Hi Alert!!");
+ }
+ function setVitals(){
+	 var vitals = new Array();
+	 vitals = Android.getVitals();
+ }
+ function hideMenu(){
+	 $('#settingsSection').fadeOut();
+	 $('#invisible').fadeOut();
+ }
+ function changeSyncState(){
+	  var syncState = Android.isSyncActive();
+	 if(syncState != "false"){
+		 $('#menuStopSync').html("Stop Sync");
+	 }
+	 else {
+		 $('#menuStopSync').html("Start Sync");
+	 }
+ }
+ //window.setInterval(setVitals(),1000);
+ $('#menuProf').click(function(){
+	 hideMenu();
+	 Android.myProfile();
+ });
+ $('#menuStopSync').click(function(){
+	 if($(this).html() == "Stop Sync")
+	 	$(this).html("Start Sync");
+	 else
+		 $(this).html("Stop Sync");
+	 hideMenu();
+	 Android.stopSync();
+ });
+ $('#menuLogout').click(function(){
+	 hideMenu();
+	 Android.logout();
+ });
+ $('#menuHome').click(function(){
+	 hideMenu();
+	 Android.goHome();
+ });
+{
+	 var bioS = Android.selectBio();
+	 var bioNames = new Array();
+	 bioNames = bioS.split(",");
+	 $('#bioDecide').html();
+	 for(var i=0; i<bioNames.length; i++){
+		 if(bioNames[i] != null)
+		 $('#bioDecide').html("<option values=\""+bioNames[i]+"\">"+bioNames[i]+"</option>")
+	 }
+ }
+ //// Profile Page
+ $('#profileName').html(Android.getMyName());
+ $('#profAge').html(Android.getMyAge()+" Years");
+ $('#profGen').html(Android.getGender());
+});

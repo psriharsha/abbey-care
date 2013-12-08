@@ -56,7 +56,6 @@ public class HomeActivity extends Activity {
 		startWebView();
 		sharedPreference = getSharedPreferences(Singleton.sharedPrefName,0);
 		if(sharedPreference.contains("bio")){
-		Toast.makeText(getApplicationContext(),"Yes", Toast.LENGTH_SHORT).show();
 		if(!isMyServiceRunning())
 			startVitalService();
 		}
@@ -80,6 +79,18 @@ public class HomeActivity extends Activity {
 	        }
 	    }
 		return false;
+	}
+	
+	@JavascriptInterface
+	public String myServiceRun(){
+		String res = "false";
+		ActivityManager manager = (ActivityManager) getSystemService(Context.ACTIVITY_SERVICE);
+	    for (RunningServiceInfo service : manager.getRunningServices(Integer.MAX_VALUE)) {
+	        if (GetVitals.class.getName().equals(service.service.getClassName())) {
+	            res = "true";
+	        }
+	    }
+		return res;
 	}
 
 	private void startVitalService() {
@@ -153,11 +164,10 @@ public class HomeActivity extends Activity {
 		Bundle extras = new Bundle();
 		if (ContentResolver.getSyncAutomatically(account, AUTHORITY)) {
 			stopService();
-			Toast.makeText(getApplicationContext(), "Sync is Active", Toast.LENGTH_SHORT).show();
 			extras.putBoolean(ContentResolver.SYNC_EXTRAS_INITIALIZE, true);
 			extras.putBoolean(ContentResolver.SYNC_EXTRAS_MANUAL, true);
 			ContentResolver.setIsSyncable(account, AUTHORITY, 0);
-			ContentResolver.setMasterSyncAutomatically(true);
+			ContentResolver.setMasterSyncAutomatically(false);
 			ContentResolver.removePeriodicSync(account, AUTHORITY, extras);
 		} else if(sharedPreference.contains("bio")){
 			startService();
@@ -181,7 +191,6 @@ public class HomeActivity extends Activity {
 		// TODO Auto-generated method stub
 		Intent loggingOut = new Intent("com.abbey.zephyr.vitals.GetVitals");
 		stopService(loggingOut);
-		Toast.makeText(getApplicationContext(), "Stop Service", Toast.LENGTH_SHORT).show();
 	}
 	
 	@SuppressLint("InlinedApi")

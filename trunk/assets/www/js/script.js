@@ -15,9 +15,9 @@ $( document ).ready(function() {
  $('#accountSubmit').click(function(){
 	 var username = $('#user').val();
 	 var password = $('#pass').val();
- 	Android.onSubmit(username,password);
+ 	var result = Android.onSubmit(username,password);
+ 	$('#errorMsg').html(result);
  });
- 
  function alertMessage(){
 	 alert("Hi Alert!!");
  }
@@ -30,13 +30,17 @@ $( document ).ready(function() {
 	 $('#invisible').fadeOut();
  }
  function changeSyncState(){
-	  var syncState = Android.isSyncActive();
-	 if(syncState != "false"){
-		 $('#menuStopSync').html("Stop Sync");
-	 }
-	 else {
+	  var syncState = Android.myServiceRun();
+	 if(syncState == "false"){
 		 $('#menuStopSync').html("Start Sync");
 	 }
+	 else {
+		 $('#menuStopSync').html("Stop Sync");
+	 }
+ }
+ function bioChanged(){
+	 var value = $('#bioDecide').val();
+	 Android.changeBio(value);
  }
  //window.setInterval(setVitals(),1000);
  $('#menuProf').click(function(){
@@ -59,7 +63,23 @@ $( document ).ready(function() {
 	 hideMenu();
 	 Android.goHome();
  });
- $('#bioDecide').click(function(){
-	 Android.selectBio();
- });
+{
+	 var bioS = Android.selectBio();
+	 var bioNames = new Array();
+	 bioNames = bioS.split(",");
+	 $('#bioDecide').html("<option value=\"def\">--</option>");
+	 for(var i=0; i<bioNames.length; i++){
+		 if(bioNames[i] != "null"){
+			 var temp = $('#bioDecide').html();
+			 $('#bioDecide').html(temp+"<option value=\""+bioNames[i]+"\">"+bioNames[i]+"</option>");
+		 }
+	 }
+ }
+ //// Profile Page
+$('#bioDecide').change(function(){
+	bioChanged();
+});
+ $('#profileName').html(Android.getMyName());
+ $('#profAge').html(Android.getMyAge()+" Years");
+ $('#profGen').html(Android.getGender());
 });

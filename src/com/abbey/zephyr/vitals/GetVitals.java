@@ -17,14 +17,16 @@ import android.content.ContentValues;
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
+import android.content.SharedPreferences;
+import android.content.SharedPreferences.Editor;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.IBinder;
 import android.os.Message;
 import android.util.Log;
-import android.widget.Toast;
 
+import com.abbey.zephyr.Singleton;
 import com.abbey.zephyr.provider.VitalsProvider;
 
 public class GetVitals extends Service {
@@ -38,6 +40,8 @@ public class GetVitals extends Service {
 	private final int SKIN_TEMPERATURE = 0x102;
 	private final int POSTURE = 0x103;
 	private final int PEAK_ACCLERATION = 0x104;
+	SharedPreferences sharedPreference;
+	Editor editor;
 
 	@Override
 	public IBinder onBind(Intent arg0) {
@@ -110,6 +114,8 @@ public class GetVitals extends Service {
 	public int onStartCommand(Intent intent, int flags, int startId) {
 
 		// TODO Auto-generated method stub
+		sharedPreference = getSharedPreferences(Singleton.sharedPrefName, 0);
+		editor = sharedPreference.edit();
 		init();
 		return START_STICKY;
 	}
@@ -130,15 +136,14 @@ public class GetVitals extends Service {
 		String BhMacID = "00:07:80:9D:8A:E8";
 		// String BhMacID = "00:07:80:88:F6:BF";
 		adapter = BluetoothAdapter.getDefaultAdapter();
-
+		String bioName = sharedPreference.getString("bio", null);
 		Set<BluetoothDevice> pairedDevices = adapter.getBondedDevices();		
 		if (pairedDevices.size() > 0) {
 			for (BluetoothDevice device : pairedDevices) {
-				if (device.getName().startsWith("BH")) {
+				if (device.getName().equals(bioName)) {
 					BluetoothDevice btDevice = device;
 					BhMacID = btDevice.getAddress();
 					break;
-
 				}
 			}
 		}

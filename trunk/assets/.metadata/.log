@@ -1,4 +1,4 @@
-!SESSION 2013-12-09 09:56:41.376 -----------------------------------------------
+!SESSION 2013-12-12 14:53:26.203 -----------------------------------------------
 eclipse.buildId=4.3.0.M20130911-1000
 java.version=1.7.0_45
 java.vendor=Oracle Corporation
@@ -7,9 +7,9 @@ Framework arguments:  -product org.eclipse.epp.package.standard.product
 Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.standard.product
 
 This is a continuation of log file C:\Users\SRIHARSHA\Android Workspace\Abbey\assets\.metadata\.bak_0.log
-Created Time: 2013-12-09 09:56:48.123
+Created Time: 2013-12-12 17:27:09.835
 
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:48.125
+!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-12 17:27:09.837
 !MESSAGE An exception was thrown while indexing document
 !STACK 0
 org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
@@ -40,7 +40,7 @@ org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file 
 	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:467)
 	at java.lang.Thread.run(Unknown Source)
 
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:48.130
+!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-12 17:27:09.852
 !MESSAGE An exception was thrown while indexing document
 !STACK 0
 org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
@@ -71,7 +71,7 @@ org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file 
 	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:467)
 	at java.lang.Thread.run(Unknown Source)
 
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:48.134
+!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-12 17:27:09.856
 !MESSAGE An exception was thrown while indexing document
 !STACK 0
 org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
@@ -102,7 +102,7 @@ org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file 
 	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:467)
 	at java.lang.Thread.run(Unknown Source)
 
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:48.138
+!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-12 17:27:09.859
 !MESSAGE An exception was thrown while indexing document
 !STACK 0
 org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
@@ -133,7 +133,7 @@ org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file 
 	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:467)
 	at java.lang.Thread.run(Unknown Source)
 
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:48.142
+!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-12 17:27:09.863
 !MESSAGE An exception was thrown while indexing document
 !STACK 0
 org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
@@ -164,7 +164,7 @@ org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file 
 	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:467)
 	at java.lang.Thread.run(Unknown Source)
 
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:48.146
+!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-12 17:27:09.868
 !MESSAGE An exception was thrown while indexing document
 !STACK 0
 org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
@@ -195,7 +195,7 @@ org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file 
 	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:467)
 	at java.lang.Thread.run(Unknown Source)
 
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:48.149
+!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-12 17:27:09.871
 !MESSAGE An exception was thrown while indexing document
 !STACK 0
 org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
@@ -226,7 +226,7 @@ org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file 
 	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:467)
 	at java.lang.Thread.run(Unknown Source)
 
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:48.153
+!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-12 17:27:09.875
 !MESSAGE An exception was thrown while indexing document
 !STACK 0
 org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
@@ -257,7 +257,7 @@ org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file 
 	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:467)
 	at java.lang.Thread.run(Unknown Source)
 
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:48.157
+!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-12 17:27:09.878
 !MESSAGE An exception was thrown while indexing document
 !STACK 0
 org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
@@ -288,7 +288,7 @@ org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file 
 	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:467)
 	at java.lang.Thread.run(Unknown Source)
 
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:48.164
+!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-12 17:27:09.882
 !MESSAGE An exception was thrown while indexing document
 !STACK 0
 org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
@@ -319,7 +319,7 @@ org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file 
 	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:467)
 	at java.lang.Thread.run(Unknown Source)
 
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:48.170
+!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-12 17:27:09.886
 !MESSAGE An exception was thrown while indexing document
 !STACK 0
 org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
@@ -350,7 +350,7 @@ org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file 
 	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:467)
 	at java.lang.Thread.run(Unknown Source)
 
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:48.176
+!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-12 17:27:09.889
 !MESSAGE An exception was thrown while indexing document
 !STACK 0
 org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
@@ -381,7 +381,7 @@ org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file 
 	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:467)
 	at java.lang.Thread.run(Unknown Source)
 
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:48.182
+!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-12 17:27:09.893
 !MESSAGE An exception was thrown while indexing document
 !STACK 0
 org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
@@ -412,7 +412,7 @@ org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file 
 	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:467)
 	at java.lang.Thread.run(Unknown Source)
 
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:48.191
+!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-12 17:27:09.897
 !MESSAGE An exception was thrown while indexing document
 !STACK 0
 org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
@@ -443,7 +443,7 @@ org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file 
 	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:467)
 	at java.lang.Thread.run(Unknown Source)
 
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:48.195
+!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-12 17:27:09.900
 !MESSAGE An exception was thrown while indexing document
 !STACK 0
 org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
@@ -474,7 +474,7 @@ org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file 
 	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:467)
 	at java.lang.Thread.run(Unknown Source)
 
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:48.204
+!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-12 17:27:09.904
 !MESSAGE An exception was thrown while indexing document
 !STACK 0
 org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
@@ -505,7 +505,7 @@ org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file 
 	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:467)
 	at java.lang.Thread.run(Unknown Source)
 
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:48.209
+!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-12 17:27:09.908
 !MESSAGE An exception was thrown while indexing document
 !STACK 0
 org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
@@ -536,7 +536,7 @@ org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file 
 	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:467)
 	at java.lang.Thread.run(Unknown Source)
 
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:48.227
+!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-12 17:27:09.911
 !MESSAGE An exception was thrown while indexing document
 !STACK 0
 org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
@@ -567,7 +567,7 @@ org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file 
 	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:467)
 	at java.lang.Thread.run(Unknown Source)
 
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:48.231
+!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-12 17:27:09.915
 !MESSAGE An exception was thrown while indexing document
 !STACK 0
 org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
@@ -598,7 +598,7 @@ org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file 
 	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:467)
 	at java.lang.Thread.run(Unknown Source)
 
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:48.243
+!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-12 17:27:09.919
 !MESSAGE An exception was thrown while indexing document
 !STACK 0
 org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
@@ -629,7 +629,7 @@ org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file 
 	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:467)
 	at java.lang.Thread.run(Unknown Source)
 
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:48.252
+!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-12 17:27:09.922
 !MESSAGE An exception was thrown while indexing document
 !STACK 0
 org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
@@ -660,7 +660,7 @@ org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file 
 	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:467)
 	at java.lang.Thread.run(Unknown Source)
 
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:48.257
+!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-12 17:27:09.926
 !MESSAGE An exception was thrown while indexing document
 !STACK 0
 org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
@@ -691,1380 +691,7 @@ org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file 
 	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:467)
 	at java.lang.Thread.run(Unknown Source)
 
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:48.275
-!MESSAGE An exception was thrown while indexing document
-!STACK 0
-org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
-	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
-	at org.h2.message.DbException.get(DbException.java:169)
-	at org.h2.message.DbException.get(DbException.java:146)
-	at org.h2.engine.Database.open(Database.java:508)
-	at org.h2.engine.Database.openDatabase(Database.java:222)
-	at org.h2.engine.Database.<init>(Database.java:217)
-	at org.h2.engine.Engine.openSession(Engine.java:56)
-	at org.h2.engine.Engine.openSession(Engine.java:159)
-	at org.h2.engine.Engine.createSessionAndValidate(Engine.java:138)
-	at org.h2.engine.Engine.createSession(Engine.java:121)
-	at org.h2.engine.Engine.createSession(Engine.java:28)
-	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:305)
-	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:108)
-	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:92)
-	at org.h2.Driver.connect(Driver.java:72)
-	at org.h2.jdbcx.JdbcDataSource.getJdbcConnection(JdbcDataSource.java:181)
-	at org.h2.jdbcx.JdbcDataSource.getXAConnection(JdbcDataSource.java:315)
-	at org.h2.jdbcx.JdbcDataSource.getPooledConnection(JdbcDataSource.java:341)
-	at org.h2.jdbcx.JdbcConnectionPool.getConnectionNow(JdbcConnectionPool.java:226)
-	at org.h2.jdbcx.JdbcConnectionPool.getConnection(JdbcConnectionPool.java:199)
-	at org.eclipse.dltk.internal.core.index.sql.h2.H2DbFactory.createConnection(H2DbFactory.java:145)
-	at org.eclipse.dltk.internal.core.index.sql.SqlIndexer.indexDocument(SqlIndexer.java:96)
-	at org.eclipse.dltk.internal.core.index2.SourceModulesRequest.run(SourceModulesRequest.java:78)
-	at org.eclipse.dltk.core.search.indexing.AbstractJob.execute(AbstractJob.java:76)
-	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:467)
-	at java.lang.Thread.run(Unknown Source)
-
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:48.283
-!MESSAGE An exception was thrown while indexing document
-!STACK 0
-org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
-	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
-	at org.h2.message.DbException.get(DbException.java:169)
-	at org.h2.message.DbException.get(DbException.java:146)
-	at org.h2.engine.Database.open(Database.java:508)
-	at org.h2.engine.Database.openDatabase(Database.java:222)
-	at org.h2.engine.Database.<init>(Database.java:217)
-	at org.h2.engine.Engine.openSession(Engine.java:56)
-	at org.h2.engine.Engine.openSession(Engine.java:159)
-	at org.h2.engine.Engine.createSessionAndValidate(Engine.java:138)
-	at org.h2.engine.Engine.createSession(Engine.java:121)
-	at org.h2.engine.Engine.createSession(Engine.java:28)
-	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:305)
-	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:108)
-	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:92)
-	at org.h2.Driver.connect(Driver.java:72)
-	at org.h2.jdbcx.JdbcDataSource.getJdbcConnection(JdbcDataSource.java:181)
-	at org.h2.jdbcx.JdbcDataSource.getXAConnection(JdbcDataSource.java:315)
-	at org.h2.jdbcx.JdbcDataSource.getPooledConnection(JdbcDataSource.java:341)
-	at org.h2.jdbcx.JdbcConnectionPool.getConnectionNow(JdbcConnectionPool.java:226)
-	at org.h2.jdbcx.JdbcConnectionPool.getConnection(JdbcConnectionPool.java:199)
-	at org.eclipse.dltk.internal.core.index.sql.h2.H2DbFactory.createConnection(H2DbFactory.java:145)
-	at org.eclipse.dltk.internal.core.index.sql.SqlIndexer.indexDocument(SqlIndexer.java:96)
-	at org.eclipse.dltk.internal.core.index2.SourceModulesRequest.run(SourceModulesRequest.java:78)
-	at org.eclipse.dltk.core.search.indexing.AbstractJob.execute(AbstractJob.java:76)
-	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:467)
-	at java.lang.Thread.run(Unknown Source)
-
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:48.289
-!MESSAGE An exception was thrown while indexing document
-!STACK 0
-org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
-	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
-	at org.h2.message.DbException.get(DbException.java:169)
-	at org.h2.message.DbException.get(DbException.java:146)
-	at org.h2.engine.Database.open(Database.java:508)
-	at org.h2.engine.Database.openDatabase(Database.java:222)
-	at org.h2.engine.Database.<init>(Database.java:217)
-	at org.h2.engine.Engine.openSession(Engine.java:56)
-	at org.h2.engine.Engine.openSession(Engine.java:159)
-	at org.h2.engine.Engine.createSessionAndValidate(Engine.java:138)
-	at org.h2.engine.Engine.createSession(Engine.java:121)
-	at org.h2.engine.Engine.createSession(Engine.java:28)
-	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:305)
-	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:108)
-	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:92)
-	at org.h2.Driver.connect(Driver.java:72)
-	at org.h2.jdbcx.JdbcDataSource.getJdbcConnection(JdbcDataSource.java:181)
-	at org.h2.jdbcx.JdbcDataSource.getXAConnection(JdbcDataSource.java:315)
-	at org.h2.jdbcx.JdbcDataSource.getPooledConnection(JdbcDataSource.java:341)
-	at org.h2.jdbcx.JdbcConnectionPool.getConnectionNow(JdbcConnectionPool.java:226)
-	at org.h2.jdbcx.JdbcConnectionPool.getConnection(JdbcConnectionPool.java:199)
-	at org.eclipse.dltk.internal.core.index.sql.h2.H2DbFactory.createConnection(H2DbFactory.java:145)
-	at org.eclipse.dltk.internal.core.index.sql.SqlIndexer.indexDocument(SqlIndexer.java:96)
-	at org.eclipse.dltk.internal.core.index2.SourceModulesRequest.run(SourceModulesRequest.java:78)
-	at org.eclipse.dltk.core.search.indexing.AbstractJob.execute(AbstractJob.java:76)
-	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:467)
-	at java.lang.Thread.run(Unknown Source)
-
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:48.298
-!MESSAGE An exception was thrown while indexing document
-!STACK 0
-org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
-	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
-	at org.h2.message.DbException.get(DbException.java:169)
-	at org.h2.message.DbException.get(DbException.java:146)
-	at org.h2.engine.Database.open(Database.java:508)
-	at org.h2.engine.Database.openDatabase(Database.java:222)
-	at org.h2.engine.Database.<init>(Database.java:217)
-	at org.h2.engine.Engine.openSession(Engine.java:56)
-	at org.h2.engine.Engine.openSession(Engine.java:159)
-	at org.h2.engine.Engine.createSessionAndValidate(Engine.java:138)
-	at org.h2.engine.Engine.createSession(Engine.java:121)
-	at org.h2.engine.Engine.createSession(Engine.java:28)
-	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:305)
-	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:108)
-	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:92)
-	at org.h2.Driver.connect(Driver.java:72)
-	at org.h2.jdbcx.JdbcDataSource.getJdbcConnection(JdbcDataSource.java:181)
-	at org.h2.jdbcx.JdbcDataSource.getXAConnection(JdbcDataSource.java:315)
-	at org.h2.jdbcx.JdbcDataSource.getPooledConnection(JdbcDataSource.java:341)
-	at org.h2.jdbcx.JdbcConnectionPool.getConnectionNow(JdbcConnectionPool.java:226)
-	at org.h2.jdbcx.JdbcConnectionPool.getConnection(JdbcConnectionPool.java:199)
-	at org.eclipse.dltk.internal.core.index.sql.h2.H2DbFactory.createConnection(H2DbFactory.java:145)
-	at org.eclipse.dltk.internal.core.index.sql.SqlIndexer.indexDocument(SqlIndexer.java:96)
-	at org.eclipse.dltk.internal.core.index2.SourceModulesRequest.run(SourceModulesRequest.java:78)
-	at org.eclipse.dltk.core.search.indexing.AbstractJob.execute(AbstractJob.java:76)
-	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:467)
-	at java.lang.Thread.run(Unknown Source)
-
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:48.305
-!MESSAGE An exception was thrown while indexing document
-!STACK 0
-org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
-	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
-	at org.h2.message.DbException.get(DbException.java:169)
-	at org.h2.message.DbException.get(DbException.java:146)
-	at org.h2.engine.Database.open(Database.java:508)
-	at org.h2.engine.Database.openDatabase(Database.java:222)
-	at org.h2.engine.Database.<init>(Database.java:217)
-	at org.h2.engine.Engine.openSession(Engine.java:56)
-	at org.h2.engine.Engine.openSession(Engine.java:159)
-	at org.h2.engine.Engine.createSessionAndValidate(Engine.java:138)
-	at org.h2.engine.Engine.createSession(Engine.java:121)
-	at org.h2.engine.Engine.createSession(Engine.java:28)
-	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:305)
-	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:108)
-	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:92)
-	at org.h2.Driver.connect(Driver.java:72)
-	at org.h2.jdbcx.JdbcDataSource.getJdbcConnection(JdbcDataSource.java:181)
-	at org.h2.jdbcx.JdbcDataSource.getXAConnection(JdbcDataSource.java:315)
-	at org.h2.jdbcx.JdbcDataSource.getPooledConnection(JdbcDataSource.java:341)
-	at org.h2.jdbcx.JdbcConnectionPool.getConnectionNow(JdbcConnectionPool.java:226)
-	at org.h2.jdbcx.JdbcConnectionPool.getConnection(JdbcConnectionPool.java:199)
-	at org.eclipse.dltk.internal.core.index.sql.h2.H2DbFactory.createConnection(H2DbFactory.java:145)
-	at org.eclipse.dltk.internal.core.index.sql.SqlIndexer.indexDocument(SqlIndexer.java:96)
-	at org.eclipse.dltk.internal.core.index2.SourceModulesRequest.run(SourceModulesRequest.java:78)
-	at org.eclipse.dltk.core.search.indexing.AbstractJob.execute(AbstractJob.java:76)
-	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:467)
-	at java.lang.Thread.run(Unknown Source)
-
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:48.337
-!MESSAGE An exception was thrown while indexing document
-!STACK 0
-org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
-	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
-	at org.h2.message.DbException.get(DbException.java:169)
-	at org.h2.message.DbException.get(DbException.java:146)
-	at org.h2.engine.Database.open(Database.java:508)
-	at org.h2.engine.Database.openDatabase(Database.java:222)
-	at org.h2.engine.Database.<init>(Database.java:217)
-	at org.h2.engine.Engine.openSession(Engine.java:56)
-	at org.h2.engine.Engine.openSession(Engine.java:159)
-	at org.h2.engine.Engine.createSessionAndValidate(Engine.java:138)
-	at org.h2.engine.Engine.createSession(Engine.java:121)
-	at org.h2.engine.Engine.createSession(Engine.java:28)
-	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:305)
-	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:108)
-	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:92)
-	at org.h2.Driver.connect(Driver.java:72)
-	at org.h2.jdbcx.JdbcDataSource.getJdbcConnection(JdbcDataSource.java:181)
-	at org.h2.jdbcx.JdbcDataSource.getXAConnection(JdbcDataSource.java:315)
-	at org.h2.jdbcx.JdbcDataSource.getPooledConnection(JdbcDataSource.java:341)
-	at org.h2.jdbcx.JdbcConnectionPool.getConnectionNow(JdbcConnectionPool.java:226)
-	at org.h2.jdbcx.JdbcConnectionPool.getConnection(JdbcConnectionPool.java:199)
-	at org.eclipse.dltk.internal.core.index.sql.h2.H2DbFactory.createConnection(H2DbFactory.java:145)
-	at org.eclipse.dltk.internal.core.index.sql.SqlIndexer.indexDocument(SqlIndexer.java:96)
-	at org.eclipse.dltk.internal.core.index2.SourceModulesRequest.run(SourceModulesRequest.java:78)
-	at org.eclipse.dltk.core.search.indexing.AbstractJob.execute(AbstractJob.java:76)
-	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:467)
-	at java.lang.Thread.run(Unknown Source)
-
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:48.358
-!MESSAGE An exception was thrown while indexing document
-!STACK 0
-org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
-	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
-	at org.h2.message.DbException.get(DbException.java:169)
-	at org.h2.message.DbException.get(DbException.java:146)
-	at org.h2.engine.Database.open(Database.java:508)
-	at org.h2.engine.Database.openDatabase(Database.java:222)
-	at org.h2.engine.Database.<init>(Database.java:217)
-	at org.h2.engine.Engine.openSession(Engine.java:56)
-	at org.h2.engine.Engine.openSession(Engine.java:159)
-	at org.h2.engine.Engine.createSessionAndValidate(Engine.java:138)
-	at org.h2.engine.Engine.createSession(Engine.java:121)
-	at org.h2.engine.Engine.createSession(Engine.java:28)
-	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:305)
-	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:108)
-	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:92)
-	at org.h2.Driver.connect(Driver.java:72)
-	at org.h2.jdbcx.JdbcDataSource.getJdbcConnection(JdbcDataSource.java:181)
-	at org.h2.jdbcx.JdbcDataSource.getXAConnection(JdbcDataSource.java:315)
-	at org.h2.jdbcx.JdbcDataSource.getPooledConnection(JdbcDataSource.java:341)
-	at org.h2.jdbcx.JdbcConnectionPool.getConnectionNow(JdbcConnectionPool.java:226)
-	at org.h2.jdbcx.JdbcConnectionPool.getConnection(JdbcConnectionPool.java:199)
-	at org.eclipse.dltk.internal.core.index.sql.h2.H2DbFactory.createConnection(H2DbFactory.java:145)
-	at org.eclipse.dltk.internal.core.index.sql.SqlIndexer.indexDocument(SqlIndexer.java:96)
-	at org.eclipse.dltk.internal.core.index2.SourceModulesRequest.run(SourceModulesRequest.java:78)
-	at org.eclipse.dltk.core.search.indexing.AbstractJob.execute(AbstractJob.java:76)
-	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:467)
-	at java.lang.Thread.run(Unknown Source)
-
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:48.382
-!MESSAGE An exception was thrown while indexing document
-!STACK 0
-org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
-	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
-	at org.h2.message.DbException.get(DbException.java:169)
-	at org.h2.message.DbException.get(DbException.java:146)
-	at org.h2.engine.Database.open(Database.java:508)
-	at org.h2.engine.Database.openDatabase(Database.java:222)
-	at org.h2.engine.Database.<init>(Database.java:217)
-	at org.h2.engine.Engine.openSession(Engine.java:56)
-	at org.h2.engine.Engine.openSession(Engine.java:159)
-	at org.h2.engine.Engine.createSessionAndValidate(Engine.java:138)
-	at org.h2.engine.Engine.createSession(Engine.java:121)
-	at org.h2.engine.Engine.createSession(Engine.java:28)
-	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:305)
-	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:108)
-	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:92)
-	at org.h2.Driver.connect(Driver.java:72)
-	at org.h2.jdbcx.JdbcDataSource.getJdbcConnection(JdbcDataSource.java:181)
-	at org.h2.jdbcx.JdbcDataSource.getXAConnection(JdbcDataSource.java:315)
-	at org.h2.jdbcx.JdbcDataSource.getPooledConnection(JdbcDataSource.java:341)
-	at org.h2.jdbcx.JdbcConnectionPool.getConnectionNow(JdbcConnectionPool.java:226)
-	at org.h2.jdbcx.JdbcConnectionPool.getConnection(JdbcConnectionPool.java:199)
-	at org.eclipse.dltk.internal.core.index.sql.h2.H2DbFactory.createConnection(H2DbFactory.java:145)
-	at org.eclipse.dltk.internal.core.index.sql.SqlIndexer.indexDocument(SqlIndexer.java:96)
-	at org.eclipse.dltk.internal.core.index2.SourceModulesRequest.run(SourceModulesRequest.java:78)
-	at org.eclipse.dltk.core.search.indexing.AbstractJob.execute(AbstractJob.java:76)
-	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:467)
-	at java.lang.Thread.run(Unknown Source)
-
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:48.389
-!MESSAGE An exception was thrown while indexing document
-!STACK 0
-org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
-	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
-	at org.h2.message.DbException.get(DbException.java:169)
-	at org.h2.message.DbException.get(DbException.java:146)
-	at org.h2.engine.Database.open(Database.java:508)
-	at org.h2.engine.Database.openDatabase(Database.java:222)
-	at org.h2.engine.Database.<init>(Database.java:217)
-	at org.h2.engine.Engine.openSession(Engine.java:56)
-	at org.h2.engine.Engine.openSession(Engine.java:159)
-	at org.h2.engine.Engine.createSessionAndValidate(Engine.java:138)
-	at org.h2.engine.Engine.createSession(Engine.java:121)
-	at org.h2.engine.Engine.createSession(Engine.java:28)
-	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:305)
-	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:108)
-	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:92)
-	at org.h2.Driver.connect(Driver.java:72)
-	at org.h2.jdbcx.JdbcDataSource.getJdbcConnection(JdbcDataSource.java:181)
-	at org.h2.jdbcx.JdbcDataSource.getXAConnection(JdbcDataSource.java:315)
-	at org.h2.jdbcx.JdbcDataSource.getPooledConnection(JdbcDataSource.java:341)
-	at org.h2.jdbcx.JdbcConnectionPool.getConnectionNow(JdbcConnectionPool.java:226)
-	at org.h2.jdbcx.JdbcConnectionPool.getConnection(JdbcConnectionPool.java:199)
-	at org.eclipse.dltk.internal.core.index.sql.h2.H2DbFactory.createConnection(H2DbFactory.java:145)
-	at org.eclipse.dltk.internal.core.index.sql.SqlIndexer.indexDocument(SqlIndexer.java:96)
-	at org.eclipse.dltk.internal.core.index2.SourceModulesRequest.run(SourceModulesRequest.java:78)
-	at org.eclipse.dltk.core.search.indexing.AbstractJob.execute(AbstractJob.java:76)
-	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:467)
-	at java.lang.Thread.run(Unknown Source)
-
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:48.395
-!MESSAGE An exception was thrown while indexing document
-!STACK 0
-org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
-	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
-	at org.h2.message.DbException.get(DbException.java:169)
-	at org.h2.message.DbException.get(DbException.java:146)
-	at org.h2.engine.Database.open(Database.java:508)
-	at org.h2.engine.Database.openDatabase(Database.java:222)
-	at org.h2.engine.Database.<init>(Database.java:217)
-	at org.h2.engine.Engine.openSession(Engine.java:56)
-	at org.h2.engine.Engine.openSession(Engine.java:159)
-	at org.h2.engine.Engine.createSessionAndValidate(Engine.java:138)
-	at org.h2.engine.Engine.createSession(Engine.java:121)
-	at org.h2.engine.Engine.createSession(Engine.java:28)
-	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:305)
-	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:108)
-	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:92)
-	at org.h2.Driver.connect(Driver.java:72)
-	at org.h2.jdbcx.JdbcDataSource.getJdbcConnection(JdbcDataSource.java:181)
-	at org.h2.jdbcx.JdbcDataSource.getXAConnection(JdbcDataSource.java:315)
-	at org.h2.jdbcx.JdbcDataSource.getPooledConnection(JdbcDataSource.java:341)
-	at org.h2.jdbcx.JdbcConnectionPool.getConnectionNow(JdbcConnectionPool.java:226)
-	at org.h2.jdbcx.JdbcConnectionPool.getConnection(JdbcConnectionPool.java:199)
-	at org.eclipse.dltk.internal.core.index.sql.h2.H2DbFactory.createConnection(H2DbFactory.java:145)
-	at org.eclipse.dltk.internal.core.index.sql.SqlIndexer.indexDocument(SqlIndexer.java:96)
-	at org.eclipse.dltk.internal.core.index2.SourceModulesRequest.run(SourceModulesRequest.java:78)
-	at org.eclipse.dltk.core.search.indexing.AbstractJob.execute(AbstractJob.java:76)
-	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:467)
-	at java.lang.Thread.run(Unknown Source)
-
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:48.400
-!MESSAGE An exception was thrown while indexing document
-!STACK 0
-org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
-	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
-	at org.h2.message.DbException.get(DbException.java:169)
-	at org.h2.message.DbException.get(DbException.java:146)
-	at org.h2.engine.Database.open(Database.java:508)
-	at org.h2.engine.Database.openDatabase(Database.java:222)
-	at org.h2.engine.Database.<init>(Database.java:217)
-	at org.h2.engine.Engine.openSession(Engine.java:56)
-	at org.h2.engine.Engine.openSession(Engine.java:159)
-	at org.h2.engine.Engine.createSessionAndValidate(Engine.java:138)
-	at org.h2.engine.Engine.createSession(Engine.java:121)
-	at org.h2.engine.Engine.createSession(Engine.java:28)
-	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:305)
-	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:108)
-	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:92)
-	at org.h2.Driver.connect(Driver.java:72)
-	at org.h2.jdbcx.JdbcDataSource.getJdbcConnection(JdbcDataSource.java:181)
-	at org.h2.jdbcx.JdbcDataSource.getXAConnection(JdbcDataSource.java:315)
-	at org.h2.jdbcx.JdbcDataSource.getPooledConnection(JdbcDataSource.java:341)
-	at org.h2.jdbcx.JdbcConnectionPool.getConnectionNow(JdbcConnectionPool.java:226)
-	at org.h2.jdbcx.JdbcConnectionPool.getConnection(JdbcConnectionPool.java:199)
-	at org.eclipse.dltk.internal.core.index.sql.h2.H2DbFactory.createConnection(H2DbFactory.java:145)
-	at org.eclipse.dltk.internal.core.index.sql.SqlIndexer.indexDocument(SqlIndexer.java:96)
-	at org.eclipse.dltk.internal.core.index2.SourceModulesRequest.run(SourceModulesRequest.java:78)
-	at org.eclipse.dltk.core.search.indexing.AbstractJob.execute(AbstractJob.java:76)
-	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:467)
-	at java.lang.Thread.run(Unknown Source)
-
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:48.404
-!MESSAGE An exception was thrown while indexing document
-!STACK 0
-org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
-	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
-	at org.h2.message.DbException.get(DbException.java:169)
-	at org.h2.message.DbException.get(DbException.java:146)
-	at org.h2.engine.Database.open(Database.java:508)
-	at org.h2.engine.Database.openDatabase(Database.java:222)
-	at org.h2.engine.Database.<init>(Database.java:217)
-	at org.h2.engine.Engine.openSession(Engine.java:56)
-	at org.h2.engine.Engine.openSession(Engine.java:159)
-	at org.h2.engine.Engine.createSessionAndValidate(Engine.java:138)
-	at org.h2.engine.Engine.createSession(Engine.java:121)
-	at org.h2.engine.Engine.createSession(Engine.java:28)
-	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:305)
-	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:108)
-	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:92)
-	at org.h2.Driver.connect(Driver.java:72)
-	at org.h2.jdbcx.JdbcDataSource.getJdbcConnection(JdbcDataSource.java:181)
-	at org.h2.jdbcx.JdbcDataSource.getXAConnection(JdbcDataSource.java:315)
-	at org.h2.jdbcx.JdbcDataSource.getPooledConnection(JdbcDataSource.java:341)
-	at org.h2.jdbcx.JdbcConnectionPool.getConnectionNow(JdbcConnectionPool.java:226)
-	at org.h2.jdbcx.JdbcConnectionPool.getConnection(JdbcConnectionPool.java:199)
-	at org.eclipse.dltk.internal.core.index.sql.h2.H2DbFactory.createConnection(H2DbFactory.java:145)
-	at org.eclipse.dltk.internal.core.index.sql.SqlIndexer.indexDocument(SqlIndexer.java:96)
-	at org.eclipse.dltk.internal.core.index2.SourceModulesRequest.run(SourceModulesRequest.java:78)
-	at org.eclipse.dltk.core.search.indexing.AbstractJob.execute(AbstractJob.java:76)
-	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:467)
-	at java.lang.Thread.run(Unknown Source)
-
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:48.408
-!MESSAGE An exception was thrown while indexing document
-!STACK 0
-org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
-	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
-	at org.h2.message.DbException.get(DbException.java:169)
-	at org.h2.message.DbException.get(DbException.java:146)
-	at org.h2.engine.Database.open(Database.java:508)
-	at org.h2.engine.Database.openDatabase(Database.java:222)
-	at org.h2.engine.Database.<init>(Database.java:217)
-	at org.h2.engine.Engine.openSession(Engine.java:56)
-	at org.h2.engine.Engine.openSession(Engine.java:159)
-	at org.h2.engine.Engine.createSessionAndValidate(Engine.java:138)
-	at org.h2.engine.Engine.createSession(Engine.java:121)
-	at org.h2.engine.Engine.createSession(Engine.java:28)
-	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:305)
-	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:108)
-	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:92)
-	at org.h2.Driver.connect(Driver.java:72)
-	at org.h2.jdbcx.JdbcDataSource.getJdbcConnection(JdbcDataSource.java:181)
-	at org.h2.jdbcx.JdbcDataSource.getXAConnection(JdbcDataSource.java:315)
-	at org.h2.jdbcx.JdbcDataSource.getPooledConnection(JdbcDataSource.java:341)
-	at org.h2.jdbcx.JdbcConnectionPool.getConnectionNow(JdbcConnectionPool.java:226)
-	at org.h2.jdbcx.JdbcConnectionPool.getConnection(JdbcConnectionPool.java:199)
-	at org.eclipse.dltk.internal.core.index.sql.h2.H2DbFactory.createConnection(H2DbFactory.java:145)
-	at org.eclipse.dltk.internal.core.index.sql.SqlIndexer.indexDocument(SqlIndexer.java:96)
-	at org.eclipse.dltk.internal.core.index2.SourceModulesRequest.run(SourceModulesRequest.java:78)
-	at org.eclipse.dltk.core.search.indexing.AbstractJob.execute(AbstractJob.java:76)
-	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:467)
-	at java.lang.Thread.run(Unknown Source)
-
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:48.413
-!MESSAGE An exception was thrown while indexing document
-!STACK 0
-org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
-	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
-	at org.h2.message.DbException.get(DbException.java:169)
-	at org.h2.message.DbException.get(DbException.java:146)
-	at org.h2.engine.Database.open(Database.java:508)
-	at org.h2.engine.Database.openDatabase(Database.java:222)
-	at org.h2.engine.Database.<init>(Database.java:217)
-	at org.h2.engine.Engine.openSession(Engine.java:56)
-	at org.h2.engine.Engine.openSession(Engine.java:159)
-	at org.h2.engine.Engine.createSessionAndValidate(Engine.java:138)
-	at org.h2.engine.Engine.createSession(Engine.java:121)
-	at org.h2.engine.Engine.createSession(Engine.java:28)
-	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:305)
-	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:108)
-	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:92)
-	at org.h2.Driver.connect(Driver.java:72)
-	at org.h2.jdbcx.JdbcDataSource.getJdbcConnection(JdbcDataSource.java:181)
-	at org.h2.jdbcx.JdbcDataSource.getXAConnection(JdbcDataSource.java:315)
-	at org.h2.jdbcx.JdbcDataSource.getPooledConnection(JdbcDataSource.java:341)
-	at org.h2.jdbcx.JdbcConnectionPool.getConnectionNow(JdbcConnectionPool.java:226)
-	at org.h2.jdbcx.JdbcConnectionPool.getConnection(JdbcConnectionPool.java:199)
-	at org.eclipse.dltk.internal.core.index.sql.h2.H2DbFactory.createConnection(H2DbFactory.java:145)
-	at org.eclipse.dltk.internal.core.index.sql.SqlIndexer.indexDocument(SqlIndexer.java:96)
-	at org.eclipse.dltk.internal.core.index2.SourceModulesRequest.run(SourceModulesRequest.java:78)
-	at org.eclipse.dltk.core.search.indexing.AbstractJob.execute(AbstractJob.java:76)
-	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:467)
-	at java.lang.Thread.run(Unknown Source)
-
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:48.417
-!MESSAGE An exception was thrown while indexing document
-!STACK 0
-org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
-	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
-	at org.h2.message.DbException.get(DbException.java:169)
-	at org.h2.message.DbException.get(DbException.java:146)
-	at org.h2.engine.Database.open(Database.java:508)
-	at org.h2.engine.Database.openDatabase(Database.java:222)
-	at org.h2.engine.Database.<init>(Database.java:217)
-	at org.h2.engine.Engine.openSession(Engine.java:56)
-	at org.h2.engine.Engine.openSession(Engine.java:159)
-	at org.h2.engine.Engine.createSessionAndValidate(Engine.java:138)
-	at org.h2.engine.Engine.createSession(Engine.java:121)
-	at org.h2.engine.Engine.createSession(Engine.java:28)
-	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:305)
-	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:108)
-	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:92)
-	at org.h2.Driver.connect(Driver.java:72)
-	at org.h2.jdbcx.JdbcDataSource.getJdbcConnection(JdbcDataSource.java:181)
-	at org.h2.jdbcx.JdbcDataSource.getXAConnection(JdbcDataSource.java:315)
-	at org.h2.jdbcx.JdbcDataSource.getPooledConnection(JdbcDataSource.java:341)
-	at org.h2.jdbcx.JdbcConnectionPool.getConnectionNow(JdbcConnectionPool.java:226)
-	at org.h2.jdbcx.JdbcConnectionPool.getConnection(JdbcConnectionPool.java:199)
-	at org.eclipse.dltk.internal.core.index.sql.h2.H2DbFactory.createConnection(H2DbFactory.java:145)
-	at org.eclipse.dltk.internal.core.index.sql.SqlIndexer.indexDocument(SqlIndexer.java:96)
-	at org.eclipse.dltk.internal.core.index2.SourceModulesRequest.run(SourceModulesRequest.java:78)
-	at org.eclipse.dltk.core.search.indexing.AbstractJob.execute(AbstractJob.java:76)
-	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:467)
-	at java.lang.Thread.run(Unknown Source)
-
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:48.421
-!MESSAGE An exception was thrown while indexing document
-!STACK 0
-org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
-	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
-	at org.h2.message.DbException.get(DbException.java:169)
-	at org.h2.message.DbException.get(DbException.java:146)
-	at org.h2.engine.Database.open(Database.java:508)
-	at org.h2.engine.Database.openDatabase(Database.java:222)
-	at org.h2.engine.Database.<init>(Database.java:217)
-	at org.h2.engine.Engine.openSession(Engine.java:56)
-	at org.h2.engine.Engine.openSession(Engine.java:159)
-	at org.h2.engine.Engine.createSessionAndValidate(Engine.java:138)
-	at org.h2.engine.Engine.createSession(Engine.java:121)
-	at org.h2.engine.Engine.createSession(Engine.java:28)
-	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:305)
-	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:108)
-	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:92)
-	at org.h2.Driver.connect(Driver.java:72)
-	at org.h2.jdbcx.JdbcDataSource.getJdbcConnection(JdbcDataSource.java:181)
-	at org.h2.jdbcx.JdbcDataSource.getXAConnection(JdbcDataSource.java:315)
-	at org.h2.jdbcx.JdbcDataSource.getPooledConnection(JdbcDataSource.java:341)
-	at org.h2.jdbcx.JdbcConnectionPool.getConnectionNow(JdbcConnectionPool.java:226)
-	at org.h2.jdbcx.JdbcConnectionPool.getConnection(JdbcConnectionPool.java:199)
-	at org.eclipse.dltk.internal.core.index.sql.h2.H2DbFactory.createConnection(H2DbFactory.java:145)
-	at org.eclipse.dltk.internal.core.index.sql.SqlIndexer.indexDocument(SqlIndexer.java:96)
-	at org.eclipse.dltk.internal.core.index2.SourceModulesRequest.run(SourceModulesRequest.java:78)
-	at org.eclipse.dltk.core.search.indexing.AbstractJob.execute(AbstractJob.java:76)
-	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:467)
-	at java.lang.Thread.run(Unknown Source)
-
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:48.425
-!MESSAGE An exception was thrown while indexing document
-!STACK 0
-org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
-	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
-	at org.h2.message.DbException.get(DbException.java:169)
-	at org.h2.message.DbException.get(DbException.java:146)
-	at org.h2.engine.Database.open(Database.java:508)
-	at org.h2.engine.Database.openDatabase(Database.java:222)
-	at org.h2.engine.Database.<init>(Database.java:217)
-	at org.h2.engine.Engine.openSession(Engine.java:56)
-	at org.h2.engine.Engine.openSession(Engine.java:159)
-	at org.h2.engine.Engine.createSessionAndValidate(Engine.java:138)
-	at org.h2.engine.Engine.createSession(Engine.java:121)
-	at org.h2.engine.Engine.createSession(Engine.java:28)
-	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:305)
-	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:108)
-	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:92)
-	at org.h2.Driver.connect(Driver.java:72)
-	at org.h2.jdbcx.JdbcDataSource.getJdbcConnection(JdbcDataSource.java:181)
-	at org.h2.jdbcx.JdbcDataSource.getXAConnection(JdbcDataSource.java:315)
-	at org.h2.jdbcx.JdbcDataSource.getPooledConnection(JdbcDataSource.java:341)
-	at org.h2.jdbcx.JdbcConnectionPool.getConnectionNow(JdbcConnectionPool.java:226)
-	at org.h2.jdbcx.JdbcConnectionPool.getConnection(JdbcConnectionPool.java:199)
-	at org.eclipse.dltk.internal.core.index.sql.h2.H2DbFactory.createConnection(H2DbFactory.java:145)
-	at org.eclipse.dltk.internal.core.index.sql.SqlIndexer.indexDocument(SqlIndexer.java:96)
-	at org.eclipse.dltk.internal.core.index2.SourceModulesRequest.run(SourceModulesRequest.java:78)
-	at org.eclipse.dltk.core.search.indexing.AbstractJob.execute(AbstractJob.java:76)
-	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:467)
-	at java.lang.Thread.run(Unknown Source)
-
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:48.429
-!MESSAGE An exception was thrown while indexing document
-!STACK 0
-org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
-	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
-	at org.h2.message.DbException.get(DbException.java:169)
-	at org.h2.message.DbException.get(DbException.java:146)
-	at org.h2.engine.Database.open(Database.java:508)
-	at org.h2.engine.Database.openDatabase(Database.java:222)
-	at org.h2.engine.Database.<init>(Database.java:217)
-	at org.h2.engine.Engine.openSession(Engine.java:56)
-	at org.h2.engine.Engine.openSession(Engine.java:159)
-	at org.h2.engine.Engine.createSessionAndValidate(Engine.java:138)
-	at org.h2.engine.Engine.createSession(Engine.java:121)
-	at org.h2.engine.Engine.createSession(Engine.java:28)
-	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:305)
-	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:108)
-	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:92)
-	at org.h2.Driver.connect(Driver.java:72)
-	at org.h2.jdbcx.JdbcDataSource.getJdbcConnection(JdbcDataSource.java:181)
-	at org.h2.jdbcx.JdbcDataSource.getXAConnection(JdbcDataSource.java:315)
-	at org.h2.jdbcx.JdbcDataSource.getPooledConnection(JdbcDataSource.java:341)
-	at org.h2.jdbcx.JdbcConnectionPool.getConnectionNow(JdbcConnectionPool.java:226)
-	at org.h2.jdbcx.JdbcConnectionPool.getConnection(JdbcConnectionPool.java:199)
-	at org.eclipse.dltk.internal.core.index.sql.h2.H2DbFactory.createConnection(H2DbFactory.java:145)
-	at org.eclipse.dltk.internal.core.index.sql.SqlIndexer.indexDocument(SqlIndexer.java:96)
-	at org.eclipse.dltk.internal.core.index2.SourceModulesRequest.run(SourceModulesRequest.java:78)
-	at org.eclipse.dltk.core.search.indexing.AbstractJob.execute(AbstractJob.java:76)
-	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:467)
-	at java.lang.Thread.run(Unknown Source)
-
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:48.433
-!MESSAGE An exception was thrown while indexing document
-!STACK 0
-org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
-	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
-	at org.h2.message.DbException.get(DbException.java:169)
-	at org.h2.message.DbException.get(DbException.java:146)
-	at org.h2.engine.Database.open(Database.java:508)
-	at org.h2.engine.Database.openDatabase(Database.java:222)
-	at org.h2.engine.Database.<init>(Database.java:217)
-	at org.h2.engine.Engine.openSession(Engine.java:56)
-	at org.h2.engine.Engine.openSession(Engine.java:159)
-	at org.h2.engine.Engine.createSessionAndValidate(Engine.java:138)
-	at org.h2.engine.Engine.createSession(Engine.java:121)
-	at org.h2.engine.Engine.createSession(Engine.java:28)
-	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:305)
-	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:108)
-	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:92)
-	at org.h2.Driver.connect(Driver.java:72)
-	at org.h2.jdbcx.JdbcDataSource.getJdbcConnection(JdbcDataSource.java:181)
-	at org.h2.jdbcx.JdbcDataSource.getXAConnection(JdbcDataSource.java:315)
-	at org.h2.jdbcx.JdbcDataSource.getPooledConnection(JdbcDataSource.java:341)
-	at org.h2.jdbcx.JdbcConnectionPool.getConnectionNow(JdbcConnectionPool.java:226)
-	at org.h2.jdbcx.JdbcConnectionPool.getConnection(JdbcConnectionPool.java:199)
-	at org.eclipse.dltk.internal.core.index.sql.h2.H2DbFactory.createConnection(H2DbFactory.java:145)
-	at org.eclipse.dltk.internal.core.index.sql.SqlIndexer.indexDocument(SqlIndexer.java:96)
-	at org.eclipse.dltk.internal.core.index2.SourceModulesRequest.run(SourceModulesRequest.java:78)
-	at org.eclipse.dltk.core.search.indexing.AbstractJob.execute(AbstractJob.java:76)
-	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:467)
-	at java.lang.Thread.run(Unknown Source)
-
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:48.438
-!MESSAGE An exception was thrown while indexing document
-!STACK 0
-org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
-	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
-	at org.h2.message.DbException.get(DbException.java:169)
-	at org.h2.message.DbException.get(DbException.java:146)
-	at org.h2.engine.Database.open(Database.java:508)
-	at org.h2.engine.Database.openDatabase(Database.java:222)
-	at org.h2.engine.Database.<init>(Database.java:217)
-	at org.h2.engine.Engine.openSession(Engine.java:56)
-	at org.h2.engine.Engine.openSession(Engine.java:159)
-	at org.h2.engine.Engine.createSessionAndValidate(Engine.java:138)
-	at org.h2.engine.Engine.createSession(Engine.java:121)
-	at org.h2.engine.Engine.createSession(Engine.java:28)
-	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:305)
-	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:108)
-	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:92)
-	at org.h2.Driver.connect(Driver.java:72)
-	at org.h2.jdbcx.JdbcDataSource.getJdbcConnection(JdbcDataSource.java:181)
-	at org.h2.jdbcx.JdbcDataSource.getXAConnection(JdbcDataSource.java:315)
-	at org.h2.jdbcx.JdbcDataSource.getPooledConnection(JdbcDataSource.java:341)
-	at org.h2.jdbcx.JdbcConnectionPool.getConnectionNow(JdbcConnectionPool.java:226)
-	at org.h2.jdbcx.JdbcConnectionPool.getConnection(JdbcConnectionPool.java:199)
-	at org.eclipse.dltk.internal.core.index.sql.h2.H2DbFactory.createConnection(H2DbFactory.java:145)
-	at org.eclipse.dltk.internal.core.index.sql.SqlIndexer.indexDocument(SqlIndexer.java:96)
-	at org.eclipse.dltk.internal.core.index2.SourceModulesRequest.run(SourceModulesRequest.java:78)
-	at org.eclipse.dltk.core.search.indexing.AbstractJob.execute(AbstractJob.java:76)
-	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:467)
-	at java.lang.Thread.run(Unknown Source)
-
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:48.442
-!MESSAGE An exception was thrown while indexing document
-!STACK 0
-org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
-	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
-	at org.h2.message.DbException.get(DbException.java:169)
-	at org.h2.message.DbException.get(DbException.java:146)
-	at org.h2.engine.Database.open(Database.java:508)
-	at org.h2.engine.Database.openDatabase(Database.java:222)
-	at org.h2.engine.Database.<init>(Database.java:217)
-	at org.h2.engine.Engine.openSession(Engine.java:56)
-	at org.h2.engine.Engine.openSession(Engine.java:159)
-	at org.h2.engine.Engine.createSessionAndValidate(Engine.java:138)
-	at org.h2.engine.Engine.createSession(Engine.java:121)
-	at org.h2.engine.Engine.createSession(Engine.java:28)
-	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:305)
-	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:108)
-	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:92)
-	at org.h2.Driver.connect(Driver.java:72)
-	at org.h2.jdbcx.JdbcDataSource.getJdbcConnection(JdbcDataSource.java:181)
-	at org.h2.jdbcx.JdbcDataSource.getXAConnection(JdbcDataSource.java:315)
-	at org.h2.jdbcx.JdbcDataSource.getPooledConnection(JdbcDataSource.java:341)
-	at org.h2.jdbcx.JdbcConnectionPool.getConnectionNow(JdbcConnectionPool.java:226)
-	at org.h2.jdbcx.JdbcConnectionPool.getConnection(JdbcConnectionPool.java:199)
-	at org.eclipse.dltk.internal.core.index.sql.h2.H2DbFactory.createConnection(H2DbFactory.java:145)
-	at org.eclipse.dltk.internal.core.index.sql.SqlIndexer.indexDocument(SqlIndexer.java:96)
-	at org.eclipse.dltk.internal.core.index2.SourceModulesRequest.run(SourceModulesRequest.java:78)
-	at org.eclipse.dltk.core.search.indexing.AbstractJob.execute(AbstractJob.java:76)
-	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:467)
-	at java.lang.Thread.run(Unknown Source)
-
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:48.447
-!MESSAGE An exception was thrown while indexing document
-!STACK 0
-org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
-	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
-	at org.h2.message.DbException.get(DbException.java:169)
-	at org.h2.message.DbException.get(DbException.java:146)
-	at org.h2.engine.Database.open(Database.java:508)
-	at org.h2.engine.Database.openDatabase(Database.java:222)
-	at org.h2.engine.Database.<init>(Database.java:217)
-	at org.h2.engine.Engine.openSession(Engine.java:56)
-	at org.h2.engine.Engine.openSession(Engine.java:159)
-	at org.h2.engine.Engine.createSessionAndValidate(Engine.java:138)
-	at org.h2.engine.Engine.createSession(Engine.java:121)
-	at org.h2.engine.Engine.createSession(Engine.java:28)
-	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:305)
-	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:108)
-	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:92)
-	at org.h2.Driver.connect(Driver.java:72)
-	at org.h2.jdbcx.JdbcDataSource.getJdbcConnection(JdbcDataSource.java:181)
-	at org.h2.jdbcx.JdbcDataSource.getXAConnection(JdbcDataSource.java:315)
-	at org.h2.jdbcx.JdbcDataSource.getPooledConnection(JdbcDataSource.java:341)
-	at org.h2.jdbcx.JdbcConnectionPool.getConnectionNow(JdbcConnectionPool.java:226)
-	at org.h2.jdbcx.JdbcConnectionPool.getConnection(JdbcConnectionPool.java:199)
-	at org.eclipse.dltk.internal.core.index.sql.h2.H2DbFactory.createConnection(H2DbFactory.java:145)
-	at org.eclipse.dltk.internal.core.index.sql.SqlIndexer.indexDocument(SqlIndexer.java:96)
-	at org.eclipse.dltk.internal.core.index2.SourceModulesRequest.run(SourceModulesRequest.java:78)
-	at org.eclipse.dltk.core.search.indexing.AbstractJob.execute(AbstractJob.java:76)
-	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:467)
-	at java.lang.Thread.run(Unknown Source)
-
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:48.453
-!MESSAGE An exception was thrown while indexing document
-!STACK 0
-org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
-	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
-	at org.h2.message.DbException.get(DbException.java:169)
-	at org.h2.message.DbException.get(DbException.java:146)
-	at org.h2.engine.Database.open(Database.java:508)
-	at org.h2.engine.Database.openDatabase(Database.java:222)
-	at org.h2.engine.Database.<init>(Database.java:217)
-	at org.h2.engine.Engine.openSession(Engine.java:56)
-	at org.h2.engine.Engine.openSession(Engine.java:159)
-	at org.h2.engine.Engine.createSessionAndValidate(Engine.java:138)
-	at org.h2.engine.Engine.createSession(Engine.java:121)
-	at org.h2.engine.Engine.createSession(Engine.java:28)
-	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:305)
-	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:108)
-	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:92)
-	at org.h2.Driver.connect(Driver.java:72)
-	at org.h2.jdbcx.JdbcDataSource.getJdbcConnection(JdbcDataSource.java:181)
-	at org.h2.jdbcx.JdbcDataSource.getXAConnection(JdbcDataSource.java:315)
-	at org.h2.jdbcx.JdbcDataSource.getPooledConnection(JdbcDataSource.java:341)
-	at org.h2.jdbcx.JdbcConnectionPool.getConnectionNow(JdbcConnectionPool.java:226)
-	at org.h2.jdbcx.JdbcConnectionPool.getConnection(JdbcConnectionPool.java:199)
-	at org.eclipse.dltk.internal.core.index.sql.h2.H2DbFactory.createConnection(H2DbFactory.java:145)
-	at org.eclipse.dltk.internal.core.index.sql.SqlIndexer.indexDocument(SqlIndexer.java:96)
-	at org.eclipse.dltk.internal.core.index2.SourceModulesRequest.run(SourceModulesRequest.java:78)
-	at org.eclipse.dltk.core.search.indexing.AbstractJob.execute(AbstractJob.java:76)
-	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:467)
-	at java.lang.Thread.run(Unknown Source)
-
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:48.459
-!MESSAGE An exception was thrown while indexing document
-!STACK 0
-org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
-	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
-	at org.h2.message.DbException.get(DbException.java:169)
-	at org.h2.message.DbException.get(DbException.java:146)
-	at org.h2.engine.Database.open(Database.java:508)
-	at org.h2.engine.Database.openDatabase(Database.java:222)
-	at org.h2.engine.Database.<init>(Database.java:217)
-	at org.h2.engine.Engine.openSession(Engine.java:56)
-	at org.h2.engine.Engine.openSession(Engine.java:159)
-	at org.h2.engine.Engine.createSessionAndValidate(Engine.java:138)
-	at org.h2.engine.Engine.createSession(Engine.java:121)
-	at org.h2.engine.Engine.createSession(Engine.java:28)
-	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:305)
-	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:108)
-	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:92)
-	at org.h2.Driver.connect(Driver.java:72)
-	at org.h2.jdbcx.JdbcDataSource.getJdbcConnection(JdbcDataSource.java:181)
-	at org.h2.jdbcx.JdbcDataSource.getXAConnection(JdbcDataSource.java:315)
-	at org.h2.jdbcx.JdbcDataSource.getPooledConnection(JdbcDataSource.java:341)
-	at org.h2.jdbcx.JdbcConnectionPool.getConnectionNow(JdbcConnectionPool.java:226)
-	at org.h2.jdbcx.JdbcConnectionPool.getConnection(JdbcConnectionPool.java:199)
-	at org.eclipse.dltk.internal.core.index.sql.h2.H2DbFactory.createConnection(H2DbFactory.java:145)
-	at org.eclipse.dltk.internal.core.index.sql.SqlIndexer.indexDocument(SqlIndexer.java:96)
-	at org.eclipse.dltk.internal.core.index2.SourceModulesRequest.run(SourceModulesRequest.java:78)
-	at org.eclipse.dltk.core.search.indexing.AbstractJob.execute(AbstractJob.java:76)
-	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:467)
-	at java.lang.Thread.run(Unknown Source)
-
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:48.463
-!MESSAGE An exception was thrown while indexing document
-!STACK 0
-org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
-	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
-	at org.h2.message.DbException.get(DbException.java:169)
-	at org.h2.message.DbException.get(DbException.java:146)
-	at org.h2.engine.Database.open(Database.java:508)
-	at org.h2.engine.Database.openDatabase(Database.java:222)
-	at org.h2.engine.Database.<init>(Database.java:217)
-	at org.h2.engine.Engine.openSession(Engine.java:56)
-	at org.h2.engine.Engine.openSession(Engine.java:159)
-	at org.h2.engine.Engine.createSessionAndValidate(Engine.java:138)
-	at org.h2.engine.Engine.createSession(Engine.java:121)
-	at org.h2.engine.Engine.createSession(Engine.java:28)
-	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:305)
-	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:108)
-	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:92)
-	at org.h2.Driver.connect(Driver.java:72)
-	at org.h2.jdbcx.JdbcDataSource.getJdbcConnection(JdbcDataSource.java:181)
-	at org.h2.jdbcx.JdbcDataSource.getXAConnection(JdbcDataSource.java:315)
-	at org.h2.jdbcx.JdbcDataSource.getPooledConnection(JdbcDataSource.java:341)
-	at org.h2.jdbcx.JdbcConnectionPool.getConnectionNow(JdbcConnectionPool.java:226)
-	at org.h2.jdbcx.JdbcConnectionPool.getConnection(JdbcConnectionPool.java:199)
-	at org.eclipse.dltk.internal.core.index.sql.h2.H2DbFactory.createConnection(H2DbFactory.java:145)
-	at org.eclipse.dltk.internal.core.index.sql.SqlIndexer.indexDocument(SqlIndexer.java:96)
-	at org.eclipse.dltk.internal.core.index2.SourceModulesRequest.run(SourceModulesRequest.java:78)
-	at org.eclipse.dltk.core.search.indexing.AbstractJob.execute(AbstractJob.java:76)
-	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:467)
-	at java.lang.Thread.run(Unknown Source)
-
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:48.470
-!MESSAGE An exception was thrown while indexing document
-!STACK 0
-org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
-	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
-	at org.h2.message.DbException.get(DbException.java:169)
-	at org.h2.message.DbException.get(DbException.java:146)
-	at org.h2.engine.Database.open(Database.java:508)
-	at org.h2.engine.Database.openDatabase(Database.java:222)
-	at org.h2.engine.Database.<init>(Database.java:217)
-	at org.h2.engine.Engine.openSession(Engine.java:56)
-	at org.h2.engine.Engine.openSession(Engine.java:159)
-	at org.h2.engine.Engine.createSessionAndValidate(Engine.java:138)
-	at org.h2.engine.Engine.createSession(Engine.java:121)
-	at org.h2.engine.Engine.createSession(Engine.java:28)
-	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:305)
-	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:108)
-	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:92)
-	at org.h2.Driver.connect(Driver.java:72)
-	at org.h2.jdbcx.JdbcDataSource.getJdbcConnection(JdbcDataSource.java:181)
-	at org.h2.jdbcx.JdbcDataSource.getXAConnection(JdbcDataSource.java:315)
-	at org.h2.jdbcx.JdbcDataSource.getPooledConnection(JdbcDataSource.java:341)
-	at org.h2.jdbcx.JdbcConnectionPool.getConnectionNow(JdbcConnectionPool.java:226)
-	at org.h2.jdbcx.JdbcConnectionPool.getConnection(JdbcConnectionPool.java:199)
-	at org.eclipse.dltk.internal.core.index.sql.h2.H2DbFactory.createConnection(H2DbFactory.java:145)
-	at org.eclipse.dltk.internal.core.index.sql.SqlIndexer.indexDocument(SqlIndexer.java:96)
-	at org.eclipse.dltk.internal.core.index2.SourceModulesRequest.run(SourceModulesRequest.java:78)
-	at org.eclipse.dltk.core.search.indexing.AbstractJob.execute(AbstractJob.java:76)
-	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:467)
-	at java.lang.Thread.run(Unknown Source)
-
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:48.480
-!MESSAGE An exception was thrown while indexing document
-!STACK 0
-org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
-	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
-	at org.h2.message.DbException.get(DbException.java:169)
-	at org.h2.message.DbException.get(DbException.java:146)
-	at org.h2.engine.Database.open(Database.java:508)
-	at org.h2.engine.Database.openDatabase(Database.java:222)
-	at org.h2.engine.Database.<init>(Database.java:217)
-	at org.h2.engine.Engine.openSession(Engine.java:56)
-	at org.h2.engine.Engine.openSession(Engine.java:159)
-	at org.h2.engine.Engine.createSessionAndValidate(Engine.java:138)
-	at org.h2.engine.Engine.createSession(Engine.java:121)
-	at org.h2.engine.Engine.createSession(Engine.java:28)
-	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:305)
-	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:108)
-	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:92)
-	at org.h2.Driver.connect(Driver.java:72)
-	at org.h2.jdbcx.JdbcDataSource.getJdbcConnection(JdbcDataSource.java:181)
-	at org.h2.jdbcx.JdbcDataSource.getXAConnection(JdbcDataSource.java:315)
-	at org.h2.jdbcx.JdbcDataSource.getPooledConnection(JdbcDataSource.java:341)
-	at org.h2.jdbcx.JdbcConnectionPool.getConnectionNow(JdbcConnectionPool.java:226)
-	at org.h2.jdbcx.JdbcConnectionPool.getConnection(JdbcConnectionPool.java:199)
-	at org.eclipse.dltk.internal.core.index.sql.h2.H2DbFactory.createConnection(H2DbFactory.java:145)
-	at org.eclipse.dltk.internal.core.index.sql.SqlIndexer.indexDocument(SqlIndexer.java:96)
-	at org.eclipse.dltk.internal.core.index2.SourceModulesRequest.run(SourceModulesRequest.java:78)
-	at org.eclipse.dltk.core.search.indexing.AbstractJob.execute(AbstractJob.java:76)
-	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:467)
-	at java.lang.Thread.run(Unknown Source)
-
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:48.484
-!MESSAGE An exception was thrown while indexing document
-!STACK 0
-org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
-	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
-	at org.h2.message.DbException.get(DbException.java:169)
-	at org.h2.message.DbException.get(DbException.java:146)
-	at org.h2.engine.Database.open(Database.java:508)
-	at org.h2.engine.Database.openDatabase(Database.java:222)
-	at org.h2.engine.Database.<init>(Database.java:217)
-	at org.h2.engine.Engine.openSession(Engine.java:56)
-	at org.h2.engine.Engine.openSession(Engine.java:159)
-	at org.h2.engine.Engine.createSessionAndValidate(Engine.java:138)
-	at org.h2.engine.Engine.createSession(Engine.java:121)
-	at org.h2.engine.Engine.createSession(Engine.java:28)
-	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:305)
-	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:108)
-	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:92)
-	at org.h2.Driver.connect(Driver.java:72)
-	at org.h2.jdbcx.JdbcDataSource.getJdbcConnection(JdbcDataSource.java:181)
-	at org.h2.jdbcx.JdbcDataSource.getXAConnection(JdbcDataSource.java:315)
-	at org.h2.jdbcx.JdbcDataSource.getPooledConnection(JdbcDataSource.java:341)
-	at org.h2.jdbcx.JdbcConnectionPool.getConnectionNow(JdbcConnectionPool.java:226)
-	at org.h2.jdbcx.JdbcConnectionPool.getConnection(JdbcConnectionPool.java:199)
-	at org.eclipse.dltk.internal.core.index.sql.h2.H2DbFactory.createConnection(H2DbFactory.java:145)
-	at org.eclipse.dltk.internal.core.index.sql.SqlIndexer.indexDocument(SqlIndexer.java:96)
-	at org.eclipse.dltk.internal.core.index2.SourceModulesRequest.run(SourceModulesRequest.java:78)
-	at org.eclipse.dltk.core.search.indexing.AbstractJob.execute(AbstractJob.java:76)
-	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:467)
-	at java.lang.Thread.run(Unknown Source)
-
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:48.495
-!MESSAGE An exception was thrown while indexing document
-!STACK 0
-org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
-	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
-	at org.h2.message.DbException.get(DbException.java:169)
-	at org.h2.message.DbException.get(DbException.java:146)
-	at org.h2.engine.Database.open(Database.java:508)
-	at org.h2.engine.Database.openDatabase(Database.java:222)
-	at org.h2.engine.Database.<init>(Database.java:217)
-	at org.h2.engine.Engine.openSession(Engine.java:56)
-	at org.h2.engine.Engine.openSession(Engine.java:159)
-	at org.h2.engine.Engine.createSessionAndValidate(Engine.java:138)
-	at org.h2.engine.Engine.createSession(Engine.java:121)
-	at org.h2.engine.Engine.createSession(Engine.java:28)
-	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:305)
-	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:108)
-	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:92)
-	at org.h2.Driver.connect(Driver.java:72)
-	at org.h2.jdbcx.JdbcDataSource.getJdbcConnection(JdbcDataSource.java:181)
-	at org.h2.jdbcx.JdbcDataSource.getXAConnection(JdbcDataSource.java:315)
-	at org.h2.jdbcx.JdbcDataSource.getPooledConnection(JdbcDataSource.java:341)
-	at org.h2.jdbcx.JdbcConnectionPool.getConnectionNow(JdbcConnectionPool.java:226)
-	at org.h2.jdbcx.JdbcConnectionPool.getConnection(JdbcConnectionPool.java:199)
-	at org.eclipse.dltk.internal.core.index.sql.h2.H2DbFactory.createConnection(H2DbFactory.java:145)
-	at org.eclipse.dltk.internal.core.index.sql.SqlIndexer.indexDocument(SqlIndexer.java:96)
-	at org.eclipse.dltk.internal.core.index2.SourceModulesRequest.run(SourceModulesRequest.java:78)
-	at org.eclipse.dltk.core.search.indexing.AbstractJob.execute(AbstractJob.java:76)
-	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:467)
-	at java.lang.Thread.run(Unknown Source)
-
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:48.502
-!MESSAGE An exception was thrown while indexing document
-!STACK 0
-org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
-	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
-	at org.h2.message.DbException.get(DbException.java:169)
-	at org.h2.message.DbException.get(DbException.java:146)
-	at org.h2.engine.Database.open(Database.java:508)
-	at org.h2.engine.Database.openDatabase(Database.java:222)
-	at org.h2.engine.Database.<init>(Database.java:217)
-	at org.h2.engine.Engine.openSession(Engine.java:56)
-	at org.h2.engine.Engine.openSession(Engine.java:159)
-	at org.h2.engine.Engine.createSessionAndValidate(Engine.java:138)
-	at org.h2.engine.Engine.createSession(Engine.java:121)
-	at org.h2.engine.Engine.createSession(Engine.java:28)
-	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:305)
-	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:108)
-	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:92)
-	at org.h2.Driver.connect(Driver.java:72)
-	at org.h2.jdbcx.JdbcDataSource.getJdbcConnection(JdbcDataSource.java:181)
-	at org.h2.jdbcx.JdbcDataSource.getXAConnection(JdbcDataSource.java:315)
-	at org.h2.jdbcx.JdbcDataSource.getPooledConnection(JdbcDataSource.java:341)
-	at org.h2.jdbcx.JdbcConnectionPool.getConnectionNow(JdbcConnectionPool.java:226)
-	at org.h2.jdbcx.JdbcConnectionPool.getConnection(JdbcConnectionPool.java:199)
-	at org.eclipse.dltk.internal.core.index.sql.h2.H2DbFactory.createConnection(H2DbFactory.java:145)
-	at org.eclipse.dltk.internal.core.index.sql.SqlIndexer.indexDocument(SqlIndexer.java:96)
-	at org.eclipse.dltk.internal.core.index2.SourceModulesRequest.run(SourceModulesRequest.java:78)
-	at org.eclipse.dltk.core.search.indexing.AbstractJob.execute(AbstractJob.java:76)
-	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:467)
-	at java.lang.Thread.run(Unknown Source)
-
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:48.512
-!MESSAGE An exception was thrown while indexing document
-!STACK 0
-org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
-	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
-	at org.h2.message.DbException.get(DbException.java:169)
-	at org.h2.message.DbException.get(DbException.java:146)
-	at org.h2.engine.Database.open(Database.java:508)
-	at org.h2.engine.Database.openDatabase(Database.java:222)
-	at org.h2.engine.Database.<init>(Database.java:217)
-	at org.h2.engine.Engine.openSession(Engine.java:56)
-	at org.h2.engine.Engine.openSession(Engine.java:159)
-	at org.h2.engine.Engine.createSessionAndValidate(Engine.java:138)
-	at org.h2.engine.Engine.createSession(Engine.java:121)
-	at org.h2.engine.Engine.createSession(Engine.java:28)
-	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:305)
-	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:108)
-	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:92)
-	at org.h2.Driver.connect(Driver.java:72)
-	at org.h2.jdbcx.JdbcDataSource.getJdbcConnection(JdbcDataSource.java:181)
-	at org.h2.jdbcx.JdbcDataSource.getXAConnection(JdbcDataSource.java:315)
-	at org.h2.jdbcx.JdbcDataSource.getPooledConnection(JdbcDataSource.java:341)
-	at org.h2.jdbcx.JdbcConnectionPool.getConnectionNow(JdbcConnectionPool.java:226)
-	at org.h2.jdbcx.JdbcConnectionPool.getConnection(JdbcConnectionPool.java:199)
-	at org.eclipse.dltk.internal.core.index.sql.h2.H2DbFactory.createConnection(H2DbFactory.java:145)
-	at org.eclipse.dltk.internal.core.index.sql.SqlIndexer.indexDocument(SqlIndexer.java:96)
-	at org.eclipse.dltk.internal.core.index2.SourceModulesRequest.run(SourceModulesRequest.java:78)
-	at org.eclipse.dltk.core.search.indexing.AbstractJob.execute(AbstractJob.java:76)
-	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:467)
-	at java.lang.Thread.run(Unknown Source)
-
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:48.516
-!MESSAGE An exception was thrown while indexing document
-!STACK 0
-org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
-	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
-	at org.h2.message.DbException.get(DbException.java:169)
-	at org.h2.message.DbException.get(DbException.java:146)
-	at org.h2.engine.Database.open(Database.java:508)
-	at org.h2.engine.Database.openDatabase(Database.java:222)
-	at org.h2.engine.Database.<init>(Database.java:217)
-	at org.h2.engine.Engine.openSession(Engine.java:56)
-	at org.h2.engine.Engine.openSession(Engine.java:159)
-	at org.h2.engine.Engine.createSessionAndValidate(Engine.java:138)
-	at org.h2.engine.Engine.createSession(Engine.java:121)
-	at org.h2.engine.Engine.createSession(Engine.java:28)
-	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:305)
-	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:108)
-	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:92)
-	at org.h2.Driver.connect(Driver.java:72)
-	at org.h2.jdbcx.JdbcDataSource.getJdbcConnection(JdbcDataSource.java:181)
-	at org.h2.jdbcx.JdbcDataSource.getXAConnection(JdbcDataSource.java:315)
-	at org.h2.jdbcx.JdbcDataSource.getPooledConnection(JdbcDataSource.java:341)
-	at org.h2.jdbcx.JdbcConnectionPool.getConnectionNow(JdbcConnectionPool.java:226)
-	at org.h2.jdbcx.JdbcConnectionPool.getConnection(JdbcConnectionPool.java:199)
-	at org.eclipse.dltk.internal.core.index.sql.h2.H2DbFactory.createConnection(H2DbFactory.java:145)
-	at org.eclipse.dltk.internal.core.index.sql.SqlIndexer.indexDocument(SqlIndexer.java:96)
-	at org.eclipse.dltk.internal.core.index2.SourceModulesRequest.run(SourceModulesRequest.java:78)
-	at org.eclipse.dltk.core.search.indexing.AbstractJob.execute(AbstractJob.java:76)
-	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:467)
-	at java.lang.Thread.run(Unknown Source)
-
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:48.521
-!MESSAGE An exception was thrown while indexing document
-!STACK 0
-org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
-	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
-	at org.h2.message.DbException.get(DbException.java:169)
-	at org.h2.message.DbException.get(DbException.java:146)
-	at org.h2.engine.Database.open(Database.java:508)
-	at org.h2.engine.Database.openDatabase(Database.java:222)
-	at org.h2.engine.Database.<init>(Database.java:217)
-	at org.h2.engine.Engine.openSession(Engine.java:56)
-	at org.h2.engine.Engine.openSession(Engine.java:159)
-	at org.h2.engine.Engine.createSessionAndValidate(Engine.java:138)
-	at org.h2.engine.Engine.createSession(Engine.java:121)
-	at org.h2.engine.Engine.createSession(Engine.java:28)
-	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:305)
-	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:108)
-	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:92)
-	at org.h2.Driver.connect(Driver.java:72)
-	at org.h2.jdbcx.JdbcDataSource.getJdbcConnection(JdbcDataSource.java:181)
-	at org.h2.jdbcx.JdbcDataSource.getXAConnection(JdbcDataSource.java:315)
-	at org.h2.jdbcx.JdbcDataSource.getPooledConnection(JdbcDataSource.java:341)
-	at org.h2.jdbcx.JdbcConnectionPool.getConnectionNow(JdbcConnectionPool.java:226)
-	at org.h2.jdbcx.JdbcConnectionPool.getConnection(JdbcConnectionPool.java:199)
-	at org.eclipse.dltk.internal.core.index.sql.h2.H2DbFactory.createConnection(H2DbFactory.java:145)
-	at org.eclipse.dltk.internal.core.index.sql.SqlIndexer.indexDocument(SqlIndexer.java:96)
-	at org.eclipse.dltk.internal.core.index2.SourceModulesRequest.run(SourceModulesRequest.java:78)
-	at org.eclipse.dltk.core.search.indexing.AbstractJob.execute(AbstractJob.java:76)
-	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:467)
-	at java.lang.Thread.run(Unknown Source)
-
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:48.525
-!MESSAGE An exception was thrown while indexing document
-!STACK 0
-org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
-	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
-	at org.h2.message.DbException.get(DbException.java:169)
-	at org.h2.message.DbException.get(DbException.java:146)
-	at org.h2.engine.Database.open(Database.java:508)
-	at org.h2.engine.Database.openDatabase(Database.java:222)
-	at org.h2.engine.Database.<init>(Database.java:217)
-	at org.h2.engine.Engine.openSession(Engine.java:56)
-	at org.h2.engine.Engine.openSession(Engine.java:159)
-	at org.h2.engine.Engine.createSessionAndValidate(Engine.java:138)
-	at org.h2.engine.Engine.createSession(Engine.java:121)
-	at org.h2.engine.Engine.createSession(Engine.java:28)
-	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:305)
-	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:108)
-	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:92)
-	at org.h2.Driver.connect(Driver.java:72)
-	at org.h2.jdbcx.JdbcDataSource.getJdbcConnection(JdbcDataSource.java:181)
-	at org.h2.jdbcx.JdbcDataSource.getXAConnection(JdbcDataSource.java:315)
-	at org.h2.jdbcx.JdbcDataSource.getPooledConnection(JdbcDataSource.java:341)
-	at org.h2.jdbcx.JdbcConnectionPool.getConnectionNow(JdbcConnectionPool.java:226)
-	at org.h2.jdbcx.JdbcConnectionPool.getConnection(JdbcConnectionPool.java:199)
-	at org.eclipse.dltk.internal.core.index.sql.h2.H2DbFactory.createConnection(H2DbFactory.java:145)
-	at org.eclipse.dltk.internal.core.index.sql.SqlIndexer.indexDocument(SqlIndexer.java:96)
-	at org.eclipse.dltk.internal.core.index2.SourceModulesRequest.run(SourceModulesRequest.java:78)
-	at org.eclipse.dltk.core.search.indexing.AbstractJob.execute(AbstractJob.java:76)
-	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:467)
-	at java.lang.Thread.run(Unknown Source)
-
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:48.529
-!MESSAGE An exception was thrown while indexing document
-!STACK 0
-org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
-	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
-	at org.h2.message.DbException.get(DbException.java:169)
-	at org.h2.message.DbException.get(DbException.java:146)
-	at org.h2.engine.Database.open(Database.java:508)
-	at org.h2.engine.Database.openDatabase(Database.java:222)
-	at org.h2.engine.Database.<init>(Database.java:217)
-	at org.h2.engine.Engine.openSession(Engine.java:56)
-	at org.h2.engine.Engine.openSession(Engine.java:159)
-	at org.h2.engine.Engine.createSessionAndValidate(Engine.java:138)
-	at org.h2.engine.Engine.createSession(Engine.java:121)
-	at org.h2.engine.Engine.createSession(Engine.java:28)
-	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:305)
-	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:108)
-	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:92)
-	at org.h2.Driver.connect(Driver.java:72)
-	at org.h2.jdbcx.JdbcDataSource.getJdbcConnection(JdbcDataSource.java:181)
-	at org.h2.jdbcx.JdbcDataSource.getXAConnection(JdbcDataSource.java:315)
-	at org.h2.jdbcx.JdbcDataSource.getPooledConnection(JdbcDataSource.java:341)
-	at org.h2.jdbcx.JdbcConnectionPool.getConnectionNow(JdbcConnectionPool.java:226)
-	at org.h2.jdbcx.JdbcConnectionPool.getConnection(JdbcConnectionPool.java:199)
-	at org.eclipse.dltk.internal.core.index.sql.h2.H2DbFactory.createConnection(H2DbFactory.java:145)
-	at org.eclipse.dltk.internal.core.index.sql.SqlIndexer.indexDocument(SqlIndexer.java:96)
-	at org.eclipse.dltk.internal.core.index2.SourceModulesRequest.run(SourceModulesRequest.java:78)
-	at org.eclipse.dltk.core.search.indexing.AbstractJob.execute(AbstractJob.java:76)
-	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:467)
-	at java.lang.Thread.run(Unknown Source)
-
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:48.534
-!MESSAGE An exception was thrown while indexing document
-!STACK 0
-org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
-	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
-	at org.h2.message.DbException.get(DbException.java:169)
-	at org.h2.message.DbException.get(DbException.java:146)
-	at org.h2.engine.Database.open(Database.java:508)
-	at org.h2.engine.Database.openDatabase(Database.java:222)
-	at org.h2.engine.Database.<init>(Database.java:217)
-	at org.h2.engine.Engine.openSession(Engine.java:56)
-	at org.h2.engine.Engine.openSession(Engine.java:159)
-	at org.h2.engine.Engine.createSessionAndValidate(Engine.java:138)
-	at org.h2.engine.Engine.createSession(Engine.java:121)
-	at org.h2.engine.Engine.createSession(Engine.java:28)
-	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:305)
-	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:108)
-	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:92)
-	at org.h2.Driver.connect(Driver.java:72)
-	at org.h2.jdbcx.JdbcDataSource.getJdbcConnection(JdbcDataSource.java:181)
-	at org.h2.jdbcx.JdbcDataSource.getXAConnection(JdbcDataSource.java:315)
-	at org.h2.jdbcx.JdbcDataSource.getPooledConnection(JdbcDataSource.java:341)
-	at org.h2.jdbcx.JdbcConnectionPool.getConnectionNow(JdbcConnectionPool.java:226)
-	at org.h2.jdbcx.JdbcConnectionPool.getConnection(JdbcConnectionPool.java:199)
-	at org.eclipse.dltk.internal.core.index.sql.h2.H2DbFactory.createConnection(H2DbFactory.java:145)
-	at org.eclipse.dltk.internal.core.index.sql.SqlIndexer.indexDocument(SqlIndexer.java:96)
-	at org.eclipse.dltk.internal.core.index2.SourceModulesRequest.run(SourceModulesRequest.java:78)
-	at org.eclipse.dltk.core.search.indexing.AbstractJob.execute(AbstractJob.java:76)
-	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:467)
-	at java.lang.Thread.run(Unknown Source)
-
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:48.538
-!MESSAGE An exception was thrown while indexing document
-!STACK 0
-org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
-	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
-	at org.h2.message.DbException.get(DbException.java:169)
-	at org.h2.message.DbException.get(DbException.java:146)
-	at org.h2.engine.Database.open(Database.java:508)
-	at org.h2.engine.Database.openDatabase(Database.java:222)
-	at org.h2.engine.Database.<init>(Database.java:217)
-	at org.h2.engine.Engine.openSession(Engine.java:56)
-	at org.h2.engine.Engine.openSession(Engine.java:159)
-	at org.h2.engine.Engine.createSessionAndValidate(Engine.java:138)
-	at org.h2.engine.Engine.createSession(Engine.java:121)
-	at org.h2.engine.Engine.createSession(Engine.java:28)
-	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:305)
-	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:108)
-	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:92)
-	at org.h2.Driver.connect(Driver.java:72)
-	at org.h2.jdbcx.JdbcDataSource.getJdbcConnection(JdbcDataSource.java:181)
-	at org.h2.jdbcx.JdbcDataSource.getXAConnection(JdbcDataSource.java:315)
-	at org.h2.jdbcx.JdbcDataSource.getPooledConnection(JdbcDataSource.java:341)
-	at org.h2.jdbcx.JdbcConnectionPool.getConnectionNow(JdbcConnectionPool.java:226)
-	at org.h2.jdbcx.JdbcConnectionPool.getConnection(JdbcConnectionPool.java:199)
-	at org.eclipse.dltk.internal.core.index.sql.h2.H2DbFactory.createConnection(H2DbFactory.java:145)
-	at org.eclipse.dltk.internal.core.index.sql.SqlIndexer.indexDocument(SqlIndexer.java:96)
-	at org.eclipse.dltk.internal.core.index2.SourceModulesRequest.run(SourceModulesRequest.java:78)
-	at org.eclipse.dltk.core.search.indexing.AbstractJob.execute(AbstractJob.java:76)
-	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:467)
-	at java.lang.Thread.run(Unknown Source)
-
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:48.542
-!MESSAGE An exception was thrown while indexing document
-!STACK 0
-org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
-	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
-	at org.h2.message.DbException.get(DbException.java:169)
-	at org.h2.message.DbException.get(DbException.java:146)
-	at org.h2.engine.Database.open(Database.java:508)
-	at org.h2.engine.Database.openDatabase(Database.java:222)
-	at org.h2.engine.Database.<init>(Database.java:217)
-	at org.h2.engine.Engine.openSession(Engine.java:56)
-	at org.h2.engine.Engine.openSession(Engine.java:159)
-	at org.h2.engine.Engine.createSessionAndValidate(Engine.java:138)
-	at org.h2.engine.Engine.createSession(Engine.java:121)
-	at org.h2.engine.Engine.createSession(Engine.java:28)
-	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:305)
-	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:108)
-	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:92)
-	at org.h2.Driver.connect(Driver.java:72)
-	at org.h2.jdbcx.JdbcDataSource.getJdbcConnection(JdbcDataSource.java:181)
-	at org.h2.jdbcx.JdbcDataSource.getXAConnection(JdbcDataSource.java:315)
-	at org.h2.jdbcx.JdbcDataSource.getPooledConnection(JdbcDataSource.java:341)
-	at org.h2.jdbcx.JdbcConnectionPool.getConnectionNow(JdbcConnectionPool.java:226)
-	at org.h2.jdbcx.JdbcConnectionPool.getConnection(JdbcConnectionPool.java:199)
-	at org.eclipse.dltk.internal.core.index.sql.h2.H2DbFactory.createConnection(H2DbFactory.java:145)
-	at org.eclipse.dltk.internal.core.index.sql.SqlIndexer.indexDocument(SqlIndexer.java:96)
-	at org.eclipse.dltk.internal.core.index2.SourceModulesRequest.run(SourceModulesRequest.java:78)
-	at org.eclipse.dltk.core.search.indexing.AbstractJob.execute(AbstractJob.java:76)
-	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:467)
-	at java.lang.Thread.run(Unknown Source)
-
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:48.546
-!MESSAGE An exception was thrown while indexing document
-!STACK 0
-org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
-	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
-	at org.h2.message.DbException.get(DbException.java:169)
-	at org.h2.message.DbException.get(DbException.java:146)
-	at org.h2.engine.Database.open(Database.java:508)
-	at org.h2.engine.Database.openDatabase(Database.java:222)
-	at org.h2.engine.Database.<init>(Database.java:217)
-	at org.h2.engine.Engine.openSession(Engine.java:56)
-	at org.h2.engine.Engine.openSession(Engine.java:159)
-	at org.h2.engine.Engine.createSessionAndValidate(Engine.java:138)
-	at org.h2.engine.Engine.createSession(Engine.java:121)
-	at org.h2.engine.Engine.createSession(Engine.java:28)
-	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:305)
-	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:108)
-	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:92)
-	at org.h2.Driver.connect(Driver.java:72)
-	at org.h2.jdbcx.JdbcDataSource.getJdbcConnection(JdbcDataSource.java:181)
-	at org.h2.jdbcx.JdbcDataSource.getXAConnection(JdbcDataSource.java:315)
-	at org.h2.jdbcx.JdbcDataSource.getPooledConnection(JdbcDataSource.java:341)
-	at org.h2.jdbcx.JdbcConnectionPool.getConnectionNow(JdbcConnectionPool.java:226)
-	at org.h2.jdbcx.JdbcConnectionPool.getConnection(JdbcConnectionPool.java:199)
-	at org.eclipse.dltk.internal.core.index.sql.h2.H2DbFactory.createConnection(H2DbFactory.java:145)
-	at org.eclipse.dltk.internal.core.index.sql.SqlIndexer.indexDocument(SqlIndexer.java:96)
-	at org.eclipse.dltk.internal.core.index2.SourceModulesRequest.run(SourceModulesRequest.java:78)
-	at org.eclipse.dltk.core.search.indexing.AbstractJob.execute(AbstractJob.java:76)
-	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:467)
-	at java.lang.Thread.run(Unknown Source)
-
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:48.551
-!MESSAGE An exception was thrown while indexing document
-!STACK 0
-org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
-	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
-	at org.h2.message.DbException.get(DbException.java:169)
-	at org.h2.message.DbException.get(DbException.java:146)
-	at org.h2.engine.Database.open(Database.java:508)
-	at org.h2.engine.Database.openDatabase(Database.java:222)
-	at org.h2.engine.Database.<init>(Database.java:217)
-	at org.h2.engine.Engine.openSession(Engine.java:56)
-	at org.h2.engine.Engine.openSession(Engine.java:159)
-	at org.h2.engine.Engine.createSessionAndValidate(Engine.java:138)
-	at org.h2.engine.Engine.createSession(Engine.java:121)
-	at org.h2.engine.Engine.createSession(Engine.java:28)
-	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:305)
-	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:108)
-	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:92)
-	at org.h2.Driver.connect(Driver.java:72)
-	at org.h2.jdbcx.JdbcDataSource.getJdbcConnection(JdbcDataSource.java:181)
-	at org.h2.jdbcx.JdbcDataSource.getXAConnection(JdbcDataSource.java:315)
-	at org.h2.jdbcx.JdbcDataSource.getPooledConnection(JdbcDataSource.java:341)
-	at org.h2.jdbcx.JdbcConnectionPool.getConnectionNow(JdbcConnectionPool.java:226)
-	at org.h2.jdbcx.JdbcConnectionPool.getConnection(JdbcConnectionPool.java:199)
-	at org.eclipse.dltk.internal.core.index.sql.h2.H2DbFactory.createConnection(H2DbFactory.java:145)
-	at org.eclipse.dltk.internal.core.index.sql.SqlIndexer.indexDocument(SqlIndexer.java:96)
-	at org.eclipse.dltk.internal.core.index2.SourceModulesRequest.run(SourceModulesRequest.java:78)
-	at org.eclipse.dltk.core.search.indexing.AbstractJob.execute(AbstractJob.java:76)
-	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:467)
-	at java.lang.Thread.run(Unknown Source)
-
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:48.555
-!MESSAGE An exception was thrown while indexing document
-!STACK 0
-org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
-	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
-	at org.h2.message.DbException.get(DbException.java:169)
-	at org.h2.message.DbException.get(DbException.java:146)
-	at org.h2.engine.Database.open(Database.java:508)
-	at org.h2.engine.Database.openDatabase(Database.java:222)
-	at org.h2.engine.Database.<init>(Database.java:217)
-	at org.h2.engine.Engine.openSession(Engine.java:56)
-	at org.h2.engine.Engine.openSession(Engine.java:159)
-	at org.h2.engine.Engine.createSessionAndValidate(Engine.java:138)
-	at org.h2.engine.Engine.createSession(Engine.java:121)
-	at org.h2.engine.Engine.createSession(Engine.java:28)
-	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:305)
-	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:108)
-	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:92)
-	at org.h2.Driver.connect(Driver.java:72)
-	at org.h2.jdbcx.JdbcDataSource.getJdbcConnection(JdbcDataSource.java:181)
-	at org.h2.jdbcx.JdbcDataSource.getXAConnection(JdbcDataSource.java:315)
-	at org.h2.jdbcx.JdbcDataSource.getPooledConnection(JdbcDataSource.java:341)
-	at org.h2.jdbcx.JdbcConnectionPool.getConnectionNow(JdbcConnectionPool.java:226)
-	at org.h2.jdbcx.JdbcConnectionPool.getConnection(JdbcConnectionPool.java:199)
-	at org.eclipse.dltk.internal.core.index.sql.h2.H2DbFactory.createConnection(H2DbFactory.java:145)
-	at org.eclipse.dltk.internal.core.index.sql.SqlIndexer.indexDocument(SqlIndexer.java:96)
-	at org.eclipse.dltk.internal.core.index2.SourceModulesRequest.run(SourceModulesRequest.java:78)
-	at org.eclipse.dltk.core.search.indexing.AbstractJob.execute(AbstractJob.java:76)
-	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:467)
-	at java.lang.Thread.run(Unknown Source)
-
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:48.560
-!MESSAGE An exception was thrown while indexing document
-!STACK 0
-org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
-	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
-	at org.h2.message.DbException.get(DbException.java:169)
-	at org.h2.message.DbException.get(DbException.java:146)
-	at org.h2.engine.Database.open(Database.java:508)
-	at org.h2.engine.Database.openDatabase(Database.java:222)
-	at org.h2.engine.Database.<init>(Database.java:217)
-	at org.h2.engine.Engine.openSession(Engine.java:56)
-	at org.h2.engine.Engine.openSession(Engine.java:159)
-	at org.h2.engine.Engine.createSessionAndValidate(Engine.java:138)
-	at org.h2.engine.Engine.createSession(Engine.java:121)
-	at org.h2.engine.Engine.createSession(Engine.java:28)
-	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:305)
-	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:108)
-	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:92)
-	at org.h2.Driver.connect(Driver.java:72)
-	at org.h2.jdbcx.JdbcDataSource.getJdbcConnection(JdbcDataSource.java:181)
-	at org.h2.jdbcx.JdbcDataSource.getXAConnection(JdbcDataSource.java:315)
-	at org.h2.jdbcx.JdbcDataSource.getPooledConnection(JdbcDataSource.java:341)
-	at org.h2.jdbcx.JdbcConnectionPool.getConnectionNow(JdbcConnectionPool.java:226)
-	at org.h2.jdbcx.JdbcConnectionPool.getConnection(JdbcConnectionPool.java:199)
-	at org.eclipse.dltk.internal.core.index.sql.h2.H2DbFactory.createConnection(H2DbFactory.java:145)
-	at org.eclipse.dltk.internal.core.index.sql.SqlIndexer.indexDocument(SqlIndexer.java:96)
-	at org.eclipse.dltk.internal.core.index2.SourceModulesRequest.run(SourceModulesRequest.java:78)
-	at org.eclipse.dltk.core.search.indexing.AbstractJob.execute(AbstractJob.java:76)
-	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:467)
-	at java.lang.Thread.run(Unknown Source)
-
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:48.565
-!MESSAGE An exception was thrown while indexing document
-!STACK 0
-org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
-	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
-	at org.h2.message.DbException.get(DbException.java:169)
-	at org.h2.message.DbException.get(DbException.java:146)
-	at org.h2.engine.Database.open(Database.java:508)
-	at org.h2.engine.Database.openDatabase(Database.java:222)
-	at org.h2.engine.Database.<init>(Database.java:217)
-	at org.h2.engine.Engine.openSession(Engine.java:56)
-	at org.h2.engine.Engine.openSession(Engine.java:159)
-	at org.h2.engine.Engine.createSessionAndValidate(Engine.java:138)
-	at org.h2.engine.Engine.createSession(Engine.java:121)
-	at org.h2.engine.Engine.createSession(Engine.java:28)
-	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:305)
-	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:108)
-	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:92)
-	at org.h2.Driver.connect(Driver.java:72)
-	at org.h2.jdbcx.JdbcDataSource.getJdbcConnection(JdbcDataSource.java:181)
-	at org.h2.jdbcx.JdbcDataSource.getXAConnection(JdbcDataSource.java:315)
-	at org.h2.jdbcx.JdbcDataSource.getPooledConnection(JdbcDataSource.java:341)
-	at org.h2.jdbcx.JdbcConnectionPool.getConnectionNow(JdbcConnectionPool.java:226)
-	at org.h2.jdbcx.JdbcConnectionPool.getConnection(JdbcConnectionPool.java:199)
-	at org.eclipse.dltk.internal.core.index.sql.h2.H2DbFactory.createConnection(H2DbFactory.java:145)
-	at org.eclipse.dltk.internal.core.index.sql.SqlIndexer.indexDocument(SqlIndexer.java:96)
-	at org.eclipse.dltk.internal.core.index2.SourceModulesRequest.run(SourceModulesRequest.java:78)
-	at org.eclipse.dltk.core.search.indexing.AbstractJob.execute(AbstractJob.java:76)
-	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:467)
-	at java.lang.Thread.run(Unknown Source)
-
-!ENTRY org.eclipse.osgi 2 1 2013-12-09 09:56:48.608
-!MESSAGE NLS missing message: PHPElementLabels_concat_string in: org.eclipse.php.internal.ui.PHPUIMessages
-
-!ENTRY org.eclipse.osgi 2 1 2013-12-09 09:56:48.611
-!MESSAGE NLS missing message: PHPElementLabels_declseparator_string in: org.eclipse.php.internal.ui.PHPUIMessages
-
-!ENTRY org.eclipse.osgi 2 1 2013-12-09 09:56:48.614
-!MESSAGE NLS missing message: PHPElementProperties_name in: org.eclipse.php.internal.ui.PHPUIMessages
-
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:48.620
-!MESSAGE An exception thrown while removing container 'org.eclipse.dltk.core.environment.localEnvironment/C:/Users/SRIHARSHA/Android Backup/Abbey/assets/.metadata/.plugins/org.eclipse.php.core/__language__/eae1422c' from index
-!STACK 0
-org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
-	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
-	at org.h2.message.DbException.get(DbException.java:169)
-	at org.h2.message.DbException.get(DbException.java:146)
-	at org.h2.engine.Database.open(Database.java:508)
-	at org.h2.engine.Database.openDatabase(Database.java:222)
-	at org.h2.engine.Database.<init>(Database.java:217)
-	at org.h2.engine.Engine.openSession(Engine.java:56)
-	at org.h2.engine.Engine.openSession(Engine.java:159)
-	at org.h2.engine.Engine.createSessionAndValidate(Engine.java:138)
-	at org.h2.engine.Engine.createSession(Engine.java:121)
-	at org.h2.engine.Engine.createSession(Engine.java:28)
-	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:305)
-	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:108)
-	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:92)
-	at org.h2.Driver.connect(Driver.java:72)
-	at org.h2.jdbcx.JdbcDataSource.getJdbcConnection(JdbcDataSource.java:181)
-	at org.h2.jdbcx.JdbcDataSource.getXAConnection(JdbcDataSource.java:315)
-	at org.h2.jdbcx.JdbcDataSource.getPooledConnection(JdbcDataSource.java:341)
-	at org.h2.jdbcx.JdbcConnectionPool.getConnectionNow(JdbcConnectionPool.java:226)
-	at org.h2.jdbcx.JdbcConnectionPool.getConnection(JdbcConnectionPool.java:199)
-	at org.eclipse.dltk.internal.core.index.sql.h2.H2DbFactory.createConnection(H2DbFactory.java:145)
-	at org.eclipse.dltk.internal.core.index.sql.SqlIndexer.removeContainer(SqlIndexer.java:190)
-	at org.eclipse.dltk.internal.core.index2.RemoveContainerRequest.run(RemoveContainerRequest.java:56)
-	at org.eclipse.dltk.core.search.indexing.AbstractJob.execute(AbstractJob.java:76)
-	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:467)
-	at java.lang.Thread.run(Unknown Source)
-
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:48.730
+!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-12 17:27:09.979
 !MESSAGE An exception thrown while analyzing source module changes
 !STACK 0
 org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
@@ -2096,7 +723,7 @@ org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file 
 	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:467)
 	at java.lang.Thread.run(Unknown Source)
 
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:48.737
+!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-12 17:27:09.984
 !MESSAGE An exception was thrown while indexing document
 !STACK 0
 org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
@@ -2127,7 +754,7 @@ org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file 
 	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:467)
 	at java.lang.Thread.run(Unknown Source)
 
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:48.741
+!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-12 17:27:09.987
 !MESSAGE An exception was thrown while indexing document
 !STACK 0
 org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
@@ -2158,7 +785,7 @@ org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file 
 	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:467)
 	at java.lang.Thread.run(Unknown Source)
 
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:48.745
+!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-12 17:27:09.991
 !MESSAGE An exception was thrown while indexing document
 !STACK 0
 org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
@@ -2189,7 +816,7 @@ org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file 
 	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:467)
 	at java.lang.Thread.run(Unknown Source)
 
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:48.749
+!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-12 17:27:09.995
 !MESSAGE An exception was thrown while indexing document
 !STACK 0
 org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
@@ -2220,7 +847,7 @@ org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file 
 	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:467)
 	at java.lang.Thread.run(Unknown Source)
 
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:48.753
+!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-12 17:27:09.998
 !MESSAGE An exception was thrown while indexing document
 !STACK 0
 org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
@@ -2251,7 +878,7 @@ org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file 
 	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:467)
 	at java.lang.Thread.run(Unknown Source)
 
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:48.758
+!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-12 17:27:10.002
 !MESSAGE An exception was thrown while indexing document
 !STACK 0
 org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
@@ -2282,7 +909,7 @@ org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file 
 	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:467)
 	at java.lang.Thread.run(Unknown Source)
 
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:48.926
+!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-12 17:27:10.006
 !MESSAGE An exception was thrown while indexing document
 !STACK 0
 org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
@@ -2313,7 +940,7 @@ org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file 
 	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:467)
 	at java.lang.Thread.run(Unknown Source)
 
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:48.930
+!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-12 17:27:10.010
 !MESSAGE An exception was thrown while indexing document
 !STACK 0
 org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
@@ -2344,7 +971,7 @@ org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file 
 	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:467)
 	at java.lang.Thread.run(Unknown Source)
 
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:48.934
+!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-12 17:27:10.014
 !MESSAGE An exception was thrown while indexing document
 !STACK 0
 org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
@@ -2375,7 +1002,7 @@ org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file 
 	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:467)
 	at java.lang.Thread.run(Unknown Source)
 
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:48.938
+!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-12 17:27:10.018
 !MESSAGE An exception was thrown while indexing document
 !STACK 0
 org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
@@ -2406,7 +1033,7 @@ org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file 
 	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:467)
 	at java.lang.Thread.run(Unknown Source)
 
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:48.942
+!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-12 17:27:10.021
 !MESSAGE An exception was thrown while indexing document
 !STACK 0
 org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
@@ -2437,7 +1064,7 @@ org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file 
 	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:467)
 	at java.lang.Thread.run(Unknown Source)
 
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:48.947
+!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-12 17:27:10.025
 !MESSAGE An exception was thrown while indexing document
 !STACK 0
 org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
@@ -2468,7 +1095,7 @@ org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file 
 	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:467)
 	at java.lang.Thread.run(Unknown Source)
 
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:48.951
+!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-12 17:27:10.029
 !MESSAGE An exception was thrown while indexing document
 !STACK 0
 org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
@@ -2499,7 +1126,7 @@ org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file 
 	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:467)
 	at java.lang.Thread.run(Unknown Source)
 
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:48.954
+!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-12 17:27:10.032
 !MESSAGE An exception was thrown while indexing document
 !STACK 0
 org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
@@ -2530,7 +1157,7 @@ org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file 
 	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:467)
 	at java.lang.Thread.run(Unknown Source)
 
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:48.958
+!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-12 17:27:10.036
 !MESSAGE An exception was thrown while indexing document
 !STACK 0
 org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
@@ -2561,7 +1188,7 @@ org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file 
 	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:467)
 	at java.lang.Thread.run(Unknown Source)
 
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:48.963
+!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-12 17:27:10.040
 !MESSAGE An exception was thrown while indexing document
 !STACK 0
 org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
@@ -2592,7 +1219,7 @@ org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file 
 	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:467)
 	at java.lang.Thread.run(Unknown Source)
 
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:48.967
+!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-12 17:27:10.044
 !MESSAGE An exception was thrown while indexing document
 !STACK 0
 org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
@@ -2623,7 +1250,7 @@ org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file 
 	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:467)
 	at java.lang.Thread.run(Unknown Source)
 
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:48.971
+!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-12 17:27:10.047
 !MESSAGE An exception was thrown while indexing document
 !STACK 0
 org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
@@ -2654,7 +1281,7 @@ org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file 
 	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:467)
 	at java.lang.Thread.run(Unknown Source)
 
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:48.975
+!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-12 17:27:10.051
 !MESSAGE An exception was thrown while indexing document
 !STACK 0
 org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
@@ -2685,7 +1312,7 @@ org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file 
 	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:467)
 	at java.lang.Thread.run(Unknown Source)
 
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:48.978
+!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-12 17:27:10.055
 !MESSAGE An exception was thrown while indexing document
 !STACK 0
 org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
@@ -2716,7 +1343,7 @@ org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file 
 	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:467)
 	at java.lang.Thread.run(Unknown Source)
 
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:48.982
+!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-12 17:27:10.058
 !MESSAGE An exception was thrown while indexing document
 !STACK 0
 org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
@@ -2747,7 +1374,7 @@ org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file 
 	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:467)
 	at java.lang.Thread.run(Unknown Source)
 
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:48.987
+!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-12 17:27:10.062
 !MESSAGE An exception was thrown while indexing document
 !STACK 0
 org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
@@ -2778,7 +1405,7 @@ org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file 
 	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:467)
 	at java.lang.Thread.run(Unknown Source)
 
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:48.991
+!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-12 17:27:10.066
 !MESSAGE An exception was thrown while indexing document
 !STACK 0
 org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
@@ -2809,7 +1436,7 @@ org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file 
 	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:467)
 	at java.lang.Thread.run(Unknown Source)
 
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:48.995
+!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-12 17:27:10.070
 !MESSAGE An exception was thrown while indexing document
 !STACK 0
 org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
@@ -2840,7 +1467,7 @@ org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file 
 	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:467)
 	at java.lang.Thread.run(Unknown Source)
 
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:48.999
+!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-12 17:27:10.073
 !MESSAGE An exception was thrown while indexing document
 !STACK 0
 org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
@@ -2871,7 +1498,7 @@ org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file 
 	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:467)
 	at java.lang.Thread.run(Unknown Source)
 
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:49.004
+!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-12 17:27:10.077
 !MESSAGE An exception was thrown while indexing document
 !STACK 0
 org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
@@ -2902,7 +1529,7 @@ org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file 
 	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:467)
 	at java.lang.Thread.run(Unknown Source)
 
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:49.072
+!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-12 17:27:10.081
 !MESSAGE An exception was thrown while indexing document
 !STACK 0
 org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
@@ -2933,7 +1560,7 @@ org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file 
 	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:467)
 	at java.lang.Thread.run(Unknown Source)
 
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:49.077
+!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-12 17:27:10.084
 !MESSAGE An exception was thrown while indexing document
 !STACK 0
 org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
@@ -2964,7 +1591,7 @@ org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file 
 	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:467)
 	at java.lang.Thread.run(Unknown Source)
 
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:49.081
+!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-12 17:27:10.088
 !MESSAGE An exception was thrown while indexing document
 !STACK 0
 org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
@@ -2995,7 +1622,7 @@ org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file 
 	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:467)
 	at java.lang.Thread.run(Unknown Source)
 
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:49.085
+!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-12 17:27:10.092
 !MESSAGE An exception was thrown while indexing document
 !STACK 0
 org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
@@ -3026,7 +1653,7 @@ org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file 
 	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:467)
 	at java.lang.Thread.run(Unknown Source)
 
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:49.089
+!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-12 17:27:10.095
 !MESSAGE An exception was thrown while indexing document
 !STACK 0
 org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
@@ -3057,7 +1684,7 @@ org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file 
 	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:467)
 	at java.lang.Thread.run(Unknown Source)
 
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:49.093
+!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-12 17:27:10.099
 !MESSAGE An exception was thrown while indexing document
 !STACK 0
 org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
@@ -3088,7 +1715,7 @@ org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file 
 	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:467)
 	at java.lang.Thread.run(Unknown Source)
 
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:49.097
+!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-12 17:27:10.102
 !MESSAGE An exception was thrown while indexing document
 !STACK 0
 org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
@@ -3119,7 +1746,7 @@ org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file 
 	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:467)
 	at java.lang.Thread.run(Unknown Source)
 
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:49.101
+!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-12 17:27:10.106
 !MESSAGE An exception was thrown while indexing document
 !STACK 0
 org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
@@ -3150,7 +1777,7 @@ org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file 
 	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:467)
 	at java.lang.Thread.run(Unknown Source)
 
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:49.105
+!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-12 17:27:10.110
 !MESSAGE An exception was thrown while indexing document
 !STACK 0
 org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
@@ -3181,7 +1808,7 @@ org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file 
 	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:467)
 	at java.lang.Thread.run(Unknown Source)
 
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:49.109
+!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-12 17:27:10.114
 !MESSAGE An exception was thrown while indexing document
 !STACK 0
 org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
@@ -3212,7 +1839,7 @@ org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file 
 	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:467)
 	at java.lang.Thread.run(Unknown Source)
 
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:49.114
+!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-12 17:27:10.117
 !MESSAGE An exception was thrown while indexing document
 !STACK 0
 org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
@@ -3243,7 +1870,7 @@ org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file 
 	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:467)
 	at java.lang.Thread.run(Unknown Source)
 
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:49.118
+!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-12 17:27:10.121
 !MESSAGE An exception was thrown while indexing document
 !STACK 0
 org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
@@ -3274,7 +1901,7 @@ org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file 
 	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:467)
 	at java.lang.Thread.run(Unknown Source)
 
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:49.122
+!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-12 17:27:10.125
 !MESSAGE An exception was thrown while indexing document
 !STACK 0
 org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
@@ -3305,7 +1932,7 @@ org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file 
 	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:467)
 	at java.lang.Thread.run(Unknown Source)
 
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:49.126
+!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-12 17:27:10.129
 !MESSAGE An exception was thrown while indexing document
 !STACK 0
 org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
@@ -3336,7 +1963,7 @@ org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file 
 	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:467)
 	at java.lang.Thread.run(Unknown Source)
 
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:49.131
+!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-12 17:27:10.132
 !MESSAGE An exception was thrown while indexing document
 !STACK 0
 org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
@@ -3367,7 +1994,7 @@ org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file 
 	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:467)
 	at java.lang.Thread.run(Unknown Source)
 
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:49.135
+!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-12 17:27:10.136
 !MESSAGE An exception was thrown while indexing document
 !STACK 0
 org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
@@ -3398,7 +2025,7 @@ org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file 
 	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:467)
 	at java.lang.Thread.run(Unknown Source)
 
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:49.139
+!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-12 17:27:10.140
 !MESSAGE An exception was thrown while indexing document
 !STACK 0
 org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
@@ -3429,7 +2056,7 @@ org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file 
 	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:467)
 	at java.lang.Thread.run(Unknown Source)
 
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:49.143
+!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-12 17:27:10.143
 !MESSAGE An exception was thrown while indexing document
 !STACK 0
 org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
@@ -3460,7 +2087,7 @@ org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file 
 	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:467)
 	at java.lang.Thread.run(Unknown Source)
 
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:49.147
+!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-12 17:27:10.147
 !MESSAGE An exception was thrown while indexing document
 !STACK 0
 org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
@@ -3491,7 +2118,7 @@ org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file 
 	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:467)
 	at java.lang.Thread.run(Unknown Source)
 
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:49.151
+!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-12 17:27:10.151
 !MESSAGE An exception was thrown while indexing document
 !STACK 0
 org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
@@ -3522,7 +2149,7 @@ org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file 
 	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:467)
 	at java.lang.Thread.run(Unknown Source)
 
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:49.156
+!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-12 17:27:10.175
 !MESSAGE An exception was thrown while indexing document
 !STACK 0
 org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
@@ -3553,7 +2180,7 @@ org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file 
 	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:467)
 	at java.lang.Thread.run(Unknown Source)
 
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:49.160
+!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-12 17:27:10.179
 !MESSAGE An exception was thrown while indexing document
 !STACK 0
 org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
@@ -3584,7 +2211,7 @@ org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file 
 	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:467)
 	at java.lang.Thread.run(Unknown Source)
 
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:49.164
+!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-12 17:27:10.183
 !MESSAGE An exception was thrown while indexing document
 !STACK 0
 org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
@@ -3615,7 +2242,7 @@ org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file 
 	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:467)
 	at java.lang.Thread.run(Unknown Source)
 
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:49.168
+!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-12 17:27:10.187
 !MESSAGE An exception was thrown while indexing document
 !STACK 0
 org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
@@ -3646,7 +2273,7 @@ org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file 
 	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:467)
 	at java.lang.Thread.run(Unknown Source)
 
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:49.173
+!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-12 17:27:10.190
 !MESSAGE An exception was thrown while indexing document
 !STACK 0
 org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
@@ -3677,7 +2304,7 @@ org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file 
 	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:467)
 	at java.lang.Thread.run(Unknown Source)
 
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:49.177
+!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-12 17:27:10.194
 !MESSAGE An exception was thrown while indexing document
 !STACK 0
 org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
@@ -3708,7 +2335,7 @@ org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file 
 	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:467)
 	at java.lang.Thread.run(Unknown Source)
 
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:49.182
+!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-12 17:27:10.198
 !MESSAGE An exception was thrown while indexing document
 !STACK 0
 org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
@@ -3739,7 +2366,7 @@ org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file 
 	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:467)
 	at java.lang.Thread.run(Unknown Source)
 
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:49.186
+!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-12 17:27:10.202
 !MESSAGE An exception was thrown while indexing document
 !STACK 0
 org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
@@ -3770,7 +2397,7 @@ org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file 
 	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:467)
 	at java.lang.Thread.run(Unknown Source)
 
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:49.190
+!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-12 17:27:10.205
 !MESSAGE An exception was thrown while indexing document
 !STACK 0
 org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
@@ -3801,7 +2428,7 @@ org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file 
 	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:467)
 	at java.lang.Thread.run(Unknown Source)
 
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:49.194
+!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-12 17:27:10.209
 !MESSAGE An exception was thrown while indexing document
 !STACK 0
 org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
@@ -3832,7 +2459,7 @@ org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file 
 	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:467)
 	at java.lang.Thread.run(Unknown Source)
 
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:49.199
+!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-12 17:27:10.213
 !MESSAGE An exception was thrown while indexing document
 !STACK 0
 org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
@@ -3863,7 +2490,7 @@ org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file 
 	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:467)
 	at java.lang.Thread.run(Unknown Source)
 
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:49.203
+!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-12 17:27:10.217
 !MESSAGE An exception was thrown while indexing document
 !STACK 0
 org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
@@ -3894,7 +2521,7 @@ org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file 
 	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:467)
 	at java.lang.Thread.run(Unknown Source)
 
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:49.207
+!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-12 17:27:10.220
 !MESSAGE An exception was thrown while indexing document
 !STACK 0
 org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
@@ -3925,7 +2552,7 @@ org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file 
 	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:467)
 	at java.lang.Thread.run(Unknown Source)
 
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:49.212
+!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-12 17:27:10.224
 !MESSAGE An exception was thrown while indexing document
 !STACK 0
 org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
@@ -3956,7 +2583,7 @@ org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file 
 	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:467)
 	at java.lang.Thread.run(Unknown Source)
 
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:49.215
+!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-12 17:27:10.228
 !MESSAGE An exception was thrown while indexing document
 !STACK 0
 org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
@@ -3987,7 +2614,7 @@ org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file 
 	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:467)
 	at java.lang.Thread.run(Unknown Source)
 
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:49.222
+!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-12 17:27:10.232
 !MESSAGE An exception was thrown while indexing document
 !STACK 0
 org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
@@ -4018,7 +2645,7 @@ org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file 
 	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:467)
 	at java.lang.Thread.run(Unknown Source)
 
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:49.226
+!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-12 17:27:10.236
 !MESSAGE An exception was thrown while indexing document
 !STACK 0
 org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
@@ -4049,7 +2676,7 @@ org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file 
 	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:467)
 	at java.lang.Thread.run(Unknown Source)
 
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:49.241
+!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-12 17:27:10.240
 !MESSAGE An exception was thrown while indexing document
 !STACK 0
 org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
@@ -4080,7 +2707,7 @@ org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file 
 	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:467)
 	at java.lang.Thread.run(Unknown Source)
 
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:49.246
+!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-12 17:27:10.243
 !MESSAGE An exception was thrown while indexing document
 !STACK 0
 org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
@@ -4111,7 +2738,7 @@ org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file 
 	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:467)
 	at java.lang.Thread.run(Unknown Source)
 
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:49.250
+!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-12 17:27:10.247
 !MESSAGE An exception was thrown while indexing document
 !STACK 0
 org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
@@ -4142,7 +2769,7 @@ org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file 
 	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:467)
 	at java.lang.Thread.run(Unknown Source)
 
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:49.254
+!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-12 17:27:10.251
 !MESSAGE An exception was thrown while indexing document
 !STACK 0
 org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
@@ -4173,7 +2800,7 @@ org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file 
 	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:467)
 	at java.lang.Thread.run(Unknown Source)
 
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:49.258
+!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-12 17:27:10.255
 !MESSAGE An exception was thrown while indexing document
 !STACK 0
 org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
@@ -4204,7 +2831,7 @@ org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file 
 	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:467)
 	at java.lang.Thread.run(Unknown Source)
 
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:49.263
+!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-12 17:27:10.258
 !MESSAGE An exception was thrown while indexing document
 !STACK 0
 org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
@@ -4235,7 +2862,7 @@ org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file 
 	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:467)
 	at java.lang.Thread.run(Unknown Source)
 
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:49.267
+!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-12 17:27:10.262
 !MESSAGE An exception was thrown while indexing document
 !STACK 0
 org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
@@ -4266,7 +2893,7 @@ org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file 
 	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:467)
 	at java.lang.Thread.run(Unknown Source)
 
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:49.271
+!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-12 17:27:10.267
 !MESSAGE An exception was thrown while indexing document
 !STACK 0
 org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
@@ -4297,7 +2924,7 @@ org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file 
 	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:467)
 	at java.lang.Thread.run(Unknown Source)
 
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:49.275
+!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-12 17:27:10.295
 !MESSAGE An exception was thrown while indexing document
 !STACK 0
 org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
@@ -4328,7 +2955,7 @@ org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file 
 	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:467)
 	at java.lang.Thread.run(Unknown Source)
 
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:49.279
+!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-12 17:27:10.363
 !MESSAGE An exception was thrown while indexing document
 !STACK 0
 org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
@@ -4359,7 +2986,7 @@ org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file 
 	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:467)
 	at java.lang.Thread.run(Unknown Source)
 
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:49.284
+!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-12 17:27:10.366
 !MESSAGE An exception was thrown while indexing document
 !STACK 0
 org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
@@ -4390,7 +3017,7 @@ org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file 
 	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:467)
 	at java.lang.Thread.run(Unknown Source)
 
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:49.288
+!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-12 17:27:10.370
 !MESSAGE An exception was thrown while indexing document
 !STACK 0
 org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
@@ -4421,7 +3048,7 @@ org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file 
 	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:467)
 	at java.lang.Thread.run(Unknown Source)
 
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:49.292
+!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-12 17:27:10.373
 !MESSAGE An exception was thrown while indexing document
 !STACK 0
 org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
@@ -4452,7 +3079,7 @@ org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file 
 	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:467)
 	at java.lang.Thread.run(Unknown Source)
 
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:49.296
+!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-12 17:27:10.393
 !MESSAGE An exception was thrown while indexing document
 !STACK 0
 org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
@@ -4482,153 +3109,3 @@ org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file 
 	at org.eclipse.dltk.core.search.indexing.AbstractJob.execute(AbstractJob.java:76)
 	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:467)
 	at java.lang.Thread.run(Unknown Source)
-
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:53.917
-!MESSAGE An exception has thrown while performing a search
-!STACK 0
-org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
-	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
-	at org.h2.message.DbException.get(DbException.java:169)
-	at org.h2.message.DbException.get(DbException.java:146)
-	at org.h2.engine.Database.open(Database.java:508)
-	at org.h2.engine.Database.openDatabase(Database.java:222)
-	at org.h2.engine.Database.<init>(Database.java:217)
-	at org.h2.engine.Engine.openSession(Engine.java:56)
-	at org.h2.engine.Engine.openSession(Engine.java:159)
-	at org.h2.engine.Engine.createSessionAndValidate(Engine.java:138)
-	at org.h2.engine.Engine.createSession(Engine.java:121)
-	at org.h2.engine.Engine.createSession(Engine.java:28)
-	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:305)
-	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:108)
-	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:92)
-	at org.h2.Driver.connect(Driver.java:72)
-	at org.h2.jdbcx.JdbcDataSource.getJdbcConnection(JdbcDataSource.java:181)
-	at org.h2.jdbcx.JdbcDataSource.getXAConnection(JdbcDataSource.java:315)
-	at org.h2.jdbcx.JdbcDataSource.getPooledConnection(JdbcDataSource.java:341)
-	at org.h2.jdbcx.JdbcConnectionPool.getConnectionNow(JdbcConnectionPool.java:226)
-	at org.h2.jdbcx.JdbcConnectionPool.getConnection(JdbcConnectionPool.java:199)
-	at org.eclipse.dltk.internal.core.index.sql.h2.H2DbFactory.createConnection(H2DbFactory.java:145)
-	at org.eclipse.dltk.internal.core.index.sql.SqlSearchEngine.search(SqlSearchEngine.java:66)
-	at org.eclipse.dltk.core.index2.search.ModelAccess.findElements(ModelAccess.java:285)
-	at org.eclipse.dltk.core.index2.search.ModelAccess.findElements(ModelAccess.java:263)
-	at org.eclipse.dltk.core.index2.search.ModelAccess.findMethods(ModelAccess.java:137)
-	at org.eclipse.php.internal.core.model.PhpModelAccess.findMethods(PhpModelAccess.java:64)
-	at org.eclipse.php.internal.core.PHPCorePlugin.initializeAfterLoad(PHPCorePlugin.java:411)
-	at org.eclipse.php.internal.ui.InitializeAfterLoadJob$RealJob.run(InitializeAfterLoadJob.java:29)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
-
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:53.921
-!MESSAGE An exception has thrown while performing a search
-!STACK 0
-org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
-	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
-	at org.h2.message.DbException.get(DbException.java:169)
-	at org.h2.message.DbException.get(DbException.java:146)
-	at org.h2.engine.Database.open(Database.java:508)
-	at org.h2.engine.Database.openDatabase(Database.java:222)
-	at org.h2.engine.Database.<init>(Database.java:217)
-	at org.h2.engine.Engine.openSession(Engine.java:56)
-	at org.h2.engine.Engine.openSession(Engine.java:159)
-	at org.h2.engine.Engine.createSessionAndValidate(Engine.java:138)
-	at org.h2.engine.Engine.createSession(Engine.java:121)
-	at org.h2.engine.Engine.createSession(Engine.java:28)
-	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:305)
-	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:108)
-	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:92)
-	at org.h2.Driver.connect(Driver.java:72)
-	at org.h2.jdbcx.JdbcDataSource.getJdbcConnection(JdbcDataSource.java:181)
-	at org.h2.jdbcx.JdbcDataSource.getXAConnection(JdbcDataSource.java:315)
-	at org.h2.jdbcx.JdbcDataSource.getPooledConnection(JdbcDataSource.java:341)
-	at org.h2.jdbcx.JdbcConnectionPool.getConnectionNow(JdbcConnectionPool.java:226)
-	at org.h2.jdbcx.JdbcConnectionPool.getConnection(JdbcConnectionPool.java:199)
-	at org.eclipse.dltk.internal.core.index.sql.h2.H2DbFactory.createConnection(H2DbFactory.java:145)
-	at org.eclipse.dltk.internal.core.index.sql.SqlSearchEngine.search(SqlSearchEngine.java:66)
-	at org.eclipse.dltk.core.index2.search.ModelAccess.findElements(ModelAccess.java:285)
-	at org.eclipse.dltk.core.index2.search.ModelAccess.findElements(ModelAccess.java:263)
-	at org.eclipse.dltk.core.index2.search.ModelAccess.findTypes(ModelAccess.java:203)
-	at org.eclipse.php.internal.core.model.PhpModelAccess.findTypes(PhpModelAccess.java:87)
-	at org.eclipse.php.internal.core.PHPCorePlugin.initializeAfterLoad(PHPCorePlugin.java:417)
-	at org.eclipse.php.internal.ui.InitializeAfterLoadJob$RealJob.run(InitializeAfterLoadJob.java:29)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
-
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:53.925
-!MESSAGE An exception has thrown while performing a search
-!STACK 0
-org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
-	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
-	at org.h2.message.DbException.get(DbException.java:169)
-	at org.h2.message.DbException.get(DbException.java:146)
-	at org.h2.engine.Database.open(Database.java:508)
-	at org.h2.engine.Database.openDatabase(Database.java:222)
-	at org.h2.engine.Database.<init>(Database.java:217)
-	at org.h2.engine.Engine.openSession(Engine.java:56)
-	at org.h2.engine.Engine.openSession(Engine.java:159)
-	at org.h2.engine.Engine.createSessionAndValidate(Engine.java:138)
-	at org.h2.engine.Engine.createSession(Engine.java:121)
-	at org.h2.engine.Engine.createSession(Engine.java:28)
-	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:305)
-	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:108)
-	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:92)
-	at org.h2.Driver.connect(Driver.java:72)
-	at org.h2.jdbcx.JdbcDataSource.getJdbcConnection(JdbcDataSource.java:181)
-	at org.h2.jdbcx.JdbcDataSource.getXAConnection(JdbcDataSource.java:315)
-	at org.h2.jdbcx.JdbcDataSource.getPooledConnection(JdbcDataSource.java:341)
-	at org.h2.jdbcx.JdbcConnectionPool.getConnectionNow(JdbcConnectionPool.java:226)
-	at org.h2.jdbcx.JdbcConnectionPool.getConnection(JdbcConnectionPool.java:199)
-	at org.eclipse.dltk.internal.core.index.sql.h2.H2DbFactory.createConnection(H2DbFactory.java:145)
-	at org.eclipse.dltk.internal.core.index.sql.SqlSearchEngine.search(SqlSearchEngine.java:66)
-	at org.eclipse.dltk.core.index2.search.ModelAccess.findElements(ModelAccess.java:285)
-	at org.eclipse.dltk.core.index2.search.ModelAccess.findElements(ModelAccess.java:263)
-	at org.eclipse.dltk.core.index2.search.ModelAccess.findFields(ModelAccess.java:70)
-	at org.eclipse.php.internal.core.model.PhpModelAccess.findFields(PhpModelAccess.java:40)
-	at org.eclipse.php.internal.core.PHPCorePlugin.initializeAfterLoad(PHPCorePlugin.java:423)
-	at org.eclipse.php.internal.ui.InitializeAfterLoadJob$RealJob.run(InitializeAfterLoadJob.java:29)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
-
-!ENTRY org.eclipse.dltk.core.index.sql 4 0 2013-12-09 09:56:53.928
-!MESSAGE An exception has thrown while performing a search
-!STACK 0
-org.h2.jdbc.JdbcSQLException: Unsupported database file version or invalid file header in file "Old database: C:/Users/SRIHARSHA/Android Workspace/Abbey/assets/.metadata/.plugins/org.eclipse.dltk.core.index.sql.h2/model.data.db - please convert the database to a SQL script and re-create it." [90048-168]
-	at org.h2.message.DbException.getJdbcSQLException(DbException.java:329)
-	at org.h2.message.DbException.get(DbException.java:169)
-	at org.h2.message.DbException.get(DbException.java:146)
-	at org.h2.engine.Database.open(Database.java:508)
-	at org.h2.engine.Database.openDatabase(Database.java:222)
-	at org.h2.engine.Database.<init>(Database.java:217)
-	at org.h2.engine.Engine.openSession(Engine.java:56)
-	at org.h2.engine.Engine.openSession(Engine.java:159)
-	at org.h2.engine.Engine.createSessionAndValidate(Engine.java:138)
-	at org.h2.engine.Engine.createSession(Engine.java:121)
-	at org.h2.engine.Engine.createSession(Engine.java:28)
-	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:305)
-	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:108)
-	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:92)
-	at org.h2.Driver.connect(Driver.java:72)
-	at org.h2.jdbcx.JdbcDataSource.getJdbcConnection(JdbcDataSource.java:181)
-	at org.h2.jdbcx.JdbcDataSource.getXAConnection(JdbcDataSource.java:315)
-	at org.h2.jdbcx.JdbcDataSource.getPooledConnection(JdbcDataSource.java:341)
-	at org.h2.jdbcx.JdbcConnectionPool.getConnectionNow(JdbcConnectionPool.java:226)
-	at org.h2.jdbcx.JdbcConnectionPool.getConnection(JdbcConnectionPool.java:199)
-	at org.eclipse.dltk.internal.core.index.sql.h2.H2DbFactory.createConnection(H2DbFactory.java:145)
-	at org.eclipse.dltk.internal.core.index.sql.SqlSearchEngine.search(SqlSearchEngine.java:66)
-	at org.eclipse.dltk.core.index2.search.ModelAccess.findElements(ModelAccess.java:285)
-	at org.eclipse.dltk.core.index2.search.ModelAccess.findElements(ModelAccess.java:263)
-	at org.eclipse.php.internal.core.model.PhpModelAccess.findIncludes(PhpModelAccess.java:135)
-	at org.eclipse.php.internal.core.PHPCorePlugin.initializeAfterLoad(PHPCorePlugin.java:429)
-	at org.eclipse.php.internal.ui.InitializeAfterLoadJob$RealJob.run(InitializeAfterLoadJob.java:29)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
-
-!ENTRY org.eclipse.egit.ui 2 0 2013-12-09 09:57:00.178
-!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
-Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
-The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
-this system level configuration. The Git installation location can be configured on the
-Team > Git > Configuration preference page's 'System Settings' tab.
-This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
-
-!ENTRY org.eclipse.egit.ui 2 0 2013-12-09 09:57:00.182
-!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
-user global configuration and to define the default location to store repositories: 'C:\Users\SRIHARSHA'. If this is
-not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
-EGit might behave differently since they see different configuration options.
-This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.

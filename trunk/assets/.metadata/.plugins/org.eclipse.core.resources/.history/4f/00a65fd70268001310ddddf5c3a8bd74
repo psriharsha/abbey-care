@@ -79,7 +79,6 @@ $( document ).ready(function() {
 $('#bioDecide').change(function(){
 	bioChanged();
 });
-$('#bioDecideDef').html(Android.getSharedBio());
  $('#profileName').html(Android.getMyName());
  $('#profAge').html(Android.getMyAge()+" Years");
  $('#profGen').html(Android.getGender());

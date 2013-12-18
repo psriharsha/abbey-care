@@ -180,25 +180,26 @@ public class ProfileActivity extends Activity {
 		Bundle extras = new Bundle();
 		if (ContentResolver.getSyncAutomatically(account, AUTHORITY)) {
 			stopService();
-			extras.putBoolean(ContentResolver.SYNC_EXTRAS_INITIALIZE, true);
+			/*extras.putBoolean(ContentResolver.SYNC_EXTRAS_INITIALIZE, true);
 			extras.putBoolean(ContentResolver.SYNC_EXTRAS_MANUAL, true);
 			ContentResolver.setIsSyncable(account, AUTHORITY, 0);
-			ContentResolver.removePeriodicSync(account, AUTHORITY, extras);
+			ContentResolver.removePeriodicSync(account, AUTHORITY, extras);*/
 		} else if(sharedPreference.contains("bio")){
 			startService();
+			startActivity(new Intent(this,HomeActivity.class));
 			extras.putBoolean(ContentResolver.SYNC_EXTRAS_INITIALIZE, true);
 			extras.putBoolean(ContentResolver.SYNC_EXTRAS_MANUAL, true);
-			ContentResolver.setIsSyncable(account, AUTHORITY, 1);
-			ContentResolver.setMasterSyncAutomatically(true);
 			ContentResolver.requestSync(account, AUTHORITY, extras);
-			ContentResolver.setSyncAutomatically(account, AUTHORITY, true);
+			/*ContentResolver.setIsSyncable(account, AUTHORITY, 1);
+			ContentResolver.setMasterSyncAutomatically(true);
+			ContentResolver.setSyncAutomatically(account, AUTHORITY, true);*/
 		}
 	}
 
 	private void startService() {
 		// TODO Auto-generated method stub
 		Intent getVitalsService = new Intent("com.abbey.zephyr.vitals.GetVitals");
-		stopService(getVitalsService);
+		startService(getVitalsService);
 	}
 
 	@SuppressLint("InlinedApi")
@@ -410,6 +411,13 @@ public class ProfileActivity extends Activity {
 		if(year > 0)
 		age = year;
 		return age;
+	}
+	
+	@JavascriptInterface
+	public String getSharedBio(){
+		String bio = "";
+		bio = sharedPreference.getString("bio", null);
+		return bio;
 	}
 	
 }

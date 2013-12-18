@@ -209,6 +209,7 @@ public class GetVitals extends Service {
 				col = VitalsProvider.PA;
 				break;
 			}
+			if(data != "0")
 			values.put(col, data);
 			}while(count<20);
 			Date date = new Date();

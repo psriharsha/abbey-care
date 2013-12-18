@@ -7,6 +7,7 @@ import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.app.ActivityManager;
 import android.app.ActivityManager.RunningServiceInfo;
+import android.bluetooth.BluetoothAdapter;
 import android.content.ContentResolver;
 import android.content.Context;
 import android.content.Intent;
@@ -43,7 +44,13 @@ public class HomeActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.webview);
 		// Check if an Account Exist and bring in Login if it doesn't
+		afterStart();
+	}
+	
+	private void afterStart() {
+		// TODO Auto-generated method stub
 		accMgr = AccountManager.get(this);
+		startBluetooth();
 		String[] accs = getAccounts();
 		if(accs == null || accs.length == 0)
 		{
@@ -70,6 +77,15 @@ public class HomeActivity extends Activity {
 		}
 	}
 	
+	private void startBluetooth() {
+		// TODO Auto-generated method stub
+		BluetoothAdapter mBluetoothAdapter = BluetoothAdapter.getDefaultAdapter();
+		if ((mBluetoothAdapter != null) && !(mBluetoothAdapter.isEnabled())) {
+			Intent enableBtIntent = new Intent(BluetoothAdapter.ACTION_REQUEST_ENABLE);
+			startActivityForResult(enableBtIntent, 0);
+		}
+	}
+
 	private boolean isMyServiceRunning() {
 		// TODO Auto-generated method stub
 		ActivityManager manager = (ActivityManager) getSystemService(Context.ACTIVITY_SERVICE);
@@ -162,29 +178,29 @@ public class HomeActivity extends Activity {
 		String username = sharedPreference.getString("username", null);
 		account = new Account(username, ACCOUNT_TYPE);
 		Bundle extras = new Bundle();
-		if (ContentResolver.getSyncAutomatically(account, AUTHORITY)) {
+		if (isMyServiceRunning()) {
 			stopService();
-			extras.putBoolean(ContentResolver.SYNC_EXTRAS_INITIALIZE, true);
+			/*extras.putBoolean(ContentResolver.SYNC_EXTRAS_INITIALIZE, true);
 			extras.putBoolean(ContentResolver.SYNC_EXTRAS_MANUAL, true);
 			ContentResolver.setIsSyncable(account, AUTHORITY, 0);
-			ContentResolver.setMasterSyncAutomatically(false);
-			ContentResolver.removePeriodicSync(account, AUTHORITY, extras);
-		} else if(sharedPreference.contains("bio")){
+			ContentResolver.removePeriodicSync(account, AUTHORITY, extras);*/
+		} else{
 			startService();
-			Toast.makeText(getApplicationContext(), "Sync is inactive", Toast.LENGTH_SHORT).show();
 			extras.putBoolean(ContentResolver.SYNC_EXTRAS_INITIALIZE, true);
 			extras.putBoolean(ContentResolver.SYNC_EXTRAS_MANUAL, true);
-			ContentResolver.setIsSyncable(account, AUTHORITY, 1);
-			ContentResolver.setMasterSyncAutomatically(true);
 			ContentResolver.requestSync(account, AUTHORITY, extras);
-			ContentResolver.setSyncAutomatically(account, AUTHORITY, true);
+			startActivity(new Intent(this,HomeActivity.class));
+			finish();
+			/*ContentResolver.setIsSyncable(account, AUTHORITY, 1);
+			ContentResolver.setMasterSyncAutomatically(true);
+			ContentResolver.setSyncAutomatically(account, AUTHORITY, true);*/
 		}
 	}
 	
 	private void startService() {
 		// TODO Auto-generated method stub
 		Intent getVitalsService = new Intent("com.abbey.zephyr.vitals.GetVitals");
-		stopService(getVitalsService);
+		startService(getVitalsService);
 	}
 	
 	private void stopService() {
@@ -206,6 +222,8 @@ public class HomeActivity extends Activity {
 		Intent change = new Intent(this, LogActivity.class);
 		change.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
 		startActivity(change);
+		editor.clear();
+		editor.commit();
 		finish();
 	}
 	

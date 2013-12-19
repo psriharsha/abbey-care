@@ -151,7 +151,7 @@ public class VitalsProvider extends ContentProvider {
 	         throw new IllegalArgumentException("Unknown URI " + uri);
 	      }
 	      if (sortOrder == null || sortOrder == ""){
-	         sortOrder = HR;
+	         sortOrder = _ID;
 	      }
 	      Cursor c = qb.query(db,	projection,	selection, selectionArgs, 
 	                          TS, null, sortOrder);

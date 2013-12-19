@@ -11,6 +11,7 @@ import android.database.Cursor;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.StrictMode;
+import android.widget.Toast;
 
 import com.abbey.zephyr.RestClient;
 import com.abbey.zephyr.RestClient.RequestMethod;
@@ -35,10 +36,9 @@ public class VitalSyncAdapter extends AbstractThreadedSyncAdapter{
 			ContentProviderClient provider, SyncResult syncResult) {
 		// TODO Auto-generated method stub
 		Uri vitals = Uri.parse(URL);
-	      String[] projection = {"_id","heartRate","respRate","skinTemp","posture","peakAcce","timeStamp","notSync"};
+	      String[] projection = {"avg(_id) as _id","avg(heartRate) as heartRate","avg(respRate) as respRate","avg(skinTemp) as skinTemp","avg(posture) as posture","avg(peakAcce) as peakAcce","timeStamp","notSync"};
 	      Cursor c = mContext.getContentResolver().query(vitals, projection, null, null, null);
-	      if(c.getCount()>0 && c.moveToFirst()){
-	      
+	      if(c.getCount()>0 && c.moveToFirst()){	      
 	      do{if(c.getString(c.getColumnIndex(VitalsProvider.SY)).equals("notSync")){
 		try{
 			RestClient client = new RestClient("http://"+Singleton.ip+"/zephyr/index.php/service/user/insertVitals");
@@ -54,22 +54,21 @@ public class VitalSyncAdapter extends AbstractThreadedSyncAdapter{
     		    client.Execute(RequestMethod.POST);
     		} catch (Exception e) {
     		    e.printStackTrace();
-    		}
-    		URL += "/#";
-    		vitals = Uri.parse(URL);
-    		URL = "content://" + PROVIDER_NAME + "/vitals";
-    		String[] selectionArgs = {c.getString(c.getColumnIndex(VitalsProvider._ID))};
-    		String where = VitalsProvider._ID + "=?";
-    		ContentValues values = new ContentValues();
-    		values.put("notSync", "synced");
-    		//int result = mContext.getContentResolver().delete(vitals, VitalsProvider._ID + "=?", selectionArgs);
-    		mContext.getContentResolver().update(vitals, values, where, selectionArgs);
-    		//String response = client.getResponse();
-			
+    		}			
 		}
 		catch(Exception e){
 			e.printStackTrace();
 		}}
+	      URL += "/#";
+  		vitals = Uri.parse(URL);
+  		URL = "content://" + PROVIDER_NAME + "/vitals";
+  		String[] selectionArgs = {c.getString(c.getColumnIndex(VitalsProvider.TS))};
+  		String where = VitalsProvider.TS + "=?";
+  		ContentValues values = new ContentValues();
+  		values.put("notSync", "synced");
+  		//int result = mContext.getContentResolver().delete(vitals, VitalsProvider._ID + "=?", selectionArgs);
+  		mContext.getContentResolver().update(vitals, values, where, selectionArgs);
+  		//String response = client.getResponse();
 	      }while(c.moveToNext());}
 	}
 

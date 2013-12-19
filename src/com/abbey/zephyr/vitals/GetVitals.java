@@ -214,6 +214,7 @@ public class GetVitals extends Service {
 			}while(count<20);
 			Date date = new Date();
 			String time = (new Timestamp(date.getTime())).toString();
+			time = time.substring(0, 19);
 			values.put(VitalsProvider.TS, time);
 			values.put(VitalsProvider.SY,"notSync");
 			Uri uri = getContentResolver().insert(VitalsProvider.CONTENT_URI,values);

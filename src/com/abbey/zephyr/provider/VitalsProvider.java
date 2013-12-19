@@ -45,7 +45,7 @@ public class VitalsProvider extends ContentProvider {
 	   private SQLiteDatabase db;
 	   static final String DATABASE_NAME = "zephyr";
 	   static final String VITALS_TABLE_NAME = "vitals";
-	   static final int DATABASE_VERSION = 5;
+	   static final int DATABASE_VERSION = 9;
 	   static final String CREATE_DB_TABLE = 
 	      " CREATE TABLE " + VITALS_TABLE_NAME +
 	      " (_id INTEGER PRIMARY KEY AUTOINCREMENT, " + 
@@ -140,7 +140,6 @@ public class VitalsProvider extends ContentProvider {
 		// TODO Auto-generated method stub
 		SQLiteQueryBuilder qb = new SQLiteQueryBuilder();
 	      qb.setTables(VITALS_TABLE_NAME);
-	      
 	      switch (uriMatcher.match(uri)) {
 	      case VITALS:
 	         qb.setProjectionMap(VITALS_PROJECTION_MAP);
@@ -155,7 +154,7 @@ public class VitalsProvider extends ContentProvider {
 	         sortOrder = HR;
 	      }
 	      Cursor c = qb.query(db,	projection,	selection, selectionArgs, 
-	                          null, null, sortOrder);
+	                          TS, null, sortOrder);
 	      c.setNotificationUri(getContext().getContentResolver(), uri);
 
 	      return c;

@@ -47,7 +47,7 @@ public class VitalSyncAdapter extends AbstractThreadedSyncAdapter{
 	      do{if(c.getString(c.getColumnIndex(VitalsProvider.SY)).equals("notSync")){
 		try{
 			RestClient client = new RestClient("http://"+Singleton.ip+"/zephyr/index.php/service/user/insertVitals");
-			client.AddParam("uId", uId);
+			//client.AddParam("uId", uId);
 			client.AddParam("hr", c.getString(c.getColumnIndex(VitalsProvider.HR)));
 			client.AddParam("rr", c.getString(c.getColumnIndex(VitalsProvider.RR)));
 			client.AddParam("st", c.getString(c.getColumnIndex(VitalsProvider.ST)));

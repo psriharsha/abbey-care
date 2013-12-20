@@ -88,13 +88,11 @@
 </div>
 </div>
 <script type="text/javascript">
-var timer = setInterval(refreshContent,1500);
+refreshContent();
 function refreshContent(){
 	 var details = Android.refreshVitalContents();
 	 var vals = new Array();
 	 vals = details.split(",");
-	 if($('#menuStopSync').html() == "Start Sync")
-		 vals[0] = vals[1] = vals[2] = vals[3] = vals[4] = "null";
 	 if(vals[0] != "null")
 	 $('#rr').html(vals[0]);
 	 else

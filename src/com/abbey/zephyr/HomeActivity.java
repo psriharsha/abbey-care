@@ -50,6 +50,13 @@ public class HomeActivity extends Activity {
 		afterStart();
 	}
 	
+	@Override
+	protected void onResume() {
+		// TODO Auto-generated method stub
+		super.onResume();
+		startWebView();
+	}
+
 	private void afterStart() {
 		// TODO Auto-generated method stub
 		accMgr = AccountManager.get(this);
@@ -102,11 +109,11 @@ public class HomeActivity extends Activity {
 	
 	@JavascriptInterface
 	public String myServiceRun(){
-		String res = "false";
+		String res = "Start Sync";
 		ActivityManager manager = (ActivityManager) getSystemService(Context.ACTIVITY_SERVICE);
 	    for (RunningServiceInfo service : manager.getRunningServices(Integer.MAX_VALUE)) {
 	        if (GetVitals.class.getName().equals(service.service.getClassName())) {
-	            res = "true";
+	            res = "Stop Sync";
 	        }
 	    }
 		return res;
@@ -255,7 +262,7 @@ public class HomeActivity extends Activity {
 	    //String selection = "MAX("+VitalsProvider.TS+")";
 		String sortOrder = VitalsProvider.TS + " DESC";
 	    Cursor c = getContentResolver().query(vitals, projection, null, null, sortOrder);
-	    if(c.getCount()>0 && c.moveToPosition(4)){
+	    if(c.getCount()>0 && c.moveToPosition(2)){
 	    	details = c.getString(c.getColumnIndex(VitalsProvider.RR)) + ",";
 	    	details += c.getString(c.getColumnIndex(VitalsProvider.HR)) + ",";
 	    	details += c.getString(c.getColumnIndex(VitalsProvider.ST)) + ",";

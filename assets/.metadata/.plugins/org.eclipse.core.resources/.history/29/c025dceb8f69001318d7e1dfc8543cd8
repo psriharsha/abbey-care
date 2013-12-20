@@ -27,10 +27,10 @@
 		<div class="valCol" id="profile">
 		<table  style="width:100%">
 		<tr>
-			<td colspan="2"  style="text-align: center"><span class="profName">Sri Harsha Prabhala</span></td>
+			<td colspan="2"  style="text-align: center"><span class="profName">-- -- --</span></td>
 		</tr>
 		<tr class = "diff">
-			<td class="desc"  style="text-align: center">Last synced at</td><td>11:10:12 , 02/12/2013</td>
+			<td class="desc"  style="text-align: center">Last synced at</td><td id="lastSync">11:10:12 , 02/12/2013</td>
 		</tr>
 	</table>
 		</div>
@@ -40,7 +40,7 @@
 				<td class="vitalsDesc">
 					<span class="headText">Respiration Rate</span>
 					Number of breaths per minute</td>
-				<td class="vitals"><span class="value">15</span>&nbsp;&nbsp;&nbsp;</td>
+				<td class="vitals"><span class="value" id="rr">--</span>&nbsp;&nbsp;&nbsp;</td>
 		<tr>
 		</table>
 		</div>
@@ -50,7 +50,7 @@
 				<td class="vitalsDesc">
 					<span class="headText">Heart Rate</span>
 					Number of times heart beats per minute</td>
-				<td class="vitals"><span class="value">115</span>&nbsp;&nbsp;&nbsp;</td>
+				<td class="vitals"><span class="value" id="hr">--</span>&nbsp;&nbsp;&nbsp;</td>
 		<tr>
 		</table>
 		</div>
@@ -60,7 +60,7 @@
 				<td class="vitalsDesc">
 					<span class="headText">Temperature</span>
 					Temperature of the body</td>
-				<td class="vitals"><span class="value">35.4</span>&deg;C</td>
+				<td class="vitals"><span class="value" id="st">--</span>&deg;C</td>
 		<tr>
 		</table>
 		</div>
@@ -70,7 +70,7 @@
 				<td class="vitalsDesc">
 					<span class="headText">Posture</span>
 					Angle at which the body is inclined</td>
-				<td class="vitals"><span class="value">90</span>&deg;</td>
+				<td class="vitals"><span class="value" id="po">--</span>&deg;</td>
 		<tr>
 		</table>
 		</div>
@@ -79,13 +79,42 @@
 		<tr>
 				<td class="vitalsDesc">
 					<span class="headText">Peak Acceleration</span>
-					Acceleration exerted by the body</td>
-				<td class="vitals"><span class="value">15</span>m/s<sup>2</sup></td>
+					Acceleration exerted on the body</td>
+				<td class="vitals"><span class="value" id="pa">--</span>m/s<sup>2</sup></td>
 		<tr>
 		</table>
 		</div>
 	</div>
 </div>
 </div>
+<script type="text/javascript">
+refreshContent();
+function refreshContent(){
+	 var details = Android.refreshVitalContents();
+	 var vals = new Array();
+	 vals = details.split(",");
+	 if(vals[0] != "null")
+	 $('#rr').html(vals[0]);
+	 else
+		 $('#rr').html("--");
+	 if(vals[1] != "null")
+	 $('#hr').html(vals[1]);
+	 else
+		 $('#hr').html("--");
+	 if(vals[2] != "null")
+	 $('#st').html(vals[2]);
+	 else
+		 $('#st').html("--");
+	 if(vals[3] != "null")
+	 $('#po').html(vals[3]);
+	 else
+		 $('#po').html("--");
+	 if(vals[4] != "null")
+	 $('#pa').html(vals[4]);
+	 else
+		 $('#pa').html("--");
+	 setInterval(refreshContent,1500);
+}
+</script>
 </body>
 </html>

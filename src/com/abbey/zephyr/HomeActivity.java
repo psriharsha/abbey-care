@@ -13,6 +13,8 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.SharedPreferences.Editor;
+import android.database.Cursor;
+import android.net.Uri;
 import android.os.Bundle;
 import android.webkit.JavascriptInterface;
 import android.webkit.WebSettings;
@@ -22,6 +24,7 @@ import android.widget.Toast;
 
 import com.abbey.zephyr.auth.AbbeyAccountAuthenticator;
 import com.abbey.zephyr.auth.LogActivity;
+import com.abbey.zephyr.provider.VitalsProvider;
 import com.abbey.zephyr.vitals.GetVitals;
 
 public class HomeActivity extends Activity {
@@ -219,6 +222,8 @@ public class HomeActivity extends Activity {
 		account = new Account(username, ACCOUNT_TYPE);
 		removeAcc = aaa.removeAccount(aar, account);
 		res = removeAcc.getBoolean(AccountManager.LOGIN_ACCOUNTS_CHANGED_ACTION);
+		editor.clear();
+		editor.commit();
 		Intent change = new Intent(this, LogActivity.class);
 		change.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
 		startActivity(change);
@@ -237,5 +242,29 @@ public class HomeActivity extends Activity {
 		return syncState;
 	}
 	
+	@JavascriptInterface
+	public String getMyName(){
+		return sharedPreference.getString("firstName", "-- ")+ " "+sharedPreference.getString("lastName", "--");
+	}
+	
+	@JavascriptInterface
+	public String refreshVitalContents(){
+		String details = "";
+		Uri vitals = Uri.parse(URL);
+		String[] projection = {"avg(_id) as _id","avg(heartRate) as heartRate","avg(respRate) as respRate","avg(skinTemp) as skinTemp","avg(posture) as posture","avg(peakAcce) as peakAcce","timeStamp","notSync"};
+	    //String selection = "MAX("+VitalsProvider.TS+")";
+		String sortOrder = VitalsProvider.TS + " DESC";
+	    Cursor c = getContentResolver().query(vitals, projection, null, null, sortOrder);
+	    if(c.getCount()>0 && c.moveToPosition(4)){
+	    	details = c.getString(c.getColumnIndex(VitalsProvider.RR)) + ",";
+	    	details += c.getString(c.getColumnIndex(VitalsProvider.HR)) + ",";
+	    	details += c.getString(c.getColumnIndex(VitalsProvider.ST)) + ",";
+	    	details += c.getString(c.getColumnIndex(VitalsProvider.PO)) + ",";
+	    	details += c.getString(c.getColumnIndex(VitalsProvider.PA)) + ",";
+	    }
+	    else details = "--,--,--,--,--";
+	    c.close();
+		return details;
+	}
 
 }

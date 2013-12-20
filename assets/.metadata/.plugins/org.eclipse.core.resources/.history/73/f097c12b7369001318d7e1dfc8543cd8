@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+<link href='http://fonts.googleapis.com/css?family=roboto|Libre+Baskerville' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="css/mobiles.css" />
+</head>
+<body>
+<div id="invisible"></div>
+<div id="settingsSection">
+	<ul>
+		<li id="menuProf">Profile</li>
+		<li id="menuStopSync">Stop Sync</li>
+		<li id="menuLogout">Logout</li>
+	</ul>
+</div>
+<div id = "head">
+	<span id="headTitle"><img src="images/head.png" alt="Title"></span>
+	<span id="headSetting"><img src="images/settings.png" alt="Settings"></span>
+</div>
+<div id="cont">
+<div id="content">
+	<div class="valRow">
+		<div class="valCol" id="profile">
+		<table  style="width:100%">
+		<tr>
+			<td colspan="2"  style="text-align: center"><span class="profName">-- -- --</span></td>
+		</tr>
+		<tr class = "diff">
+			<td class="desc"  style="text-align: center">Last synced at</td><td id="lastSync">11:10:12 , 02/12/2013</td>
+		</tr>
+	</table>
+		</div>
+		<div class="valCol" style="background: #f7a07e;">
+		<table class="valTable">
+		<tr>
+				<td class="vitalsDesc">
+					<span class="headText">Respiration Rate</span>
+					Number of breaths per minute</td>
+				<td class="vitals"><span class="value" id="rr">--</span>&nbsp;&nbsp;&nbsp;</td>
+		<tr>
+		</table>
+		</div>
+		<div class="valCol" style="background: #f9c282;">
+		<table class="valTable">
+		<tr>
+				<td class="vitalsDesc">
+					<span class="headText">Heart Rate</span>
+					Number of times heart beats per minute</td>
+				<td class="vitals"><span class="value" id="hr">--</span>&nbsp;&nbsp;&nbsp;</td>
+		<tr>
+		</table>
+		</div>
+		<div class="valCol" style="background: #d7dcd6;">
+		<table class="valTable">
+		<tr>
+				<td class="vitalsDesc">
+					<span class="headText">Temperature</span>
+					Temperature of the body</td>
+				<td class="vitals"><span class="value" id="st">--</span>&deg;C</td>
+		<tr>
+		</table>
+		</div>
+		<div class="valCol" style="background: #d6ebd4;">
+		<table class="valTable">
+		<tr>
+				<td class="vitalsDesc">
+					<span class="headText">Posture</span>
+					Angle at which the body is inclined</td>
+				<td class="vitals"><span class="value" id="po">--</span>&deg;</td>
+		<tr>
+		</table>
+		</div>
+		<div class="valCol" style="background: #f7a07e;">
+		<table class="valTable">
+		<tr>
+				<td class="vitalsDesc">
+					<span class="headText">Peak Acceleration</span>
+					Acceleration exerted by the body</td>
+				<td class="vitals"><span class="value" id="pa">--</span>m/s<sup>2</sup></td>
+		<tr>
+		</table>
+		</div>
+	</div>
+</div>
+</div><!--  
+<script type="text/javascript">
+refreshContent();
+</script>
+-->
+</body>
+</html>

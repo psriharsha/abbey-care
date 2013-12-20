@@ -21,10 +21,6 @@ $( document ).ready(function() {
  function alertMessage(){
 	 alert("Hi Alert!!");
  }
- function setVitals(){
-	 var vitals = new Array();
-	 vitals = Android.getVitals();
- }
  function hideMenu(){
 	 $('#settingsSection').fadeOut();
 	 $('#invisible').fadeOut();
@@ -42,7 +38,6 @@ $( document ).ready(function() {
 	 var value = $('#bioDecide').val();
 	 Android.changeBio(value);
  }
- //window.setInterval(setVitals(),1000);
  $('#menuProf').click(function(){
 	 hideMenu();
 	 Android.myProfile();
@@ -63,24 +58,16 @@ $( document ).ready(function() {
 	 hideMenu();
 	 Android.goHome();
  });
-{
-	 var bioS = Android.selectBio();
-	 var bioNames = new Array();
-	 bioNames = bioS.split(",");
-	 $('#bioDecide').html("<option value=\"def\">--</option>");
-	 for(var i=0; i<bioNames.length; i++){
-		 if(bioNames[i] != "null"){
-			 var temp = $('#bioDecide').html();
-			 $('#bioDecide').html(temp+"<option value=\""+bioNames[i]+"\">"+bioNames[i]+"</option>");
-		 }
-	 }
- }
  //// Profile Page
 $('#bioDecide').change(function(){
 	bioChanged();
 });
-$('#bioDecideDef').html(Android.getSharedBio());
  $('#profileName').html(Android.getMyName());
+ $('.profName').html(Android.getMyName());
  $('#profAge').html(Android.getMyAge()+" Years");
  $('#profGen').html(Android.getGender());
+ $('#profBlood').html(Android.getBloodGroup());
+ $('#profEth').html(Android.getEthnicity());
+ $('#menuStopSync').html(Android.myServiceRun());
+
 });

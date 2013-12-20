@@ -21,6 +21,7 @@ import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.app.ActivityManager;
 import android.app.AlertDialog;
+import android.app.AlertDialog.Builder;
 import android.app.ProgressDialog;
 import android.app.ActivityManager.RunningServiceInfo;
 import android.bluetooth.BluetoothAdapter;
@@ -163,33 +164,32 @@ public class ProfileActivity extends Activity {
 	
 	@JavascriptInterface
 	public String myServiceRun(){
-		String res = "false";
+		String res = "Start Sync";
 		ActivityManager manager = (ActivityManager) getSystemService(Context.ACTIVITY_SERVICE);
 	    for (RunningServiceInfo service : manager.getRunningServices(Integer.MAX_VALUE)) {
 	        if (GetVitals.class.getName().equals(service.service.getClassName())) {
-	            res = "true";
+	            res = "Stop Sync";
 	        }
 	    }
 		return res;
 	}
 
+	@SuppressLint("InlinedApi")
 	@JavascriptInterface
 	public void stopSync() {
 		String username = sharedPreference.getString("username", null);
 		account = new Account(username, ACCOUNT_TYPE);
-		Bundle extras = new Bundle();
 		if (ContentResolver.getSyncAutomatically(account, AUTHORITY)) {
 			stopService();
 			/*extras.putBoolean(ContentResolver.SYNC_EXTRAS_INITIALIZE, true);
 			extras.putBoolean(ContentResolver.SYNC_EXTRAS_MANUAL, true);
 			ContentResolver.setIsSyncable(account, AUTHORITY, 0);
 			ContentResolver.removePeriodicSync(account, AUTHORITY, extras);*/
-		} else if(sharedPreference.contains("bio")){
+		} else if(sharedPreference.getString("bio",null)!=null){
 			startService();
-			startActivity(new Intent(this,HomeActivity.class));
-			extras.putBoolean(ContentResolver.SYNC_EXTRAS_INITIALIZE, true);
-			extras.putBoolean(ContentResolver.SYNC_EXTRAS_MANUAL, true);
-			ContentResolver.requestSync(account, AUTHORITY, extras);
+			Intent change = new Intent(this, HomeActivity.class);
+			change.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
+			startActivity(change);
 			/*ContentResolver.setIsSyncable(account, AUTHORITY, 1);
 			ContentResolver.setMasterSyncAutomatically(true);
 			ContentResolver.setSyncAutomatically(account, AUTHORITY, true);*/
@@ -212,6 +212,8 @@ public class ProfileActivity extends Activity {
 		account = new Account(username, ACCOUNT_TYPE);
 		removeAcc = aaa.removeAccount(aar, account);
 		res = removeAcc.getBoolean(AccountManager.LOGIN_ACCOUNTS_CHANGED_ACTION);
+		editor.clear();
+		editor.commit();
 		Intent change = new Intent(this, LogActivity.class);
 		change.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
 		startActivity(change);
@@ -370,7 +372,7 @@ public class ProfileActivity extends Activity {
 		else
 			details[1] = "-- ";
 		details[2] = sharedPreference.getString("gender", "--");
-		Toast.makeText(getApplicationContext(), sharedPreference.getString("firstName", null), Toast.LENGTH_SHORT).show();
+		//Toast.makeText(getApplicationContext(), sharedPreference.getString("firstName", null), Toast.LENGTH_SHORT).show();
 		return details;
 	}
 	
@@ -382,6 +384,16 @@ public class ProfileActivity extends Activity {
 	@JavascriptInterface
 	public String getGender(){
 		return sharedPreference.getString("gender", "-- ");
+	}
+	
+	@JavascriptInterface
+	public String getBloodGroup(){
+		return sharedPreference.getString("bloodGroup", "-- ");
+	}
+	
+	@JavascriptInterface
+	public String getEthnicity(){
+		return sharedPreference.getString("ethnicity", "-- ");
 	}
 	
 	@JavascriptInterface
@@ -415,9 +427,9 @@ public class ProfileActivity extends Activity {
 	
 	@JavascriptInterface
 	public String getSharedBio(){
-		String bio = "";
-		bio = sharedPreference.getString("bio", null);
-		return bio;
+		String bio = "null";
+		bio = sharedPreference.getString("bio", "null");
+		return "dumpring";
 	}
 	
 }

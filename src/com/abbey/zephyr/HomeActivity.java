@@ -224,7 +224,7 @@ public class HomeActivity extends Activity {
 	public void logout() {
 		Boolean res;
 		Bundle removeAcc;
-		stopSync();
+		stopService();
 		String username = sharedPreference.getString("username", null);
 		account = new Account(username, ACCOUNT_TYPE);
 		removeAcc = aaa.removeAccount(aar, account);

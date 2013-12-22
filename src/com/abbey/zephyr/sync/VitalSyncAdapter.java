@@ -40,14 +40,14 @@ public class VitalSyncAdapter extends AbstractThreadedSyncAdapter{
 		// TODO Auto-generated method stub
 		Uri vitals = Uri.parse(URL);
 		sharedPreference = mContext.getSharedPreferences(Singleton.sharedPrefName,0);
-		String uId = sharedPreference.getString("uId", "0");
+		int uId = sharedPreference.getInt("uId", -1);
 	      String[] projection = {"avg(_id) as _id","avg(heartRate) as heartRate","avg(respRate) as respRate","avg(skinTemp) as skinTemp","avg(posture) as posture","avg(peakAcce) as peakAcce","timeStamp","notSync"};
 	      Cursor c = mContext.getContentResolver().query(vitals, projection, null, null, null);
 	      if(c.getCount()>0 && c.moveToFirst()){	      
 	      do{if(c.getString(c.getColumnIndex(VitalsProvider.SY)).equals("notSync")){
 		try{
 			RestClient client = new RestClient("http://"+Singleton.ip+"/zephyr/index.php/service/user/insertVitals");
-			//client.AddParam("uId", uId);
+			client.AddParam("uId", uId+"");
 			client.AddParam("hr", c.getString(c.getColumnIndex(VitalsProvider.HR)));
 			client.AddParam("rr", c.getString(c.getColumnIndex(VitalsProvider.RR)));
 			client.AddParam("st", c.getString(c.getColumnIndex(VitalsProvider.ST)));

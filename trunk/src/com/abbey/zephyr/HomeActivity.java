@@ -225,15 +225,13 @@ public class HomeActivity extends Activity {
 		Boolean res;
 		Bundle removeAcc;
 		stopService();
+		Intent log = new Intent(this,LogActivity.class);
+		log.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
+		startActivity(log);
 		String username = sharedPreference.getString("username", null);
 		account = new Account(username, ACCOUNT_TYPE);
 		removeAcc = aaa.removeAccount(aar, account);
 		res = removeAcc.getBoolean(AccountManager.LOGIN_ACCOUNTS_CHANGED_ACTION);
-		editor.clear();
-		editor.commit();
-		Intent change = new Intent(this, LogActivity.class);
-		change.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
-		startActivity(change);
 		editor.clear();
 		editor.commit();
 		finish();
@@ -271,7 +269,30 @@ public class HomeActivity extends Activity {
 	    }
 	    else details = "--,--,--,--,--";
 	    c.close();
+	    /*String[] field = {"MAX(timeStamp,_id) as timeStamp"};
+	    String select = "notSync";
+	    String[] selectionArgs = {"notSync"};
+	    c.close();
+	    Cursor cT = getContentResolver().query(vitals, field, select, selectionArgs, null);
+	    if(cT.getCount() == 1)
+	    	details += cT.getString(cT.getColumnIndex(VitalsProvider.TS)); 
+	    cT.close();*/
 		return details;
+	}
+	
+	@JavascriptInterface
+	public String getLastSync(){
+		Uri vitals = Uri.parse(URL);
+		String lastSync = "Not Available";
+		String[] fields = {"timestamp","notSync"};
+		String select = "notSync=?";
+		String[] selectArgs = {"synced"};
+		Cursor c = getContentResolver().query(vitals, fields, select, selectArgs, null);
+		if(c.getCount() >0 && c.moveToLast()){
+			lastSync = c.getString(c.getColumnIndex(VitalsProvider.TS));
+		}
+		c.close();
+		return lastSync;
 	}
 
 }

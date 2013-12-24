@@ -207,16 +207,16 @@ public class ProfileActivity extends Activity {
 	public void logout() {
 		Boolean res;
 		Bundle removeAcc;
-		stopSync();
+		stopService();
+		Intent log = new Intent(this,LogActivity.class);
+		log.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
+		startActivity(log);
 		String username = sharedPreference.getString("username", null);
 		account = new Account(username, ACCOUNT_TYPE);
 		removeAcc = aaa.removeAccount(aar, account);
 		res = removeAcc.getBoolean(AccountManager.LOGIN_ACCOUNTS_CHANGED_ACTION);
 		editor.clear();
 		editor.commit();
-		Intent change = new Intent(this, LogActivity.class);
-		change.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
-		startActivity(change);
 		finish();
 	}
 	

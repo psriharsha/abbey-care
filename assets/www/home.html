@@ -34,7 +34,7 @@
 		</tr>
 	</table>
 		</div>
-		<div class="valCol" style="background: #f7a07e;">
+		<div class="valCol" id="rrDiv">
 		<table class="valTable">
 		<tr>
 				<td class="vitalsDesc">
@@ -44,7 +44,7 @@
 		<tr>
 		</table>
 		</div>
-		<div class="valCol" style="background: #f9c282;">
+		<div class="valCol" id="hrDiv">
 		<table class="valTable">
 		<tr>
 				<td class="vitalsDesc">
@@ -54,7 +54,7 @@
 		<tr>
 		</table>
 		</div>
-		<div class="valCol" style="background: #d7dcd6;">
+		<div class="valCol" id="stDiv">
 		<table class="valTable">
 		<tr>
 				<td class="vitalsDesc">
@@ -64,7 +64,7 @@
 		<tr>
 		</table>
 		</div>
-		<div class="valCol" style="background: #d6ebd4;">
+		<div class="valCol" id="poDiv">
 		<table class="valTable">
 		<tr>
 				<td class="vitalsDesc">
@@ -74,7 +74,7 @@
 		<tr>
 		</table>
 		</div>
-		<div class="valCol" style="background: #f7a07e;">
+		<div class="valCol" id="paDiv">
 		<table class="valTable">
 		<tr>
 				<td class="vitalsDesc">
@@ -95,26 +95,85 @@ function refreshContent(){
 	 vals = details.split(",");
 	 if($('#menuStopSync').html() == "Start Sync")
 		 vals[0] = vals[1] = vals[2] = vals[3] = vals[4] = "null";
-	 if(vals[0] != "null")
-	 $('#rr').html(vals[0]);
-	 else
+	 if(vals[0] != "null"){
+	 	$('#rr').html(vals[0]);
+	 	$('#rrDiv').css("background","#"+getColor("rr",vals[0]));
+	}
+	 else{
 		 $('#rr').html("--");
-	 if(vals[1] != "null")
-	 $('#hr').html(vals[1]);
-	 else
+		 $('#rrDiv').css("background","#f7fcf6");
+	 }
+	 if(vals[1] != "null"){
+	 	$('#hr').html(vals[1]);
+	 	$('#hrDiv').css("background","#"+getColor("hr",vals[1]));
+	 }
+	 else{
 		 $('#hr').html("--");
-	 if(vals[2] != "null")
-	 $('#st').html(vals[2]);
-	 else
+		 $('#hrDiv').css("background","#f7fcf6");
+	 }
+	 if(vals[2] != "null"){
+		 vals[2] = (vals[2]-32)*(5/9);
+		 vals[2] = (vals[2]*9/5) + 32;
+		 vals[2] = vals[2].toFixed(1);
+		 if(vals[2] != "NaN")
+	 	$('#st').html(vals[2]);
+	 	$('#stDiv').css("background","#"+getColor("st",vals[0]));
+	 }
+	 else{
 		 $('#st').html("--");
-	 if(vals[3] != "null")
-	 $('#po').html(vals[3]);
-	 else
+		 $('#stDiv').css("background","#f7fcf6");
+	 }
+	 if(vals[3] != "null"){
+		 $('#po').html(vals[3]);
+	 }
+	 else{
 		 $('#po').html("--");
-	 if(vals[4] != "null")
-	 $('#pa').html(vals[4]);
-	 else
+	 }
+	 if(vals[4] != "null"){
+		 $('#pa').html(vals[4]);
+	 }
+	 else{
 		 $('#pa').html("--");
+	 }
+	 var lSync = Android.getLastSync();
+	 var sDate = lSync.substring(0,10);
+	 var sTime = lSync.substring(11,19);
+	 lSync = sTime+", "+sDate;
+	 if(lSync != "null")
+	 	$('#lastSync').html(lSync);
+}
+
+function getColor(par,val){
+	var colors = new Array("f7fcf6","d6ebd4","f9c282","f7a07e");
+	var range = 0;
+	if(par == "rr"){
+		switch(val){
+		case (val>=12 && val<=20): range = 0; break;
+		case (val>=9 && val<=11): range = 1; break;
+		case (val>=21 && val<=24): range = 2; break;
+		case (val<=8 || val>=25): range = 3; break;
+		default: range = 0;
+		}
+	}
+	else if(par == "hr"){
+		switch(val){
+		case (val>=51 && val<=90): range = 0; break;
+		case ((val>=41 && val<=50)||(val>=91 && val<=110)): range = 1; break;
+		case (val>=111 && val<=130): range = 2; break;
+		case (val<=8 || val>=25): range = 3; break;
+		default: range = 0;
+		}
+	}
+	else if(par == "st"){
+		switch(val){
+		case (val>=36.1 && val<=38): range = 0; break;
+		case ((val>=35.1 && val<=36)||(val>=38.1 && val<=39)): range = 1; break;
+		case (val>=39.1): range = 2; break;
+		case (val<=35): range = 3; break;
+		default: range = 0;
+		}
+	}
+	return colors[range];
 }
 </script>
 </body>

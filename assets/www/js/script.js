@@ -51,8 +51,9 @@ $( document ).ready(function() {
 	 Android.stopSync();
  });
  $('#menuLogout').click(function(){
-	 hideMenu();
-	 Android.logout();
+ 	 hideMenu();
+ 	 clearInterval(timer);
+ 	 Android.logout();
  });
  $('#menuHome').click(function(){
 	 hideMenu();
